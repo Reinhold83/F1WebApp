@@ -21,8 +21,8 @@ from bokeh.models.widgets import Tabs, Panel, Paragraph, Div
 from bokeh.themes import built_in_themes
 from bokeh.io import curdoc
 from bokeh.models.tools import CrosshairTool, HoverTool
-from ipywidgets import interact, interactive
-import ipywidgets as widgets
+#from ipywidgets import interact, interactive
+#import ipywidgets as widgets
 
 
 

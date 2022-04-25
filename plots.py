@@ -21,8 +21,8 @@ from bokeh.io import export_svgs
 #from shapely.geometry import Point
 from bokeh.layouts import column, row, gridplot 
 
-import ipywidgets as widgets
-from ipywidgets import interact, interactive
+#import ipywidgets as widgets
+#from ipywidgets import interact, interactive
 
 
 
