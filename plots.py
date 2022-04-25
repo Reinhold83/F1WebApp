@@ -26,8 +26,8 @@ from bokeh.layouts import column, row, gridplot
 
 
 
-import seaborn as sns
-sns.set_style('white')
+#import seaborn as sns
+#sns.set_style('white')
 
 
 plt.rcParams["figure.figsize"] = [16,9]
