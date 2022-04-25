@@ -15,7 +15,7 @@ from bokeh.models import LinearAxis, CategoricalAxis
 
 from bokeh.transform import dodge, jitter, factor_cmap
 from bokeh.plotting import figure, save, reset_output
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from bokeh.io import output_notebook, show, output_file, export_png
 from bokeh.io import export_svgs
 #from shapely.geometry import Point
@@ -30,7 +30,7 @@ from bokeh.layouts import column, row, gridplot
 #sns.set_style('white')
 
 
-plt.rcParams["figure.figsize"] = [16,9]
+#plt.rcParams["figure.figsize"] = [16,9]
 
 np.warnings.filterwarnings('ignore')
 
