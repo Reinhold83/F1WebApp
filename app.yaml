@@ -1,9 +1,0 @@
-runtime: python
-env: flex
-#entrypoint: uwsgi --http-socket :8080 --wsgi-file main.py --callable app --master --processes 1 --threads 2
-#entrypoint: gunicorn -b :$PORT wsgi:app
-entrypoint: gunicorn -b :$PORT app:app
-#entrypoint: gunicorn cats:app -b 0.0.0.0:8000
-
-runtime_config:
-    python_version: 3.10.4
