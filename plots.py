@@ -18,7 +18,7 @@ from bokeh.plotting import figure, save, reset_output
 import matplotlib.pyplot as plt
 from bokeh.io import output_notebook, show, output_file, export_png
 from bokeh.io import export_svgs
-from shapely.geometry import Point
+#from shapely.geometry import Point
 from bokeh.layouts import column, row, gridplot 
 
 import ipywidgets as widgets
