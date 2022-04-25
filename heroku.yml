@@ -7,4 +7,4 @@ build:
     - flask
 run:
   web: gunicorn -b :$PORT app:app
- web: gunicorn app:app
+#  web: gunicorn app:app
