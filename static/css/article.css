@@ -1,0 +1,19 @@
+.article{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    column-count: 2;
+    color: red;
+    text-align: justify;
+    margin: 20px;
+}
+
+.article h2 {
+    color: #365f91;
+    font-family: 'cambria';
+    font-size: 130%;
+    font-weight: 300;
+    font-style: oblique;
+    text-align: center;
+}
+
