@@ -35,8 +35,87 @@ from bokeh.layouts import column, row, gridplot
 np.warnings.filterwarnings('ignore')
 
     
-def dfTeamsChamp(year):
-    #Function from 2004 onwards
+def LPlot(df, year):
+    
+    #dict colors x teams
+    diC = {'Red Bull': '#121F45', 'Ferrari':'#A6051A', 'Mercedes':'#00A19C','Alpine F1 Team': '#005BA9', 'Haas F1 Team': '#F9F2F2', 'Williams': '#005AFF',
+            'AlphaTauri': '#00293F','McLaren': '#FF8000', 'Alfa Romeo': '#981E32','Aston Martin':'#00352F','Racing Point':'#F596C8','Renault':'#FFF500',
+           'Toro Rosso':'#469BFF', 'Catherham':'#048646', 'Sauber':'#9B0000','Force India':'#F596C8','Lotus F1':'#FFB800', 'Marussia':'#6E0000',
+            'Jaguar':'#08623e', 'Toyota':'#8e0018', 'BAR':'#d5d5d3', 'Jordan':'#ead136','Prost':'#03033f', 'Super Aguri': '#b61211', 'Benetton':'#72dffe', 'Arrows':'#fc8d2c',
+            'Honda':'#cccfc8', 'BMW Sauber':'#ffffff', 'Brawn':'#cccfc8', 'Lotus':'#FFB800'}
+
+    
+    d = []
+    gps = df.sort_values('points', ascending=True).index.get_level_values('GP').unique()
+    cl = pd.Series(df.index.get_level_values('Team').unique().values, range(0, len(df.index.get_level_values('Team').unique()))).to_dict()
+    
+    for p in df.groupby('Team', sort=False)['points']:
+        np.array(d.append(p[1].values)).flatten()
+        df1 = pd.DataFrame(d, columns=gps)
+        df1 = df1.T
+        df1.fillna(0, inplace=True)
+        df1.rename(columns = cl, inplace = True)
+        df1 = df1.cumsum()
+        
+    p1 = figure(x_range=np.array(df1.index), title='Constructor Championship by Grand Prix '+ str(year), plot_height=400, plot_width=750, y_axis_label = 'points',
+                 tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='right')
+    p1.grid.grid_line_alpha = .25
+    p1.grid.grid_line_dash = 'dotted'
+    p1.grid.grid_line_dash_offset = 5
+    p1.grid.grid_line_width = 2
+    p1.grid.grid_line_color = 'white'
+    p1.axis.major_label_text_font_style = 'bold'
+    p1.xaxis.major_label_text_font_size = '5px'
+    p1.yaxis.major_label_text_font_size = '11px'
+    p1.title.text_font_size = '13.5px'
+    p1.title.text_color = 'white'
+    p1.outline_line_color=None
+    p1.yaxis.axis_label_text_color= 'white'
+    p1.axis.major_label_text_color= 'white'
+    #p1.xaxis.major_label_orientation = 45
+   
+    #p1.yaxis.ticker.desired_num_ticks = 12
+    p1.toolbar.autohide = True
+    p1.y_range.start = -10
+    p1.y_range.end = df1.values.max() * 1.1
+
+    p1.background_fill_color = '#010727'
+    p1.background_fill_alpha =.8
+    p1.border_fill_color =  '#010727'
+    p1.border_fill_alpha = .8
+    p1.axis.axis_line_color ='white'
+    p1.axis.minor_tick_line_color ='white'
+    p1.axis.major_tick_line_color ='white'
+    p1.x_range.range_padding = -.02
+    
+    gps1 = pd.DataFrame(df1.iloc[-1]).reset_index()
+    gps1.columns = ['Teams','points']
+    gps1 = gps1.sort_values('points', ascending=False)
+    gps1['c'] = gps1.Teams.map(diC).fillna('white')
+    color = np.array(gps1.c)
+    gps1 = np.array(gps1['Teams'])
+    xh = np.array(df1.index)
+
+    
+    for col,c in zip(gps1, color):
+        p1.line(df1.index, df1[col], color=c, line_width=3, line_join = 'bevel', legend_label=col)
+        p1.legend.border_line_color = None
+        p1.legend.label_text_color='white'
+        p1.legend.background_fill_color= None
+        p1.legend.border_line_alpha=0
+        p1.legend.orientation = 'horizontal'
+        p1.legend.location = 'top_left'
+        p1.legend.background_fill_alpha = 0
+        p1.legend.title = '↓Enable/Disable'
+        p1.legend.title_text_color = 'white'
+        p1.legend.title_text_font_size = '6.5px'
+        p1.legend.label_text_font_size = '6.8px'
+        p1.legend.click_policy='hide'
+        #p1.add_tools(HoverTool( tooltips=[('GP', '@x{custom}'), ('Team', '@y{custom}')], formatters=dict(x=x_custom, y=y_custom)))
+
+    return p1
+    
+def Constplot(year):
     
     dfR = pd.read_csv('data/races.csv', index_col=0, delimiter=',')
     dfR = dfR[dfR['year'] == int(year)]
@@ -65,6 +144,23 @@ def dfTeamsChamp(year):
     
     #add constructor name to df constructor standings
     dfC_S1['Team'] = dfC_S1.constructorId.map(diC_N)
+    
+    
+    #dict raceId x GP name
+    dicRxG = pd.Series(dfR.name.values, dfR.index.values)
+    #dict colors x teams
+    diC = {'Red Bull': '#121F45', 'Ferrari':'#A6051A', 'Mercedes':'#00A19C','Alpine F1 Team': '#005BA9', 'Haas F1 Team': '#F9F2F2', 'Williams': '#005AFF',
+            'AlphaTauri': '#00293F','McLaren': '#FF8000', 'Alfa Romeo': '#981E32','Aston Martin':'#00352F','Racing Point':'#F596C8','Renault':'#FFF500',
+           'Toro Rosso':'#469BFF', 'Catherham':'#048646', 'Sauber':'#9B0000','Force India':'#F596C8','Lotus F1':'#FFB800', 'Marussia':'#6E0000',
+            'Jaguar':'#08623e', 'Toyota':'#8e0018', 'BAR':'#d5d5d3', 'Jordan':'#ead136','Prost':'#03033f', 'Super Aguri': '#b61211', 'Benetton':'#72dffe', 'Arrows':'#fc8d2c',
+            'Honda':'#cccfc8', 'BMW Sauber':'#ffffff', 'Brawn':'#cccfc8', 'Lotus':'#FFB800'}
+    
+    #add constructor name to df constructor standings
+    dfC_S1['Team'] = dfC_S1.constructorId.map(diC_N)
+    dfC_S1['GP'] = dfC_S1.index.map(dicRxG)
+    dfL = pd.DataFrame(dfC_S1.groupby(['Team','GP'], sort=False)['points'].sum())
+    dfL['c'] = dfL.index.get_level_values('Team').map(diC).fillna('white')
+    
     
     dfRes = pd.read_csv('data/results.csv', index_col='raceId', sep=',')
     dfResf = dfRes.index.isin(CSF)
@@ -134,124 +230,9 @@ def dfTeamsChamp(year):
     dfC_S3.poles.fillna(0, inplace=True)
     dfC_S3['FastLap'] = dfRes[dfRes['rank'] == 1].groupby('Team')['rank'].sum()
     dfC_S3['FastLap'] = dfC_S3['FastLap'].fillna(0)
-    
-    return dfC_S3
-
-def dfLineChart(year):
-    #Function from 2003 onwards
-    
-    dfR = pd.read_csv('data/races.csv', index_col=0, delimiter=',')
-    dfR = dfR[dfR['year'] == int(year)]
-    dfR.drop('url', axis=1, inplace=True)
-    dfR.sort_values('date', inplace=True)
-    dfR.name = dfR.name.str.replace('Grand Prix', '')
-    
-    
-    #df contructors teams
-    dfC = pd.read_csv('data/constructors.csv', delimiter=',', index_col=0)
-    
-    #df constructor standings
-    dfC_S = pd.read_csv('data/constructor_results.csv', delimiter=',', index_col=0)
-    dfC_S.set_index('raceId', inplace=True)
-    #dfC_S = pd.read_csv( 'constructor_standings.csv', index_col=1, delimiter=',')
-    #filter year qualify
-    CSF = np.array(dfR.index)
-    dfC_S1 = dfC_S.index.isin(CSF)
-    dfC_S1 = dfC_S[dfC_S1]
-    
-    c_F = np.array(dfC_S1.constructorId.unique())
-    dfC1 = dfC.index.isin(c_F)
-    dfC1 = dfC[dfC1]
-    
-    #dictionary constructorId x constructor name
-    diC_N = pd.Series(dfC1.name.values, dfC1.index.values).to_dict()
-    #dict raceId x GP name
-    dicRxG = pd.Series(dfR.name.values, dfR.index.values)
-    #dict colors x teams
-    diC = {'Red Bull': '#121F45', 'Ferrari':'#A6051A', 'Mercedes':'#00A19C','Alpine F1 Team': '#005BA9', 'Haas F1 Team': '#F9F2F2', 'Williams': '#005AFF',
-            'AlphaTauri': '#00293F','McLaren': '#FF8000', 'Alfa Romeo': '#981E32','Aston Martin':'#00352F','Racing Point':'#F596C8','Renault':'#FFF500',
-           'Toro Rosso':'#469BFF', 'Catherham':'#048646', 'Sauber':'#9B0000','Force India':'#F596C8','Lotus F1':'#FFB800', 'Marussia':'#6E0000',
-            'Jaguar':'#08623e', 'Toyota':'#8e0018', 'BAR':'#d5d5d3', 'Jordan':'#ead136','Prost':'#03033f', 'Super Aguri': '#b61211', 'Benetton':'#72dffe', 'Arrows':'#fc8d2c',
-            'Honda':'#cccfc8', 'BMW Sauber':'#ffffff', 'Brawn':'#cccfc8', 'Lotus':'#FFB800'}
-    
-    #add constructor name to df constructor standings
-    dfC_S1['Team'] = dfC_S1.constructorId.map(diC_N)
-    dfC_S1['GP'] = dfC_S1.index.map(dicRxG)
-    dfC_S1 = pd.DataFrame(dfC_S1.groupby(['Team','GP'], sort=False)['points'].sum())
-    dfC_S1['c'] = dfC_S1.index.get_level_values('Team').map(diC).fillna('white')
-    d = []
-    gps = dfC_S1.sort_values('points', ascending=True).index.get_level_values('GP').unique()
-    cl = pd.Series(dfC_S1.index.get_level_values('Team').unique().values, range(0, len(dfC_S1.index.get_level_values('Team').unique()))).to_dict()
-
-    for p in dfC_S1.groupby('Team', sort=False)['points']:
-        np.array(d.append(p[1].values)).flatten()
-        df = pd.DataFrame(d, columns=gps)
-        df = df.T
-        df.fillna(0, inplace=True)
-        df.rename(columns = cl, inplace = True)
-        df = df.cumsum()
-        
-    p1 = figure(x_range=np.array(df.index), title='Constructor Championship by Grand Prix '+ str(year), plot_height=400, plot_width=750, y_axis_label = 'points',
-                 tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='right')
-    p1.grid.grid_line_alpha = .15
-    p1.grid.grid_line_dash = 'dotted'
-    p1.grid.grid_line_dash_offset = 5
-    p1.grid.grid_line_width = 1.5
-    p1.grid.grid_line_color = 'white'
-    p1.axis.major_label_text_font_style = 'bold'
-    p1.xaxis.major_label_text_font_size = '5px'
-    p1.yaxis.major_label_text_font_size = '11px'
-    p1.title.text_font_size = '13.5px'
-    p1.title.text_color = 'white'
-    p1.outline_line_color=None
-    p1.yaxis.axis_label_text_color= 'white'
-    p1.axis.major_label_text_color= 'white'
-    #p1.xaxis.major_label_orientation = 45
-   
-    #p1.yaxis.ticker.desired_num_ticks = 12
-    p1.toolbar.autohide = True
-    p1.y_range.start = -10
-    p1.y_range.end = df.values.max() * 1.1
-
-    p1.background_fill_color = '#010727'
-    p1.background_fill_alpha =.8
-    p1.border_fill_color =  '#010727'
-    p1.border_fill_alpha = .8
-    p1.axis.axis_line_color ='white'
-    p1.axis.minor_tick_line_color ='white'
-    p1.axis.major_tick_line_color ='white'
-    p1.x_range.range_padding = -.02
-    
-    gps1 = pd.DataFrame(df.iloc[-1]).reset_index()
-    gps1.columns = ['Teams','points']
-    gps1 = gps1.sort_values('points', ascending=False)
-    gps1['c'] = gps1.Teams.map(diC).fillna('white')
-    color = np.array(gps1.c)
-    gps1 = np.array(gps1['Teams'])
-    xh = np.array(df.index)
 
     
-    for col,c in zip(gps1, color):
-        p1.line(df.index, df[col], color=c, line_width=3, line_join = 'bevel', legend=str(col))
-        p1.legend.border_line_color = None
-        p1.legend.label_text_color='white'
-        p1.legend.background_fill_color= None
-        p1.legend.border_line_alpha=0
-        p1.legend.orientation = 'horizontal'
-        p1.legend.location = 'top_left'
-        p1.legend.background_fill_alpha = 0
-        p1.legend.title = '↓Enable/Disable'
-        p1.legend.title_text_color = 'white'
-        p1.legend.title_text_font_size = '6.5px'
-        p1.legend.label_text_font_size = '6.8px'
-        p1.legend.click_policy='hide'
-        #p1.add_tools(HoverTool( tooltips=[('GP', '@x{custom}'), ('Team', '@y{custom}')], formatters=dict(x=x_custom, y=y_custom)))
-
-    return p1
-    
-def Constplot(year):
-    
-    df = dfTeamsChamp(year)
+    df = dfC_S3
     srcC = ColumnDataSource(df)
     xC = np.array(df.index.unique())
 
@@ -273,10 +254,6 @@ def Constplot(year):
     pCons.yaxis.axis_label_text_color= 'white'
     pCons.axis.major_label_text_color= 'white'
 
-    
-    pCons.legend.border_line_color = None
-    pCons.legend.label_text_color='white'
-    pCons.legend.background_fill_color= None
     pCons.yaxis.ticker.desired_num_ticks = 12
     pCons.toolbar.autohide = True
     pCons.y_range.start = 0
@@ -325,9 +302,6 @@ def Constplot(year):
     pW.outline_line_color=None
     pW.xaxis.axis_label_text_color= 'white'
     pW.axis.major_label_text_color= 'white'
-    pW.legend.border_line_color = None
-    pW.legend.label_text_color='white'
-    pW.legend.background_fill_color= None
     pW.toolbar.autohide = True
     pW.x_range.start = 0
     pW.background_fill_color = '#010727'
@@ -364,10 +338,6 @@ def Constplot(year):
     pP.outline_line_color=None
     pP.xaxis.axis_label_text_color= 'white'
     pP.axis.major_label_text_color= 'white'
-    pP.legend.border_line_color = None
-    pP.legend.label_text_color='white'
-    pP.legend.background_fill_color= None
-    #pW.yaxis.ticker.desired_num_ticks = 12
     pP.toolbar.autohide = True
     pP.x_range.start = 0
     pP.background_fill_color = '#010727'
@@ -404,9 +374,6 @@ def Constplot(year):
     pF.outline_line_color=None
     pF.xaxis.axis_label_text_color= 'white'
     pF.axis.major_label_text_color= 'white'
-    pF.legend.border_line_color = None
-    pF.legend.label_text_color='white'
-    pF.legend.background_fill_color= None
     #pW.yaxis.ticker.desired_num_ticks = 12
     pF.toolbar.autohide = True
     pF.x_range.start = 0
@@ -421,7 +388,8 @@ def Constplot(year):
     hvF.tooltips=[('Team', '@Team'), ('Fast Laps', '@FastLap{0}'), ('Championship pos', '@pos') ]
     pF.add_tools(hvF)
     
-    pL = dfLineChart(year)
+    
+    pL = LPlot(dfL, year)
     
     t1 = Panel(child=pCons, title='Overall')
     t2 = Panel(child =pL, title='By Grand Prix')
@@ -432,24 +400,6 @@ def Constplot(year):
     t = Panel(child=col, title=str(year))
     
     return t
-
-
-def dfWinsPolesY(year):
-    df = dfTeamsChamp(year)
-    df = df[(df.wins >= 1) | (df.poles >= 1)]
-    df[['wins','poles']] = df.iloc[::,-2:].astype(int)
-    df.drop('points', axis=1, inplace=True)
-    df['year'] = year
-    df.reset_index(inplace=True)
-    df.set_index('year',inplace=True)
-    return df
-
-def dfW_P_All():
-    df = dfWinsPolesY(2004)
-    years = range(2005,2022)
-    for y in years:
-        df = pd.concat([df, dfWinsPolesY(y)])
-    return df
 
 
 def tabs():
@@ -476,5 +426,4 @@ def tabs():
     
     #tabs = Tabs(tabs= t21a)
     tabs = Tabs(tabs= tall[::-1])
-        
     return tabs
