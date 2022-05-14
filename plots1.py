@@ -835,7 +835,7 @@ def cols2():
     pit.toolbar_location = None
     
     c1, c2a = tabs(), c2()
-    c = column([row([c1, c2a], align='center'), pit])
+    c = column([row([c1, c2a], align='center'), pit], sizing_mode='scale_width')
     
     return c
 
