@@ -20,9 +20,7 @@ from bokeh.models.widgets import Tabs, Panel, Paragraph, Div
 from bokeh.themes import built_in_themes
 from bokeh.io import curdoc
 from bokeh.models.tools import CrosshairTool, HoverTool
-from ipywidgets import interact, interactive
-import ipywidgets as widgets
-from IPython.display import display
+
 
 
 
@@ -33,8 +31,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def index1():
-    
+def index2():
     
     script, div = components(cols2())
     
