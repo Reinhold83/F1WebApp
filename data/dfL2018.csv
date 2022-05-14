@@ -1,0 +1,211 @@
+Team,GP,points,c,year
+Red Bull,Mexican ,25.0,#121F45,2018
+Ferrari,Mexican ,33.0,#A6051A,2018
+Ferrari,Australian ,40.0,#A6051A,2018
+Mercedes,Australian ,22.0,#00A19C,2018
+Red Bull,Australian ,20.0,#121F45,2018
+McLaren,Australian ,12.0,#FF8000,2018
+Renault,Australian ,7.0,#FFF500,2018
+Force India,Australian ,0.0,#F596C8,2018
+Sauber,Australian ,0.0,#9B0000,2018
+Williams,Australian ,0.0,#005AFF,2018
+Toro Rosso,Australian ,0.0,#469BFF,2018
+Haas F1 Team,Australian ,0.0,#F9F2F2,2018
+Ferrari,Bahrain ,25.0,#A6051A,2018
+Mercedes,Bahrain ,33.0,#00A19C,2018
+Toro Rosso,Bahrain ,12.0,#469BFF,2018
+Haas F1 Team,Bahrain ,10.0,#F9F2F2,2018
+Renault,Bahrain ,8.0,#FFF500,2018
+McLaren,Bahrain ,10.0,#FF8000,2018
+Sauber,Bahrain ,2.0,#9B0000,2018
+Force India,Bahrain ,1.0,#F596C8,2018
+Williams,Bahrain ,0.0,#005AFF,2018
+Red Bull,Bahrain ,0.0,#121F45,2018
+Red Bull,Chinese ,35.0,#121F45,2018
+Mercedes,Chinese ,30.0,#00A19C,2018
+Ferrari,Chinese ,19.0,#A6051A,2018
+Renault,Chinese ,10.0,#FFF500,2018
+McLaren,Chinese ,6.0,#FF8000,2018
+Haas F1 Team,Chinese ,1.0,#F9F2F2,2018
+Force India,Chinese ,0.0,#F596C8,2018
+Williams,Chinese ,0.0,#005AFF,2018
+Sauber,Chinese ,0.0,#9B0000,2018
+Toro Rosso,Chinese ,0.0,#469BFF,2018
+Mercedes,Azerbaijan ,25.0,#00A19C,2018
+Ferrari,Azerbaijan ,30.0,#A6051A,2018
+Force India,Azerbaijan ,15.0,#F596C8,2018
+Renault,Azerbaijan ,10.0,#FFF500,2018
+Sauber,Azerbaijan ,8.0,#9B0000,2018
+McLaren,Azerbaijan ,8.0,#FF8000,2018
+Williams,Azerbaijan ,4.0,#005AFF,2018
+Toro Rosso,Azerbaijan ,1.0,#469BFF,2018
+Haas F1 Team,Azerbaijan ,0.0,#F9F2F2,2018
+Red Bull,Azerbaijan ,0.0,#121F45,2018
+Mercedes,Spanish ,43.0,#00A19C,2018
+Red Bull,Spanish ,25.0,#121F45,2018
+Ferrari,Spanish ,12.0,#A6051A,2018
+Haas F1 Team,Spanish ,8.0,#F9F2F2,2018
+Renault,Spanish ,6.0,#FFF500,2018
+McLaren,Spanish ,4.0,#FF8000,2018
+Force India,Spanish ,2.0,#F596C8,2018
+Sauber,Spanish ,1.0,#9B0000,2018
+Williams,Spanish ,0.0,#005AFF,2018
+Toro Rosso,Spanish ,0.0,#469BFF,2018
+Red Bull,Monaco ,27.0,#121F45,2018
+Ferrari,Monaco ,30.0,#A6051A,2018
+Mercedes,Monaco ,25.0,#00A19C,2018
+Force India,Monaco ,8.0,#F596C8,2018
+Toro Rosso,Monaco ,6.0,#469BFF,2018
+Renault,Monaco ,5.0,#FFF500,2018
+Sauber,Monaco ,0.0,#9B0000,2018
+Haas F1 Team,Monaco ,0.0,#F9F2F2,2018
+McLaren,Monaco ,0.0,#FF8000,2018
+Williams,Monaco ,0.0,#005AFF,2018
+Ferrari,Canadian ,33.0,#A6051A,2018
+Mercedes,Canadian ,28.0,#00A19C,2018
+Red Bull,Canadian ,27.0,#121F45,2018
+Renault,Canadian ,10.0,#FFF500,2018
+Force India,Canadian ,2.0,#F596C8,2018
+Sauber,Canadian ,1.0,#9B0000,2018
+Toro Rosso,Canadian ,0.0,#469BFF,2018
+Haas F1 Team,Canadian ,0.0,#F9F2F2,2018
+McLaren,Canadian ,0.0,#FF8000,2018
+Williams,Canadian ,0.0,#005AFF,2018
+Mercedes,French ,31.0,#00A19C,2018
+Red Bull,French ,30.0,#121F45,2018
+Ferrari,French ,25.0,#A6051A,2018
+Haas F1 Team,French ,8.0,#F9F2F2,2018
+Renault,French ,6.0,#FFF500,2018
+Sauber,French ,1.0,#9B0000,2018
+McLaren,French ,0.0,#FF8000,2018
+Toro Rosso,French ,0.0,#469BFF,2018
+Williams,French ,0.0,#005AFF,2018
+Force India,French ,0.0,#F596C8,2018
+Red Bull,Austrian ,25.0,#121F45,2018
+Ferrari,Austrian ,33.0,#A6051A,2018
+Haas F1 Team,Austrian ,22.0,#F9F2F2,2018
+Force India,Austrian ,14.0,#F596C8,2018
+McLaren,Austrian ,4.0,#FF8000,2018
+Sauber,Austrian ,3.0,#9B0000,2018
+Toro Rosso,Austrian ,0.0,#469BFF,2018
+Renault,Austrian ,0.0,#FFF500,2018
+Williams,Austrian ,0.0,#005AFF,2018
+Mercedes,Austrian ,0.0,#00A19C,2018
+Ferrari,British ,40.0,#A6051A,2018
+Mercedes,British ,30.0,#00A19C,2018
+Red Bull,British ,10.0,#121F45,2018
+Renault,British ,8.0,#FFF500,2018
+Force India,British ,7.0,#F596C8,2018
+McLaren,British ,4.0,#FF8000,2018
+Haas F1 Team,British ,2.0,#F9F2F2,2018
+Williams,British ,0.0,#005AFF,2018
+Toro Rosso,British ,0.0,#469BFF,2018
+Sauber,British ,0.0,#9B0000,2018
+Mercedes,German ,43.0,#00A19C,2018
+Ferrari,German ,15.0,#A6051A,2018
+Red Bull,German ,12.0,#121F45,2018
+Renault,German ,10.0,#FFF500,2018
+Haas F1 Team,German ,8.0,#F9F2F2,2018
+Force India,German ,10.0,#F596C8,2018
+Sauber,German ,2.0,#9B0000,2018
+Toro Rosso,German ,1.0,#469BFF,2018
+McLaren,German ,0.0,#FF8000,2018
+Williams,German ,0.0,#005AFF,2018
+Mercedes,Hungarian ,35.0,#00A19C,2018
+Ferrari,Hungarian ,33.0,#A6051A,2018
+Red Bull,Hungarian ,12.0,#121F45,2018
+Toro Rosso,Hungarian ,8.0,#469BFF,2018
+Haas F1 Team,Hungarian ,7.0,#F9F2F2,2018
+McLaren,Hungarian ,4.0,#FF8000,2018
+Renault,Hungarian ,2.0,#FFF500,2018
+Force India,Hungarian ,0.0,#F596C8,2018
+Sauber,Hungarian ,0.0,#9B0000,2018
+Williams,Hungarian ,0.0,#005AFF,2018
+Ferrari,Belgian ,25.0,#A6051A,2018
+Mercedes,Belgian ,30.0,#00A19C,2018
+Red Bull,Belgian ,15.0,#121F45,2018
+Force India,Belgian ,18.0,#F596C8,2018
+Haas F1 Team,Belgian ,10.0,#F9F2F2,2018
+Toro Rosso,Belgian ,2.0,#469BFF,2018
+Sauber,Belgian ,1.0,#9B0000,2018
+Renault,Belgian ,0.0,#FFF500,2018
+Williams,Belgian ,0.0,#005AFF,2018
+McLaren,Belgian ,0.0,#FF8000,2018
+Mercedes,Italian ,40.0,#00A19C,2018
+Ferrari,Italian ,30.0,#A6051A,2018
+Red Bull,Italian ,10.0,#121F45,2018
+Haas F1 Team,Italian ,0.0,#F9F2F2,2018
+Force India,Italian ,14.0,#F596C8,2018
+Renault,Italian ,4.0,#FFF500,2018
+Williams,Italian ,3.0,#005AFF,2018
+Sauber,Italian ,0.0,#9B0000,2018
+McLaren,Italian ,0.0,#FF8000,2018
+Toro Rosso,Italian ,0.0,#469BFF,2018
+Mercedes,Singapore ,37.0,#00A19C,2018
+Red Bull,Singapore ,26.0,#121F45,2018
+Ferrari,Singapore ,25.0,#A6051A,2018
+McLaren,Singapore ,6.0,#FF8000,2018
+Renault,Singapore ,5.0,#FFF500,2018
+Sauber,Singapore ,2.0,#9B0000,2018
+Toro Rosso,Singapore ,0.0,#469BFF,2018
+Williams,Singapore ,0.0,#005AFF,2018
+Haas F1 Team,Singapore ,0.0,#F9F2F2,2018
+Force India,Singapore ,0.0,#F596C8,2018
+Mercedes,Russian ,43.0,#00A19C,2018
+Ferrari,Russian ,27.0,#A6051A,2018
+Red Bull,Russian ,18.0,#121F45,2018
+Sauber,Russian ,6.0,#9B0000,2018
+Haas F1 Team,Russian ,4.0,#F9F2F2,2018
+Force India,Russian ,3.0,#F596C8,2018
+Renault,Russian ,0.0,#FFF500,2018
+McLaren,Russian ,0.0,#FF8000,2018
+Williams,Russian ,0.0,#005AFF,2018
+Toro Rosso,Russian ,0.0,#469BFF,2018
+Mercedes,Japanese ,43.0,#00A19C,2018
+Red Bull,Japanese ,27.0,#121F45,2018
+Ferrari,Japanese ,18.0,#A6051A,2018
+Force India,Japanese ,8.0,#F596C8,2018
+Haas F1 Team,Japanese ,4.0,#F9F2F2,2018
+Renault,Japanese ,1.0,#FFF500,2018
+Toro Rosso,Japanese ,0.0,#469BFF,2018
+Sauber,Japanese ,0.0,#9B0000,2018
+McLaren,Japanese ,0.0,#FF8000,2018
+Williams,Japanese ,0.0,#005AFF,2018
+Ferrari,United States ,37.0,#A6051A,2018
+Red Bull,United States ,18.0,#121F45,2018
+Mercedes,United States ,25.0,#00A19C,2018
+Renault,United States ,14.0,#FFF500,2018
+Force India,United States ,4.0,#F596C8,2018
+Haas F1 Team,United States ,0.0,#F9F2F2,2018
+Toro Rosso,United States ,2.0,#469BFF,2018
+Sauber,United States ,1.0,#9B0000,2018
+McLaren,United States ,0.0,#FF8000,2018
+Williams,United States ,0.0,#005AFF,2018
+Mercedes,Mexican ,22.0,#00A19C,2018
+Renault,Mexican ,8.0,#FFF500,2018
+Sauber,Mexican ,8.0,#9B0000,2018
+McLaren,Mexican ,4.0,#FF8000,2018
+Toro Rosso,Mexican ,1.0,#469BFF,2018
+Force India,Mexican ,0.0,#F596C8,2018
+Williams,Mexican ,0.0,#005AFF,2018
+Haas F1 Team,Mexican ,0.0,#F9F2F2,2018
+Mercedes,Brazilian ,35.0,#00A19C,2018
+Red Bull,Brazilian ,30.0,#121F45,2018
+Ferrari,Brazilian ,23.0,#A6051A,2018
+Sauber,Brazilian ,6.0,#9B0000,2018
+Haas F1 Team,Brazilian ,6.0,#F9F2F2,2018
+Force India,Brazilian ,1.0,#F596C8,2018
+Toro Rosso,Brazilian ,0.0,#469BFF,2018
+Renault,Brazilian ,0.0,#FFF500,2018
+McLaren,Brazilian ,0.0,#FF8000,2018
+Williams,Brazilian ,0.0,#005AFF,2018
+Mercedes,Abu Dhabi ,35.0,#00A19C,2018
+Ferrari,Abu Dhabi ,18.0,#A6051A,2018
+Red Bull,Abu Dhabi ,27.0,#121F45,2018
+Renault,Abu Dhabi ,8.0,#FFF500,2018
+Sauber,Abu Dhabi ,6.0,#9B0000,2018
+Force India,Abu Dhabi ,4.0,#F596C8,2018
+Haas F1 Team,Abu Dhabi ,3.0,#F9F2F2,2018
+McLaren,Abu Dhabi ,0.0,#FF8000,2018
+Toro Rosso,Abu Dhabi ,0.0,#469BFF,2018
+Williams,Abu Dhabi ,0.0,#005AFF,2018

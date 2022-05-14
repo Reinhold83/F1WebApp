@@ -1,0 +1,185 @@
+Team,GP,points,c,year
+McLaren,Australian ,14.0,#FF8000,2008
+BMW Sauber,Australian ,8.0,#ffffff,2008
+Williams,Australian ,9.0,#005AFF,2008
+Renault,Australian ,5.0,#FFF500,2008
+Toro Rosso,Australian ,2.0,#469BFF,2008
+Ferrari,Australian ,1.0,#A6051A,2008
+Toyota,Australian ,0.0,#8e0018,2008
+Super Aguri,Australian ,0.0,#b61211,2008
+Red Bull,Australian ,0.0,#121F45,2008
+Force India,Australian ,0.0,#F596C8,2008
+Honda,Australian ,0.0,#cccfc8,2008
+Ferrari,Malaysian ,10.0,#A6051A,2008
+BMW Sauber,Malaysian ,11.0,#ffffff,2008
+McLaren,Malaysian ,10.0,#FF8000,2008
+Toyota,Malaysian ,5.0,#8e0018,2008
+Red Bull,Malaysian ,2.0,#121F45,2008
+Renault,Malaysian ,1.0,#FFF500,2008
+Honda,Malaysian ,0.0,#cccfc8,2008
+Force India,Malaysian ,0.0,#F596C8,2008
+Williams,Malaysian ,0.0,#005AFF,2008
+Super Aguri,Malaysian ,0.0,#b61211,2008
+Toro Rosso,Malaysian ,0.0,#469BFF,2008
+Ferrari,Bahrain ,18.0,#A6051A,2008
+BMW Sauber,Bahrain ,11.0,#ffffff,2008
+McLaren,Bahrain ,4.0,#FF8000,2008
+Toyota,Bahrain ,3.0,#8e0018,2008
+Red Bull,Bahrain ,2.0,#121F45,2008
+Williams,Bahrain ,1.0,#005AFF,2008
+Renault,Bahrain ,0.0,#FFF500,2008
+Honda,Bahrain ,0.0,#cccfc8,2008
+Force India,Bahrain ,0.0,#F596C8,2008
+Toro Rosso,Bahrain ,0.0,#469BFF,2008
+Super Aguri,Bahrain ,0.0,#b61211,2008
+Ferrari,Spanish ,18.0,#A6051A,2008
+McLaren,Spanish ,6.0,#FF8000,2008
+BMW Sauber,Spanish ,5.0,#ffffff,2008
+Red Bull,Spanish ,4.0,#121F45,2008
+Honda,Spanish ,3.0,#cccfc8,2008
+Williams,Spanish ,2.0,#005AFF,2008
+Toyota,Spanish ,1.0,#8e0018,2008
+Force India,Spanish ,0.0,#F596C8,2008
+Super Aguri,Spanish ,0.0,#b61211,2008
+Renault,Spanish ,0.0,#FFF500,2008
+Toro Rosso,Spanish ,0.0,#469BFF,2008
+Ferrari,Turkish ,16.0,#A6051A,2008
+McLaren,Turkish ,8.0,#FF8000,2008
+BMW Sauber,Turkish ,9.0,#ffffff,2008
+Renault,Turkish ,3.0,#FFF500,2008
+Red Bull,Turkish ,2.0,#121F45,2008
+Williams,Turkish ,1.0,#005AFF,2008
+Toyota,Turkish ,0.0,#8e0018,2008
+Honda,Turkish ,0.0,#cccfc8,2008
+Force India,Turkish ,0.0,#F596C8,2008
+Toro Rosso,Turkish ,0.0,#469BFF,2008
+McLaren,Monaco ,11.0,#FF8000,2008
+BMW Sauber,Monaco ,8.0,#ffffff,2008
+Ferrari,Monaco ,6.0,#A6051A,2008
+Red Bull,Monaco ,5.0,#121F45,2008
+Toro Rosso,Monaco ,4.0,#469BFF,2008
+Honda,Monaco ,3.0,#cccfc8,2008
+Williams,Monaco ,2.0,#005AFF,2008
+Renault,Monaco ,0.0,#FFF500,2008
+Toyota,Monaco ,0.0,#8e0018,2008
+Force India,Monaco ,0.0,#F596C8,2008
+BMW Sauber,Canadian ,18.0,#ffffff,2008
+Red Bull,Canadian ,6.0,#121F45,2008
+Toyota,Canadian ,8.0,#8e0018,2008
+Ferrari,Canadian ,4.0,#A6051A,2008
+Honda,Canadian ,2.0,#cccfc8,2008
+Toro Rosso,Canadian ,1.0,#469BFF,2008
+McLaren,Canadian ,0.0,#FF8000,2008
+Williams,Canadian ,0.0,#005AFF,2008
+Force India,Canadian ,0.0,#F596C8,2008
+Renault,Canadian ,0.0,#FFF500,2008
+Ferrari,French ,18.0,#A6051A,2008
+Toyota,French ,6.0,#8e0018,2008
+McLaren,French ,5.0,#FF8000,2008
+BMW Sauber,French ,4.0,#ffffff,2008
+Red Bull,French ,3.0,#121F45,2008
+Renault,French ,3.0,#FFF500,2008
+Toro Rosso,French ,0.0,#469BFF,2008
+Honda,French ,0.0,#cccfc8,2008
+Williams,French ,0.0,#005AFF,2008
+Force India,French ,0.0,#F596C8,2008
+McLaren,British ,14.0,#FF8000,2008
+BMW Sauber,British ,8.0,#ffffff,2008
+Honda,British ,6.0,#cccfc8,2008
+Ferrari,British ,5.0,#A6051A,2008
+Renault,British ,3.0,#FFF500,2008
+Toyota,British ,2.0,#8e0018,2008
+Williams,British ,1.0,#005AFF,2008
+Red Bull,British ,0.0,#121F45,2008
+Toro Rosso,British ,0.0,#469BFF,2008
+Force India,British ,0.0,#F596C8,2008
+McLaren,German ,14.0,#FF8000,2008
+Renault,German ,8.0,#FFF500,2008
+Ferrari,German ,9.0,#A6051A,2008
+BMW Sauber,German ,7.0,#ffffff,2008
+Toro Rosso,German ,1.0,#469BFF,2008
+Toyota,German ,0.0,#8e0018,2008
+Williams,German ,0.0,#005AFF,2008
+Red Bull,German ,0.0,#121F45,2008
+Force India,German ,0.0,#F596C8,2008
+Honda,German ,0.0,#cccfc8,2008
+McLaren,Hungarian ,14.0,#FF8000,2008
+Toyota,Hungarian ,10.0,#8e0018,2008
+Ferrari,Hungarian ,6.0,#A6051A,2008
+Renault,Hungarian ,8.0,#FFF500,2008
+BMW Sauber,Hungarian ,1.0,#ffffff,2008
+Red Bull,Hungarian ,0.0,#121F45,2008
+Honda,Hungarian ,0.0,#cccfc8,2008
+Williams,Hungarian ,0.0,#005AFF,2008
+Force India,Hungarian ,0.0,#F596C8,2008
+Toro Rosso,Hungarian ,0.0,#469BFF,2008
+Ferrari,European ,10.0,#A6051A,2008
+McLaren,European ,13.0,#FF8000,2008
+BMW Sauber,European ,6.0,#ffffff,2008
+Toyota,European ,6.0,#8e0018,2008
+Toro Rosso,European ,3.0,#469BFF,2008
+Williams,European ,1.0,#005AFF,2008
+Renault,European ,0.0,#FFF500,2008
+Red Bull,European ,0.0,#121F45,2008
+Honda,European ,0.0,#cccfc8,2008
+Force India,European ,0.0,#F596C8,2008
+Ferrari,Belgian ,10.0,#A6051A,2008
+BMW Sauber,Belgian ,11.0,#ffffff,2008
+McLaren,Belgian ,6.0,#FF8000,2008
+Renault,Belgian ,5.0,#FFF500,2008
+Toro Rosso,Belgian ,6.0,#469BFF,2008
+Red Bull,Belgian ,1.0,#121F45,2008
+Toyota,Belgian ,0.0,#8e0018,2008
+Williams,Belgian ,0.0,#005AFF,2008
+Force India,Belgian ,0.0,#F596C8,2008
+Honda,Belgian ,0.0,#cccfc8,2008
+Toro Rosso,Italian ,10.0,#469BFF,2008
+McLaren,Italian ,10.0,#FF8000,2008
+BMW Sauber,Italian ,10.0,#ffffff,2008
+Renault,Italian ,5.0,#FFF500,2008
+Ferrari,Italian ,3.0,#A6051A,2008
+Red Bull,Italian ,1.0,#121F45,2008
+Toyota,Italian ,0.0,#8e0018,2008
+Williams,Italian ,0.0,#005AFF,2008
+Honda,Italian ,0.0,#cccfc8,2008
+Force India,Italian ,0.0,#F596C8,2008
+Renault,Singapore ,10.0,#FFF500,2008
+Williams,Singapore ,9.0,#005AFF,2008
+McLaren,Singapore ,6.0,#FF8000,2008
+Toyota,Singapore ,5.0,#8e0018,2008
+Toro Rosso,Singapore ,4.0,#469BFF,2008
+BMW Sauber,Singapore ,3.0,#ffffff,2008
+Red Bull,Singapore ,2.0,#121F45,2008
+Honda,Singapore ,0.0,#cccfc8,2008
+Ferrari,Singapore ,0.0,#A6051A,2008
+Force India,Singapore ,0.0,#F596C8,2008
+Renault,Japanese ,15.0,#FFF500,2008
+BMW Sauber,Japanese ,8.0,#ffffff,2008
+Ferrari,Japanese ,8.0,#A6051A,2008
+Toyota,Japanese ,4.0,#8e0018,2008
+Toro Rosso,Japanese ,3.0,#469BFF,2008
+Red Bull,Japanese ,1.0,#121F45,2008
+Williams,Japanese ,0.0,#005AFF,2008
+McLaren,Japanese ,0.0,#FF8000,2008
+Honda,Japanese ,0.0,#cccfc8,2008
+Force India,Japanese ,0.0,#F596C8,2008
+McLaren,Chinese ,10.0,#FF8000,2008
+Ferrari,Chinese ,14.0,#A6051A,2008
+Renault,Chinese ,6.0,#FFF500,2008
+BMW Sauber,Chinese ,7.0,#ffffff,2008
+Toyota,Chinese ,2.0,#8e0018,2008
+Toro Rosso,Chinese ,0.0,#469BFF,2008
+Red Bull,Chinese ,0.0,#121F45,2008
+Honda,Chinese ,0.0,#cccfc8,2008
+Williams,Chinese ,0.0,#005AFF,2008
+Force India,Chinese ,0.0,#F596C8,2008
+Ferrari,Brazilian ,16.0,#A6051A,2008
+Renault,Brazilian ,8.0,#FFF500,2008
+Toro Rosso,Brazilian ,5.0,#469BFF,2008
+McLaren,Brazilian ,6.0,#FF8000,2008
+Toyota,Brazilian ,4.0,#8e0018,2008
+Red Bull,Brazilian ,0.0,#121F45,2008
+BMW Sauber,Brazilian ,0.0,#ffffff,2008
+Williams,Brazilian ,0.0,#005AFF,2008
+Honda,Brazilian ,0.0,#cccfc8,2008
+Force India,Brazilian ,0.0,#F596C8,2008

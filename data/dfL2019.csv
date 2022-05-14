@@ -1,0 +1,211 @@
+Team,GP,points,c,year
+Mercedes,Australian ,44.0,#00A19C,2019
+Red Bull,Australian ,15.0,#121F45,2019
+Ferrari,Australian ,22.0,#A6051A,2019
+Haas F1 Team,Australian ,8.0,#F9F2F2,2019
+Renault,Australian ,6.0,#FFF500,2019
+Alfa Romeo,Australian ,4.0,#981E32,2019
+Racing Point,Australian ,2.0,#F596C8,2019
+Toro Rosso,Australian ,1.0,#469BFF,2019
+McLaren,Australian ,0.0,#FF8000,2019
+Williams,Australian ,0.0,#005AFF,2019
+Mercedes,Bahrain ,43.0,#00A19C,2019
+Ferrari,Bahrain ,26.0,#A6051A,2019
+Red Bull,Bahrain ,16.0,#121F45,2019
+McLaren,Bahrain ,8.0,#FF8000,2019
+Alfa Romeo,Bahrain ,6.0,#981E32,2019
+Racing Point,Bahrain ,1.0,#F596C8,2019
+Haas F1 Team,Bahrain ,0.0,#F9F2F2,2019
+Williams,Bahrain ,0.0,#005AFF,2019
+Renault,Bahrain ,0.0,#FFF500,2019
+Toro Rosso,Bahrain ,2.0,#469BFF,2019
+Mercedes,Chinese ,43.0,#00A19C,2019
+Ferrari,Chinese ,25.0,#A6051A,2019
+Red Bull,Chinese ,21.0,#121F45,2019
+Renault,Chinese ,6.0,#FFF500,2019
+Racing Point,Chinese ,4.0,#F596C8,2019
+Alfa Romeo,Chinese ,2.0,#981E32,2019
+Toro Rosso,Chinese ,1.0,#469BFF,2019
+Haas F1 Team,Chinese ,0.0,#F9F2F2,2019
+McLaren,Chinese ,0.0,#FF8000,2019
+Williams,Chinese ,0.0,#005AFF,2019
+Mercedes,Azerbaijan ,43.0,#00A19C,2019
+Ferrari,Azerbaijan ,26.0,#A6051A,2019
+Red Bull,Azerbaijan ,12.0,#121F45,2019
+Racing Point,Azerbaijan ,10.0,#F596C8,2019
+McLaren,Azerbaijan ,10.0,#FF8000,2019
+Alfa Romeo,Azerbaijan ,1.0,#981E32,2019
+Toro Rosso,Azerbaijan ,0.0,#469BFF,2019
+Haas F1 Team,Azerbaijan ,0.0,#F9F2F2,2019
+Renault,Azerbaijan ,0.0,#FFF500,2019
+Williams,Azerbaijan ,0.0,#005AFF,2019
+Mercedes,Spanish ,44.0,#00A19C,2019
+Red Bull,Spanish ,23.0,#121F45,2019
+Ferrari,Spanish ,22.0,#A6051A,2019
+Haas F1 Team,Spanish ,7.0,#F9F2F2,2019
+McLaren,Spanish ,4.0,#FF8000,2019
+Toro Rosso,Spanish ,2.0,#469BFF,2019
+Renault,Spanish ,0.0,#FFF500,2019
+Alfa Romeo,Spanish ,0.0,#981E32,2019
+Racing Point,Spanish ,0.0,#F596C8,2019
+Williams,Spanish ,0.0,#005AFF,2019
+Mercedes,Monaco ,40.0,#00A19C,2019
+Ferrari,Monaco ,18.0,#A6051A,2019
+Red Bull,Monaco ,23.0,#121F45,2019
+McLaren,Monaco ,8.0,#FF8000,2019
+Toro Rosso,Monaco ,10.0,#469BFF,2019
+Renault,Monaco ,2.0,#FFF500,2019
+Haas F1 Team,Monaco ,1.0,#F9F2F2,2019
+Racing Point,Monaco ,0.0,#F596C8,2019
+Williams,Monaco ,0.0,#005AFF,2019
+Alfa Romeo,Monaco ,0.0,#981E32,2019
+Mercedes,Canadian ,38.0,#00A19C,2019
+Ferrari,Canadian ,33.0,#A6051A,2019
+Red Bull,Canadian ,14.0,#121F45,2019
+Renault,Canadian ,14.0,#FFF500,2019
+Racing Point,Canadian ,2.0,#F596C8,2019
+Toro Rosso,Canadian ,1.0,#469BFF,2019
+McLaren,Canadian ,0.0,#FF8000,2019
+Alfa Romeo,Canadian ,0.0,#981E32,2019
+Haas F1 Team,Canadian ,0.0,#F9F2F2,2019
+Williams,Canadian ,0.0,#005AFF,2019
+Mercedes,French ,43.0,#00A19C,2019
+Ferrari,French ,26.0,#A6051A,2019
+Red Bull,French ,13.0,#121F45,2019
+McLaren,French ,10.0,#FF8000,2019
+Renault,French ,4.0,#FFF500,2019
+Alfa Romeo,French ,6.0,#981E32,2019
+Racing Point,French ,0.0,#F596C8,2019
+Toro Rosso,French ,0.0,#469BFF,2019
+Haas F1 Team,French ,0.0,#F9F2F2,2019
+Williams,French ,0.0,#005AFF,2019
+Red Bull,Austrian ,32.0,#121F45,2019
+Ferrari,Austrian ,30.0,#A6051A,2019
+Mercedes,Austrian ,25.0,#00A19C,2019
+McLaren,Austrian ,12.0,#FF8000,2019
+Alfa Romeo,Austrian ,3.0,#981E32,2019
+Racing Point,Austrian ,0.0,#F596C8,2019
+Renault,Austrian ,0.0,#FFF500,2019
+Toro Rosso,Austrian ,0.0,#469BFF,2019
+Haas F1 Team,Austrian ,0.0,#F9F2F2,2019
+Williams,Austrian ,0.0,#005AFF,2019
+Mercedes,British ,44.0,#00A19C,2019
+Ferrari,British ,15.0,#A6051A,2019
+Red Bull,British ,22.0,#121F45,2019
+McLaren,British ,8.0,#FF8000,2019
+Renault,British ,7.0,#FFF500,2019
+Alfa Romeo,British ,4.0,#981E32,2019
+Toro Rosso,British ,2.0,#469BFF,2019
+Racing Point,British ,0.0,#F596C8,2019
+Williams,British ,0.0,#005AFF,2019
+Haas F1 Team,British ,0.0,#F9F2F2,2019
+Red Bull,German ,26.0,#121F45,2019
+Ferrari,German ,18.0,#A6051A,2019
+Toro Rosso,German ,23.0,#469BFF,2019
+Racing Point,German ,12.0,#F596C8,2019
+McLaren,German ,10.0,#FF8000,2019
+Alfa Romeo,German ,0.0,#981E32,2019
+Haas F1 Team,German ,10.0,#F9F2F2,2019
+Mercedes,German ,2.0,#00A19C,2019
+Williams,German ,1.0,#005AFF,2019
+Renault,German ,0.0,#FFF500,2019
+Mercedes,Hungarian ,29.0,#00A19C,2019
+Red Bull,Hungarian ,27.0,#121F45,2019
+Ferrari,Hungarian ,27.0,#A6051A,2019
+McLaren,Hungarian ,12.0,#FF8000,2019
+Alfa Romeo,Hungarian ,6.0,#981E32,2019
+Toro Rosso,Hungarian ,1.0,#469BFF,2019
+Racing Point,Hungarian ,0.0,#F596C8,2019
+Renault,Hungarian ,0.0,#FFF500,2019
+Haas F1 Team,Hungarian ,0.0,#F9F2F2,2019
+Williams,Hungarian ,0.0,#005AFF,2019
+Ferrari,Belgian ,38.0,#A6051A,2019
+Mercedes,Belgian ,33.0,#00A19C,2019
+Red Bull,Belgian ,10.0,#121F45,2019
+Racing Point,Belgian ,9.0,#F596C8,2019
+Toro Rosso,Belgian ,8.0,#469BFF,2019
+Renault,Belgian ,4.0,#FFF500,2019
+McLaren,Belgian ,0.0,#FF8000,2019
+Haas F1 Team,Belgian ,0.0,#F9F2F2,2019
+Williams,Belgian ,0.0,#005AFF,2019
+Alfa Romeo,Belgian ,0.0,#981E32,2019
+Ferrari,Italian ,25.0,#A6051A,2019
+Mercedes,Italian ,34.0,#00A19C,2019
+Renault,Italian ,22.0,#FFF500,2019
+Red Bull,Italian ,12.0,#121F45,2019
+Racing Point,Italian ,6.0,#F596C8,2019
+Alfa Romeo,Italian ,2.0,#981E32,2019
+McLaren,Italian ,1.0,#FF8000,2019
+Toro Rosso,Italian ,0.0,#469BFF,2019
+Williams,Italian ,0.0,#005AFF,2019
+Haas F1 Team,Italian ,0.0,#F9F2F2,2019
+Ferrari,Singapore ,43.0,#A6051A,2019
+Red Bull,Singapore ,23.0,#121F45,2019
+Mercedes,Singapore ,22.0,#00A19C,2019
+McLaren,Singapore ,6.0,#FF8000,2019
+Toro Rosso,Singapore ,4.0,#469BFF,2019
+Renault,Singapore ,2.0,#FFF500,2019
+Alfa Romeo,Singapore ,1.0,#981E32,2019
+Haas F1 Team,Singapore ,0.0,#F9F2F2,2019
+Racing Point,Singapore ,0.0,#F596C8,2019
+Williams,Singapore ,0.0,#005AFF,2019
+Mercedes,Russian ,44.0,#00A19C,2019
+Ferrari,Russian ,15.0,#A6051A,2019
+Red Bull,Russian ,22.0,#121F45,2019
+McLaren,Russian ,12.0,#FF8000,2019
+Racing Point,Russian ,6.0,#F596C8,2019
+Haas F1 Team,Russian ,2.0,#F9F2F2,2019
+Renault,Russian ,1.0,#FFF500,2019
+Toro Rosso,Russian ,0.0,#469BFF,2019
+Alfa Romeo,Russian ,0.0,#981E32,2019
+Williams,Russian ,0.0,#005AFF,2019
+Mercedes,Japanese ,41.0,#00A19C,2019
+Ferrari,Japanese ,26.0,#A6051A,2019
+Red Bull,Japanese ,12.0,#121F45,2019
+McLaren,Japanese ,10.0,#FF8000,2019
+Renault,Japanese ,0.0,#FFF500,2019
+Toro Rosso,Japanese ,7.0,#469BFF,2019
+Racing Point,Japanese ,6.0,#F596C8,2019
+Alfa Romeo,Japanese ,0.0,#981E32,2019
+Haas F1 Team,Japanese ,0.0,#F9F2F2,2019
+Williams,Japanese ,0.0,#005AFF,2019
+Mercedes,Mexican ,40.0,#00A19C,2019
+Ferrari,Mexican ,31.0,#A6051A,2019
+Red Bull,Mexican ,18.0,#121F45,2019
+Racing Point,Mexican ,6.0,#F596C8,2019
+Renault,Mexican ,5.0,#FFF500,2019
+Toro Rosso,Mexican ,2.0,#469BFF,2019
+McLaren,Mexican ,0.0,#FF8000,2019
+Alfa Romeo,Mexican ,0.0,#981E32,2019
+Haas F1 Team,Mexican ,0.0,#F9F2F2,2019
+Williams,Mexican ,0.0,#005AFF,2019
+Mercedes,United States ,43.0,#00A19C,2019
+Red Bull,United States ,25.0,#121F45,2019
+Ferrari,United States ,13.0,#A6051A,2019
+Renault,United States ,10.0,#FFF500,2019
+McLaren,United States ,10.0,#FF8000,2019
+Racing Point,United States ,1.0,#F596C8,2019
+Alfa Romeo,United States ,0.0,#981E32,2019
+Toro Rosso,United States ,0.0,#469BFF,2019
+Haas F1 Team,United States ,0.0,#F9F2F2,2019
+Williams,United States ,0.0,#005AFF,2019
+Red Bull,Brazilian ,25.0,#121F45,2019
+Toro Rosso,Brazilian ,19.0,#469BFF,2019
+McLaren,Brazilian ,19.0,#FF8000,2019
+Alfa Romeo,Brazilian ,22.0,#981E32,2019
+Renault,Brazilian ,8.0,#FFF500,2019
+Mercedes,Brazilian ,6.0,#00A19C,2019
+Racing Point,Brazilian ,2.0,#F596C8,2019
+Haas F1 Team,Brazilian ,0.0,#F9F2F2,2019
+Williams,Brazilian ,0.0,#005AFF,2019
+Ferrari,Brazilian ,0.0,#A6051A,2019
+Mercedes,Abu Dhabi ,38.0,#00A19C,2019
+Red Bull,Abu Dhabi ,26.0,#121F45,2019
+Ferrari,Abu Dhabi ,25.0,#A6051A,2019
+Racing Point,Abu Dhabi ,6.0,#F596C8,2019
+McLaren,Abu Dhabi ,5.0,#FF8000,2019
+Toro Rosso,Abu Dhabi ,2.0,#469BFF,2019
+Renault,Abu Dhabi ,0.0,#FFF500,2019
+Alfa Romeo,Abu Dhabi ,0.0,#981E32,2019
+Haas F1 Team,Abu Dhabi ,0.0,#F9F2F2,2019
+Williams,Abu Dhabi ,0.0,#005AFF,2019

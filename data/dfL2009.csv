@@ -1,0 +1,171 @@
+Team,GP,points,c,year
+Brawn,Australian ,18.0,#cccfc8,2009
+McLaren,Australian ,0.0,#FF8000,2009
+Toyota,Australian ,11.0,#8e0018,2009
+Renault,Australian ,4.0,#FFF500,2009
+Williams,Australian ,3.0,#005AFF,2009
+Toro Rosso,Australian ,3.0,#469BFF,2009
+Force India,Australian ,0.0,#F596C8,2009
+BMW Sauber,Australian ,0.0,#ffffff,2009
+Red Bull,Australian ,0.0,#121F45,2009
+Ferrari,Australian ,0.0,#A6051A,2009
+Brawn,Malaysian ,7.0,#cccfc8,2009
+BMW Sauber,Malaysian ,4.0,#ffffff,2009
+Toyota,Malaysian ,5.5,#8e0018,2009
+Red Bull,Malaysian ,1.5,#121F45,2009
+McLaren,Malaysian ,1.0,#FF8000,2009
+Williams,Malaysian ,0.5,#005AFF,2009
+Ferrari,Malaysian ,0.0,#A6051A,2009
+Toro Rosso,Malaysian ,0.0,#469BFF,2009
+Renault,Malaysian ,0.0,#FFF500,2009
+Force India,Malaysian ,0.0,#F596C8,2009
+Red Bull,Chinese ,18.0,#121F45,2009
+Brawn,Chinese ,11.0,#cccfc8,2009
+McLaren,Chinese ,7.0,#FF8000,2009
+Toyota,Chinese ,2.0,#8e0018,2009
+Toro Rosso,Chinese ,1.0,#469BFF,2009
+Renault,Chinese ,0.0,#FFF500,2009
+Ferrari,Chinese ,0.0,#A6051A,2009
+BMW Sauber,Chinese ,0.0,#ffffff,2009
+Force India,Chinese ,0.0,#F596C8,2009
+Williams,Chinese ,0.0,#005AFF,2009
+Brawn,Bahrain ,14.0,#cccfc8,2009
+Red Bull,Bahrain ,8.0,#121F45,2009
+Toyota,Bahrain ,8.0,#8e0018,2009
+McLaren,Bahrain ,5.0,#FF8000,2009
+Ferrari,Bahrain ,3.0,#A6051A,2009
+Renault,Bahrain ,1.0,#FFF500,2009
+Williams,Bahrain ,0.0,#005AFF,2009
+Toro Rosso,Bahrain ,0.0,#469BFF,2009
+Force India,Bahrain ,0.0,#F596C8,2009
+BMW Sauber,Bahrain ,0.0,#ffffff,2009
+Brawn,Spanish ,18.0,#cccfc8,2009
+Red Bull,Spanish ,11.0,#121F45,2009
+Renault,Spanish ,4.0,#FFF500,2009
+Ferrari,Spanish ,3.0,#A6051A,2009
+BMW Sauber,Spanish ,2.0,#ffffff,2009
+Williams,Spanish ,1.0,#005AFF,2009
+McLaren,Spanish ,0.0,#FF8000,2009
+Toyota,Spanish ,0.0,#8e0018,2009
+Force India,Spanish ,0.0,#F596C8,2009
+Toro Rosso,Spanish ,0.0,#469BFF,2009
+Brawn,Monaco ,18.0,#cccfc8,2009
+Ferrari,Monaco ,11.0,#A6051A,2009
+Red Bull,Monaco ,4.0,#121F45,2009
+Williams,Monaco ,3.0,#005AFF,2009
+Renault,Monaco ,2.0,#FFF500,2009
+Toro Rosso,Monaco ,1.0,#469BFF,2009
+Force India,Monaco ,0.0,#F596C8,2009
+Toyota,Monaco ,0.0,#8e0018,2009
+BMW Sauber,Monaco ,0.0,#ffffff,2009
+McLaren,Monaco ,0.0,#FF8000,2009
+Brawn,Turkish ,10.0,#cccfc8,2009
+Red Bull,Turkish ,14.0,#121F45,2009
+Toyota,Turkish ,6.0,#8e0018,2009
+Williams,Turkish ,4.0,#005AFF,2009
+Ferrari,Turkish ,3.0,#A6051A,2009
+BMW Sauber,Turkish ,2.0,#ffffff,2009
+Renault,Turkish ,0.0,#FFF500,2009
+McLaren,Turkish ,0.0,#FF8000,2009
+Toro Rosso,Turkish ,0.0,#469BFF,2009
+Force India,Turkish ,0.0,#F596C8,2009
+Red Bull,British ,18.0,#121F45,2009
+Brawn,British ,9.0,#cccfc8,2009
+Ferrari,British ,6.0,#A6051A,2009
+Williams,British ,4.0,#005AFF,2009
+Toyota,British ,2.0,#8e0018,2009
+Force India,British ,0.0,#F596C8,2009
+Renault,British ,0.0,#FFF500,2009
+BMW Sauber,British ,0.0,#ffffff,2009
+McLaren,British ,0.0,#FF8000,2009
+Toro Rosso,British ,0.0,#469BFF,2009
+Red Bull,German ,18.0,#121F45,2009
+Ferrari,German ,6.0,#A6051A,2009
+Williams,German ,5.0,#005AFF,2009
+Brawn,German ,7.0,#cccfc8,2009
+Renault,German ,2.0,#FFF500,2009
+McLaren,German ,1.0,#FF8000,2009
+Toyota,German ,0.0,#8e0018,2009
+BMW Sauber,German ,0.0,#ffffff,2009
+Force India,German ,0.0,#F596C8,2009
+Toro Rosso,German ,0.0,#469BFF,2009
+McLaren,Hungarian ,14.0,#FF8000,2009
+Ferrari,Hungarian ,8.0,#A6051A,2009
+Red Bull,Hungarian ,6.0,#121F45,2009
+Williams,Hungarian ,5.0,#005AFF,2009
+Toyota,Hungarian ,4.0,#8e0018,2009
+Brawn,Hungarian ,2.0,#cccfc8,2009
+BMW Sauber,Hungarian ,0.0,#ffffff,2009
+Renault,Hungarian ,0.0,#FFF500,2009
+Force India,Hungarian ,0.0,#F596C8,2009
+Toro Rosso,Hungarian ,0.0,#469BFF,2009
+Brawn,European ,12.0,#cccfc8,2009
+McLaren,European ,13.0,#FF8000,2009
+Ferrari,European ,6.0,#A6051A,2009
+Williams,European ,4.0,#005AFF,2009
+Renault,European ,3.0,#FFF500,2009
+BMW Sauber,European ,1.0,#ffffff,2009
+Red Bull,European ,0.0,#121F45,2009
+Force India,European ,0.0,#F596C8,2009
+Toyota,European ,0.0,#8e0018,2009
+Toro Rosso,European ,0.0,#469BFF,2009
+Ferrari,Belgian ,10.0,#A6051A,2009
+Force India,Belgian ,8.0,#F596C8,2009
+Red Bull,Belgian ,6.0,#121F45,2009
+BMW Sauber,Belgian ,9.0,#ffffff,2009
+McLaren,Belgian ,3.0,#FF8000,2009
+Brawn,Belgian ,2.0,#cccfc8,2009
+Williams,Belgian ,1.0,#005AFF,2009
+Toyota,Belgian ,0.0,#8e0018,2009
+Toro Rosso,Belgian ,0.0,#469BFF,2009
+Renault,Belgian ,0.0,#FFF500,2009
+Brawn,Italian ,18.0,#cccfc8,2009
+Ferrari,Italian ,6.0,#A6051A,2009
+Force India,Italian ,5.0,#F596C8,2009
+Renault,Italian ,4.0,#FFF500,2009
+McLaren,Italian ,3.0,#FF8000,2009
+BMW Sauber,Italian ,2.0,#ffffff,2009
+Red Bull,Italian ,1.0,#121F45,2009
+Williams,Italian ,0.0,#005AFF,2009
+Toyota,Italian ,0.0,#8e0018,2009
+Toro Rosso,Italian ,0.0,#469BFF,2009
+McLaren,Singapore ,12.0,#FF8000,2009
+Toyota,Singapore ,8.0,#8e0018,2009
+Renault,Singapore ,6.0,#FFF500,2009
+Red Bull,Singapore ,5.0,#121F45,2009
+Brawn,Singapore ,7.0,#cccfc8,2009
+BMW Sauber,Singapore ,1.0,#ffffff,2009
+Williams,Singapore ,0.0,#005AFF,2009
+Ferrari,Singapore ,0.0,#A6051A,2009
+Force India,Singapore ,0.0,#F596C8,2009
+Toro Rosso,Singapore ,0.0,#469BFF,2009
+Red Bull,Japanese ,10.0,#121F45,2009
+Toyota,Japanese ,8.0,#8e0018,2009
+McLaren,Japanese ,6.0,#FF8000,2009
+Ferrari,Japanese ,5.0,#A6051A,2009
+Williams,Japanese ,4.0,#005AFF,2009
+BMW Sauber,Japanese ,3.0,#ffffff,2009
+Brawn,Japanese ,3.0,#cccfc8,2009
+Renault,Japanese ,0.0,#FFF500,2009
+Force India,Japanese ,0.0,#F596C8,2009
+Toro Rosso,Japanese ,0.0,#469BFF,2009
+Red Bull,Brazilian ,15.0,#121F45,2009
+BMW Sauber,Brazilian ,8.0,#ffffff,2009
+McLaren,Brazilian ,6.0,#FF8000,2009
+Brawn,Brazilian ,5.0,#cccfc8,2009
+Ferrari,Brazilian ,3.0,#A6051A,2009
+Toro Rosso,Brazilian ,2.0,#469BFF,2009
+Toyota,Brazilian ,0.0,#8e0018,2009
+Force India,Brazilian ,0.0,#F596C8,2009
+Renault,Brazilian ,0.0,#FFF500,2009
+Williams,Brazilian ,0.0,#005AFF,2009
+Red Bull,Abu Dhabi ,18.0,#121F45,2009
+Brawn,Abu Dhabi ,11.0,#cccfc8,2009
+BMW Sauber,Abu Dhabi ,4.0,#ffffff,2009
+Toyota,Abu Dhabi ,5.0,#8e0018,2009
+Toro Rosso,Abu Dhabi ,1.0,#469BFF,2009
+Williams,Abu Dhabi ,0.0,#005AFF,2009
+McLaren,Abu Dhabi ,0.0,#FF8000,2009
+Ferrari,Abu Dhabi ,0.0,#A6051A,2009
+Renault,Abu Dhabi ,0.0,#FFF500,2009
+Force India,Abu Dhabi ,0.0,#F596C8,2009

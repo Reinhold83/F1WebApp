@@ -1,0 +1,194 @@
+Team,GP,points,c,year
+Mercedes,Australian ,43.0,#00A19C,2015
+Ferrari,Australian ,15.0,#A6051A,2015
+Williams,Australian ,12.0,#005AFF,2015
+Sauber,Australian ,14.0,#9B0000,2015
+Red Bull,Australian ,8.0,#121F45,2015
+Force India,Australian ,7.0,#F596C8,2015
+Toro Rosso,Australian ,2.0,#469BFF,2015
+McLaren,Australian ,0.0,#FF8000,2015
+Lotus F1,Australian ,0.0,#FFB800,2015
+Ferrari,Malaysian ,37.0,#A6051A,2015
+Mercedes,Malaysian ,33.0,#00A19C,2015
+Williams,Malaysian ,18.0,#005AFF,2015
+Toro Rosso,Malaysian ,10.0,#469BFF,2015
+Red Bull,Malaysian ,3.0,#121F45,2015
+Lotus F1,Malaysian ,0.0,#FFB800,2015
+Sauber,Malaysian ,0.0,#9B0000,2015
+Force India,Malaysian ,0.0,#F596C8,2015
+Manor Marussia,Malaysian ,0.0,white,2015
+McLaren,Malaysian ,0.0,#FF8000,2015
+Mercedes,Chinese ,43.0,#00A19C,2015
+Ferrari,Chinese ,27.0,#A6051A,2015
+Williams,Chinese ,18.0,#005AFF,2015
+Lotus F1,Chinese ,6.0,#FFB800,2015
+Sauber,Chinese ,5.0,#9B0000,2015
+Red Bull,Chinese ,2.0,#121F45,2015
+Force India,Chinese ,0.0,#F596C8,2015
+McLaren,Chinese ,0.0,#FF8000,2015
+Toro Rosso,Chinese ,0.0,#469BFF,2015
+Manor Marussia,Chinese ,0.0,white,2015
+Mercedes,Bahrain ,40.0,#00A19C,2015
+Ferrari,Bahrain ,28.0,#A6051A,2015
+Williams,Bahrain ,13.0,#005AFF,2015
+Red Bull,Bahrain ,10.0,#121F45,2015
+Lotus F1,Bahrain ,6.0,#FFB800,2015
+Force India,Bahrain ,4.0,#F596C8,2015
+McLaren,Bahrain ,0.0,#FF8000,2015
+Sauber,Bahrain ,0.0,#9B0000,2015
+Manor Marussia,Bahrain ,0.0,white,2015
+Toro Rosso,Bahrain ,0.0,#469BFF,2015
+Mercedes,Spanish ,43.0,#00A19C,2015
+Ferrari,Spanish ,25.0,#A6051A,2015
+Williams,Spanish ,20.0,#005AFF,2015
+Red Bull,Spanish ,7.0,#121F45,2015
+Lotus F1,Spanish ,4.0,#FFB800,2015
+Toro Rosso,Spanish ,2.0,#469BFF,2015
+Sauber,Spanish ,0.0,#9B0000,2015
+Force India,Spanish ,0.0,#F596C8,2015
+McLaren,Spanish ,0.0,#FF8000,2015
+Manor Marussia,Spanish ,0.0,white,2015
+Mercedes,Monaco ,40.0,#00A19C,2015
+Ferrari,Monaco ,26.0,#A6051A,2015
+Red Bull,Monaco ,22.0,#121F45,2015
+Force India,Monaco ,6.0,#F596C8,2015
+McLaren,Monaco ,4.0,#FF8000,2015
+Sauber,Monaco ,2.0,#9B0000,2015
+Toro Rosso,Monaco ,1.0,#469BFF,2015
+Lotus F1,Monaco ,0.0,#FFB800,2015
+Williams,Monaco ,0.0,#005AFF,2015
+Manor Marussia,Monaco ,0.0,white,2015
+Mercedes,Canadian ,43.0,#00A19C,2015
+Williams,Canadian ,23.0,#005AFF,2015
+Ferrari,Canadian ,22.0,#A6051A,2015
+Lotus F1,Canadian ,7.0,#FFB800,2015
+Force India,Canadian ,4.0,#F596C8,2015
+Red Bull,Canadian ,2.0,#121F45,2015
+Toro Rosso,Canadian ,0.0,#469BFF,2015
+Sauber,Canadian ,0.0,#9B0000,2015
+Manor Marussia,Canadian ,0.0,white,2015
+McLaren,Canadian ,0.0,#FF8000,2015
+Mercedes,Austrian ,43.0,#00A19C,2015
+Williams,Austrian ,25.0,#005AFF,2015
+Ferrari,Austrian ,12.0,#A6051A,2015
+Force India,Austrian ,10.0,#F596C8,2015
+Lotus F1,Austrian ,6.0,#FFB800,2015
+Toro Rosso,Austrian ,4.0,#469BFF,2015
+Red Bull,Austrian ,1.0,#121F45,2015
+Sauber,Austrian ,0.0,#9B0000,2015
+Manor Marussia,Austrian ,0.0,white,2015
+McLaren,Austrian ,0.0,#FF8000,2015
+Mercedes,British ,43.0,#00A19C,2015
+Ferrari,British ,19.0,#A6051A,2015
+Williams,British ,22.0,#005AFF,2015
+Red Bull,British ,8.0,#121F45,2015
+Force India,British ,8.0,#F596C8,2015
+McLaren,British ,1.0,#FF8000,2015
+Sauber,British ,0.0,#9B0000,2015
+Manor Marussia,British ,0.0,white,2015
+Toro Rosso,British ,0.0,#469BFF,2015
+Lotus F1,British ,0.0,#FFB800,2015
+Ferrari,Hungarian ,25.0,#A6051A,2015
+Red Bull,Hungarian ,33.0,#121F45,2015
+Toro Rosso,Hungarian ,12.0,#469BFF,2015
+McLaren,Hungarian ,12.0,#FF8000,2015
+Mercedes,Hungarian ,12.0,#00A19C,2015
+Lotus F1,Hungarian ,6.0,#FFB800,2015
+Sauber,Hungarian ,1.0,#9B0000,2015
+Williams,Hungarian ,0.0,#005AFF,2015
+Manor Marussia,Hungarian ,0.0,white,2015
+Force India,Hungarian ,0.0,#F596C8,2015
+Mercedes,Belgian ,43.0,#00A19C,2015
+Lotus F1,Belgian ,15.0,#FFB800,2015
+Red Bull,Belgian ,12.0,#121F45,2015
+Force India,Belgian ,10.0,#F596C8,2015
+Williams,Belgian ,10.0,#005AFF,2015
+Ferrari,Belgian ,6.0,#A6051A,2015
+Toro Rosso,Belgian ,4.0,#469BFF,2015
+Sauber,Belgian ,1.0,#9B0000,2015
+McLaren,Belgian ,0.0,#FF8000,2015
+Marussia,Belgian ,0.0,#6E0000,2015
+Manor Marussia,Belgian ,0.0,white,2015
+Mercedes,Italian ,25.0,#00A19C,2015
+Ferrari,Italian ,28.0,#A6051A,2015
+Williams,Italian ,27.0,#005AFF,2015
+Force India,Italian ,14.0,#F596C8,2015
+Red Bull,Italian ,5.0,#121F45,2015
+Sauber,Italian ,2.0,#9B0000,2015
+Toro Rosso,Italian ,0.0,#469BFF,2015
+McLaren,Italian ,0.0,#FF8000,2015
+Manor Marussia,Italian ,0.0,white,2015
+Lotus F1,Italian ,0.0,#FFB800,2015
+Ferrari,Singapore ,40.0,#A6051A,2015
+Red Bull,Singapore ,26.0,#121F45,2015
+Mercedes,Singapore ,12.0,#00A19C,2015
+Williams,Singapore ,10.0,#005AFF,2015
+Force India,Singapore ,6.0,#F596C8,2015
+Toro Rosso,Singapore ,6.0,#469BFF,2015
+Sauber,Singapore ,1.0,#9B0000,2015
+Lotus F1,Singapore ,0.0,#FFB800,2015
+Manor Marussia,Singapore ,0.0,white,2015
+McLaren,Singapore ,0.0,#FF8000,2015
+Mercedes,Japanese ,43.0,#00A19C,2015
+Ferrari,Japanese ,27.0,#A6051A,2015
+Williams,Japanese ,10.0,#005AFF,2015
+Force India,Japanese ,8.0,#F596C8,2015
+Lotus F1,Japanese ,10.0,#FFB800,2015
+Toro Rosso,Japanese ,3.0,#469BFF,2015
+McLaren,Japanese ,0.0,#FF8000,2015
+Red Bull,Japanese ,0.0,#121F45,2015
+Sauber,Japanese ,0.0,#9B0000,2015
+Manor Marussia,Japanese ,0.0,white,2015
+Mercedes,Russian ,25.0,#00A19C,2015
+Ferrari,Russian ,22.0,#A6051A,2015
+Force India,Russian ,15.0,#F596C8,2015
+Williams,Russian ,12.0,#005AFF,2015
+Red Bull,Russian ,10.0,#121F45,2015
+Sauber,Russian ,8.0,#9B0000,2015
+Lotus F1,Russian ,6.0,#FFB800,2015
+McLaren,Russian ,2.0,#FF8000,2015
+Toro Rosso,Russian ,1.0,#469BFF,2015
+Manor Marussia,Russian ,0.0,white,2015
+Marussia,Russian ,0.0,#6E0000,2015
+Mercedes,United States ,43.0,#00A19C,2015
+Ferrari,United States ,15.0,#A6051A,2015
+Toro Rosso,United States ,18.0,#469BFF,2015
+Force India,United States ,10.0,#F596C8,2015
+McLaren,United States ,8.0,#FF8000,2015
+Lotus F1,United States ,4.0,#FFB800,2015
+Sauber,United States ,2.0,#9B0000,2015
+Red Bull,United States ,1.0,#121F45,2015
+Manor Marussia,United States ,0.0,white,2015
+Williams,United States ,0.0,#005AFF,2015
+Mercedes,Mexican ,43.0,#00A19C,2015
+Williams,Mexican ,23.0,#005AFF,2015
+Red Bull,Mexican ,22.0,#121F45,2015
+Force India,Mexican ,10.0,#F596C8,2015
+Toro Rosso,Mexican ,2.0,#469BFF,2015
+Lotus F1,Mexican ,1.0,#FFB800,2015
+Sauber,Mexican ,0.0,#9B0000,2015
+McLaren,Mexican ,0.0,#FF8000,2015
+Marussia,Mexican ,0.0,#6E0000,2015
+Ferrari,Mexican ,0.0,#A6051A,2015
+Mercedes,Brazilian ,43.0,#00A19C,2015
+Ferrari,Brazilian ,27.0,#A6051A,2015
+Williams,Brazilian ,10.0,#005AFF,2015
+Force India,Brazilian ,8.0,#F596C8,2015
+Red Bull,Brazilian ,6.0,#121F45,2015
+Lotus F1,Brazilian ,5.0,#FFB800,2015
+Toro Rosso,Brazilian ,2.0,#469BFF,2015
+Sauber,Brazilian ,0.0,#9B0000,2015
+McLaren,Brazilian ,0.0,#FF8000,2015
+Manor Marussia,Brazilian ,0.0,white,2015
+Manor Marussia,Mexican ,0.0,white,2015
+Mercedes,Abu Dhabi ,43.0,#00A19C,2015
+Ferrari,Abu Dhabi ,27.0,#A6051A,2015
+Force India,Abu Dhabi ,16.0,#F596C8,2015
+Red Bull,Abu Dhabi ,9.0,#121F45,2015
+Williams,Abu Dhabi ,4.0,#005AFF,2015
+Lotus F1,Abu Dhabi ,2.0,#FFB800,2015
+Toro Rosso,Abu Dhabi ,0.0,#469BFF,2015
+McLaren,Abu Dhabi ,0.0,#FF8000,2015
+Sauber,Abu Dhabi ,0.0,#9B0000,2015
+Marussia,Abu Dhabi ,0.0,#6E0000,2015
+Manor Marussia,Abu Dhabi ,0.0,white,2015

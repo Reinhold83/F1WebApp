@@ -1,0 +1,229 @@
+Team,GP,points,c,year
+Ferrari,Bahrain ,43.0,#A6051A,2010
+McLaren,Bahrain ,21.0,#FF8000,2010
+Red Bull,Bahrain ,16.0,#121F45,2010
+Mercedes,Bahrain ,18.0,#00A19C,2010
+Force India,Bahrain ,2.0,#F596C8,2010
+Williams,Bahrain ,1.0,#005AFF,2010
+Renault,Bahrain ,0.0,#FFF500,2010
+Toro Rosso,Bahrain ,0.0,#469BFF,2010
+Lotus,Bahrain ,0.0,#FFB800,2010
+Sauber,Bahrain ,0.0,#9B0000,2010
+HRT,Bahrain ,0.0,white,2010
+Virgin,Bahrain ,0.0,white,2010
+McLaren,Australian ,33.0,#FF8000,2010
+Renault,Australian ,18.0,#FFF500,2010
+Ferrari,Australian ,27.0,#A6051A,2010
+Mercedes,Australian ,11.0,#00A19C,2010
+Force India,Australian ,6.0,#F596C8,2010
+Williams,Australian ,4.0,#005AFF,2010
+Red Bull,Australian ,2.0,#121F45,2010
+Toro Rosso,Australian ,0.0,#469BFF,2010
+Sauber,Australian ,0.0,#9B0000,2010
+Lotus,Australian ,0.0,#FFB800,2010
+HRT,Australian ,0.0,white,2010
+Virgin,Australian ,0.0,white,2010
+Red Bull,Malaysian ,43.0,#121F45,2010
+Mercedes,Malaysian ,15.0,#00A19C,2010
+Renault,Malaysian ,12.0,#FFF500,2010
+Force India,Malaysian ,10.0,#F596C8,2010
+McLaren,Malaysian ,12.0,#FF8000,2010
+Ferrari,Malaysian ,6.0,#A6051A,2010
+Toro Rosso,Malaysian ,2.0,#469BFF,2010
+Williams,Malaysian ,1.0,#005AFF,2010
+Virgin,Malaysian ,0.0,white,2010
+HRT,Malaysian ,0.0,white,2010
+Lotus,Malaysian ,0.0,#FFB800,2010
+Sauber,Malaysian ,0.0,#9B0000,2010
+McLaren,Chinese ,43.0,#FF8000,2010
+Mercedes,Chinese ,16.0,#00A19C,2010
+Ferrari,Chinese ,14.0,#A6051A,2010
+Renault,Chinese ,16.0,#FFF500,2010
+Red Bull,Chinese ,12.0,#121F45,2010
+Force India,Chinese ,0.0,#F596C8,2010
+Williams,Chinese ,0.0,#005AFF,2010
+Toro Rosso,Chinese ,0.0,#469BFF,2010
+Lotus,Chinese ,0.0,#FFB800,2010
+HRT,Chinese ,0.0,white,2010
+Virgin,Chinese ,0.0,white,2010
+Sauber,Chinese ,0.0,#9B0000,2010
+Red Bull,Spanish ,40.0,#121F45,2010
+Ferrari,Spanish ,26.0,#A6051A,2010
+Mercedes,Spanish ,12.0,#00A19C,2010
+McLaren,Spanish ,10.0,#FF8000,2010
+Force India,Spanish ,6.0,#F596C8,2010
+Renault,Spanish ,4.0,#FFF500,2010
+Williams,Spanish ,2.0,#005AFF,2010
+Toro Rosso,Spanish ,1.0,#469BFF,2010
+Sauber,Spanish ,0.0,#9B0000,2010
+Lotus,Spanish ,0.0,#FFB800,2010
+Virgin,Spanish ,0.0,white,2010
+HRT,Spanish ,0.0,white,2010
+Red Bull,Monaco ,43.0,#121F45,2010
+Renault,Monaco ,15.0,#FFF500,2010
+Ferrari,Monaco ,20.0,#A6051A,2010
+McLaren,Monaco ,10.0,#FF8000,2010
+Mercedes,Monaco ,6.0,#00A19C,2010
+Force India,Monaco ,6.0,#F596C8,2010
+Toro Rosso,Monaco ,1.0,#469BFF,2010
+HRT,Monaco ,0.0,white,2010
+Lotus,Monaco ,0.0,#FFB800,2010
+Williams,Monaco ,0.0,#005AFF,2010
+Sauber,Monaco ,0.0,#9B0000,2010
+Virgin,Monaco ,0.0,white,2010
+McLaren,Turkish ,43.0,#FF8000,2010
+Red Bull,Turkish ,15.0,#121F45,2010
+Mercedes,Turkish ,22.0,#00A19C,2010
+Renault,Turkish ,8.0,#FFF500,2010
+Ferrari,Turkish ,10.0,#A6051A,2010
+Force India,Turkish ,2.0,#F596C8,2010
+Sauber,Turkish ,1.0,#9B0000,2010
+Toro Rosso,Turkish ,0.0,#469BFF,2010
+Williams,Turkish ,0.0,#005AFF,2010
+Virgin,Turkish ,0.0,white,2010
+HRT,Turkish ,0.0,white,2010
+Lotus,Turkish ,0.0,#FFB800,2010
+McLaren,Canadian ,43.0,#FF8000,2010
+Ferrari,Canadian ,15.0,#A6051A,2010
+Red Bull,Canadian ,22.0,#121F45,2010
+Mercedes,Canadian ,8.0,#00A19C,2010
+Renault,Canadian ,6.0,#FFF500,2010
+Toro Rosso,Canadian ,4.0,#469BFF,2010
+Force India,Canadian ,3.0,#F596C8,2010
+Williams,Canadian ,0.0,#005AFF,2010
+Lotus,Canadian ,0.0,#FFB800,2010
+HRT,Canadian ,0.0,white,2010
+Virgin,Canadian ,0.0,white,2010
+Sauber,Canadian ,0.0,#9B0000,2010
+Red Bull,European ,25.0,#121F45,2010
+McLaren,European ,33.0,#FF8000,2010
+Williams,European ,12.0,#005AFF,2010
+Renault,European ,10.0,#FFF500,2010
+Force India,European ,8.0,#F596C8,2010
+Sauber,European ,6.0,#9B0000,2010
+Ferrari,European ,4.0,#A6051A,2010
+Toro Rosso,European ,2.0,#469BFF,2010
+Mercedes,European ,1.0,#00A19C,2010
+Virgin,European ,0.0,white,2010
+HRT,European ,0.0,white,2010
+Lotus,European ,0.0,#FFB800,2010
+Red Bull,British ,31.0,#121F45,2010
+McLaren,British ,30.0,#FF8000,2010
+Mercedes,British ,17.0,#00A19C,2010
+Williams,British ,11.0,#005AFF,2010
+Sauber,British ,8.0,#9B0000,2010
+Force India,British ,4.0,#F596C8,2010
+Toro Rosso,British ,0.0,#469BFF,2010
+Renault,British ,0.0,#FFF500,2010
+Ferrari,British ,0.0,#A6051A,2010
+Lotus,British ,0.0,#FFB800,2010
+Virgin,British ,0.0,white,2010
+HRT,British ,0.0,white,2010
+Ferrari,German ,43.0,#A6051A,2010
+Red Bull,German ,23.0,#121F45,2010
+McLaren,German ,22.0,#FF8000,2010
+Renault,German ,7.0,#FFF500,2010
+Mercedes,German ,6.0,#00A19C,2010
+Sauber,German ,0.0,#9B0000,2010
+Williams,German ,0.0,#005AFF,2010
+Toro Rosso,German ,0.0,#469BFF,2010
+Force India,German ,0.0,#F596C8,2010
+Virgin,German ,0.0,white,2010
+HRT,German ,0.0,white,2010
+Lotus,German ,0.0,#FFB800,2010
+Red Bull,Hungarian ,40.0,#121F45,2010
+Ferrari,Hungarian ,30.0,#A6051A,2010
+Renault,Hungarian ,10.0,#FFF500,2010
+Williams,Hungarian ,9.0,#005AFF,2010
+Sauber,Hungarian ,8.0,#9B0000,2010
+McLaren,Hungarian ,4.0,#FF8000,2010
+Mercedes,Hungarian ,0.0,#00A19C,2010
+Toro Rosso,Hungarian ,0.0,#469BFF,2010
+Force India,Hungarian ,0.0,#F596C8,2010
+Lotus,Hungarian ,0.0,#FFB800,2010
+Virgin,Hungarian ,0.0,white,2010
+HRT,Hungarian ,0.0,white,2010
+McLaren,Belgian ,25.0,#FF8000,2010
+Red Bull,Belgian ,18.0,#121F45,2010
+Renault,Belgian ,17.0,#FFF500,2010
+Ferrari,Belgian ,12.0,#A6051A,2010
+Force India,Belgian ,11.0,#F596C8,2010
+Mercedes,Belgian ,14.0,#00A19C,2010
+Sauber,Belgian ,4.0,#9B0000,2010
+Toro Rosso,Belgian ,0.0,#469BFF,2010
+Williams,Belgian ,0.0,#005AFF,2010
+Lotus,Belgian ,0.0,#FFB800,2010
+Virgin,Belgian ,0.0,white,2010
+HRT,Belgian ,0.0,white,2010
+Ferrari,Italian ,40.0,#A6051A,2010
+McLaren,Italian ,18.0,#FF8000,2010
+Red Bull,Italian ,20.0,#121F45,2010
+Mercedes,Italian ,12.0,#00A19C,2010
+Williams,Italian ,7.0,#005AFF,2010
+Renault,Italian ,4.0,#FFF500,2010
+Toro Rosso,Italian ,0.0,#469BFF,2010
+Force India,Italian ,0.0,#F596C8,2010
+Sauber,Italian ,0.0,#9B0000,2010
+Virgin,Italian ,0.0,white,2010
+Lotus,Italian ,0.0,#FFB800,2010
+HRT,Italian ,0.0,white,2010
+Ferrari,Singapore ,29.0,#A6051A,2010
+Red Bull,Singapore ,33.0,#121F45,2010
+McLaren,Singapore ,12.0,#FF8000,2010
+Mercedes,Singapore ,10.0,#00A19C,2010
+Williams,Singapore ,9.0,#005AFF,2010
+Renault,Singapore ,6.0,#FFF500,2010
+Force India,Singapore ,2.0,#F596C8,2010
+Toro Rosso,Singapore ,0.0,#469BFF,2010
+Virgin,Singapore ,0.0,white,2010
+Lotus,Singapore ,0.0,#FFB800,2010
+Sauber,Singapore ,0.0,#9B0000,2010
+HRT,Singapore ,0.0,white,2010
+Red Bull,Japanese ,43.0,#121F45,2010
+Ferrari,Japanese ,15.0,#A6051A,2010
+McLaren,Japanese ,22.0,#FF8000,2010
+Mercedes,Japanese ,8.0,#00A19C,2010
+Sauber,Japanese ,10.0,#9B0000,2010
+Williams,Japanese ,2.0,#005AFF,2010
+Toro Rosso,Japanese ,1.0,#469BFF,2010
+Lotus,Japanese ,0.0,#FFB800,2010
+Virgin,Japanese ,0.0,white,2010
+HRT,Japanese ,0.0,white,2010
+Force India,Japanese ,0.0,#F596C8,2010
+Renault,Japanese ,0.0,#FFF500,2010
+Ferrari,Korean ,40.0,#A6051A,2010
+McLaren,Korean ,18.0,#FF8000,2010
+Mercedes,Korean ,12.0,#00A19C,2010
+Renault,Korean ,10.0,#FFF500,2010
+Force India,Korean ,8.0,#F596C8,2010
+Williams,Korean ,7.0,#005AFF,2010
+Sauber,Korean ,6.0,#9B0000,2010
+Toro Rosso,Korean ,0.0,#469BFF,2010
+Lotus,Korean ,0.0,#FFB800,2010
+HRT,Korean ,0.0,white,2010
+Red Bull,Korean ,0.0,#121F45,2010
+Virgin,Korean ,0.0,white,2010
+Red Bull,Brazilian ,43.0,#121F45,2010
+Ferrari,Brazilian ,15.0,#A6051A,2010
+McLaren,Brazilian ,22.0,#FF8000,2010
+Mercedes,Brazilian ,14.0,#00A19C,2010
+Williams,Brazilian ,4.0,#005AFF,2010
+Renault,Brazilian ,2.0,#FFF500,2010
+Sauber,Brazilian ,1.0,#9B0000,2010
+Toro Rosso,Brazilian ,0.0,#469BFF,2010
+Force India,Brazilian ,0.0,#F596C8,2010
+Lotus,Brazilian ,0.0,#FFB800,2010
+Virgin,Brazilian ,0.0,white,2010
+HRT,Brazilian ,0.0,white,2010
+Red Bull,Abu Dhabi ,29.0,#121F45,2010
+McLaren,Abu Dhabi ,33.0,#FF8000,2010
+Mercedes,Abu Dhabi ,12.0,#00A19C,2010
+Renault,Abu Dhabi ,18.0,#FFF500,2010
+Ferrari,Abu Dhabi ,7.0,#A6051A,2010
+Toro Rosso,Abu Dhabi ,2.0,#469BFF,2010
+Sauber,Abu Dhabi ,0.0,#9B0000,2010
+Williams,Abu Dhabi ,0.0,#005AFF,2010
+Force India,Abu Dhabi ,0.0,#F596C8,2010
+Lotus,Abu Dhabi ,0.0,#FFB800,2010
+Virgin,Abu Dhabi ,0.0,white,2010
+HRT,Abu Dhabi ,0.0,white,2010

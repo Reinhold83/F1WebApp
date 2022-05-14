@@ -1,0 +1,221 @@
+Team,GP,points,c,year
+Mercedes,Bahrain ,41.0,#00A19C,2021
+Red Bull,Bahrain ,28.0,#121F45,2021
+McLaren,Bahrain ,18.0,#FF8000,2021
+Ferrari,Bahrain ,12.0,#A6051A,2021
+AlphaTauri,Bahrain ,2.0,#00293F,2021
+Aston Martin,Bahrain ,1.0,#00352F,2021
+Alfa Romeo,Bahrain ,0.0,#981E32,2021
+Alpine F1 Team,Bahrain ,0.0,#005BA9,2021
+Williams,Bahrain ,0.0,#005AFF,2021
+Haas F1 Team,Bahrain ,0.0,#F9F2F2,2021
+Red Bull,Emilia Romagna ,25.0,#121F45,2021
+Mercedes,Emilia Romagna ,19.0,#00A19C,2021
+McLaren,Emilia Romagna ,23.0,#FF8000,2021
+Ferrari,Emilia Romagna ,22.0,#A6051A,2021
+Aston Martin,Emilia Romagna ,4.0,#00352F,2021
+AlphaTauri,Emilia Romagna ,6.0,#00293F,2021
+Alfa Romeo,Emilia Romagna ,0.0,#981E32,2021
+Alpine F1 Team,Emilia Romagna ,3.0,#005BA9,2021
+Haas F1 Team,Emilia Romagna ,0.0,#F9F2F2,2021
+Williams,Emilia Romagna ,0.0,#005AFF,2021
+Mercedes,Portuguese ,41.0,#00A19C,2021
+Red Bull,Portuguese ,30.0,#121F45,2021
+McLaren,Portuguese ,12.0,#FF8000,2021
+Ferrari,Portuguese ,8.0,#A6051A,2021
+Alpine F1 Team,Portuguese ,10.0,#005BA9,2021
+AlphaTauri,Portuguese ,1.0,#00293F,2021
+Alfa Romeo,Portuguese ,0.0,#981E32,2021
+Aston Martin,Portuguese ,0.0,#00352F,2021
+Williams,Portuguese ,0.0,#005AFF,2021
+Haas F1 Team,Portuguese ,0.0,#F9F2F2,2021
+Mercedes,Spanish ,40.0,#00A19C,2021
+Red Bull,Spanish ,29.0,#121F45,2021
+Ferrari,Spanish ,18.0,#A6051A,2021
+McLaren,Spanish ,12.0,#FF8000,2021
+Alpine F1 Team,Spanish ,2.0,#005BA9,2021
+AlphaTauri,Spanish ,1.0,#00293F,2021
+Aston Martin,Spanish ,0.0,#00352F,2021
+Alfa Romeo,Spanish ,0.0,#981E32,2021
+Williams,Spanish ,0.0,#005AFF,2021
+Haas F1 Team,Spanish ,0.0,#F9F2F2,2021
+Ferrari,Monaco ,18.0,#A6051A,2021
+Red Bull,Monaco ,37.0,#121F45,2021
+McLaren,Monaco ,15.0,#FF8000,2021
+Aston Martin,Monaco ,14.0,#00352F,2021
+AlphaTauri,Monaco ,8.0,#00293F,2021
+Mercedes,Monaco ,7.0,#00A19C,2021
+Alpine F1 Team,Monaco ,2.0,#005BA9,2021
+Alfa Romeo,Monaco ,1.0,#981E32,2021
+Williams,Monaco ,0.0,#005AFF,2021
+Haas F1 Team,Monaco ,0.0,#F9F2F2,2021
+Red Bull,Azerbaijan ,25.0,#121F45,2021
+Aston Martin,Azerbaijan ,18.0,#00352F,2021
+AlphaTauri,Azerbaijan ,21.0,#00293F,2021
+Ferrari,Azerbaijan ,16.0,#A6051A,2021
+McLaren,Azerbaijan ,12.0,#FF8000,2021
+Alpine F1 Team,Azerbaijan ,8.0,#005BA9,2021
+Alfa Romeo,Azerbaijan ,1.0,#981E32,2021
+Mercedes,Azerbaijan ,0.0,#00A19C,2021
+Haas F1 Team,Azerbaijan ,0.0,#F9F2F2,2021
+Williams,Azerbaijan ,0.0,#005AFF,2021
+Red Bull,French ,41.0,#121F45,2021
+Mercedes,French ,30.0,#00A19C,2021
+McLaren,French ,18.0,#FF8000,2021
+AlphaTauri,French ,6.0,#00293F,2021
+Alpine F1 Team,French ,4.0,#005BA9,2021
+Aston Martin,French ,3.0,#00352F,2021
+Ferrari,French ,0.0,#A6051A,2021
+Williams,French ,0.0,#005AFF,2021
+Alfa Romeo,French ,0.0,#981E32,2021
+Haas F1 Team,French ,0.0,#F9F2F2,2021
+Red Bull,Styrian ,37.0,#121F45,2021
+Mercedes,Styrian ,34.0,#00A19C,2021
+McLaren,Styrian ,10.0,#FF8000,2021
+Ferrari,Styrian ,14.0,#A6051A,2021
+Aston Martin,Styrian ,4.0,#00352F,2021
+Alpine F1 Team,Styrian ,2.0,#005BA9,2021
+AlphaTauri,Styrian ,1.0,#00293F,2021
+Alfa Romeo,Styrian ,0.0,#981E32,2021
+Haas F1 Team,Styrian ,0.0,#F9F2F2,2021
+Williams,Styrian ,0.0,#005AFF,2021
+Red Bull,Austrian ,34.0,#121F45,2021
+Mercedes,Austrian ,30.0,#00A19C,2021
+McLaren,Austrian ,21.0,#FF8000,2021
+Ferrari,Austrian ,14.0,#A6051A,2021
+AlphaTauri,Austrian ,2.0,#00293F,2021
+Alpine F1 Team,Austrian ,1.0,#005BA9,2021
+Williams,Austrian ,0.0,#005AFF,2021
+Aston Martin,Austrian ,0.0,#00352F,2021
+Alfa Romeo,Austrian ,0.0,#981E32,2021
+Haas F1 Team,Austrian ,0.0,#F9F2F2,2021
+Mercedes,British ,43.0,#00A19C,2021
+Ferrari,British ,26.0,#A6051A,2021
+McLaren,British ,22.0,#FF8000,2021
+Alpine F1 Team,British ,8.0,#005BA9,2021
+Aston Martin,British ,4.0,#00352F,2021
+AlphaTauri,British ,1.0,#00293F,2021
+Williams,British ,0.0,#005AFF,2021
+Alfa Romeo,British ,0.0,#981E32,2021
+Red Bull,British ,3.0,#121F45,2021
+Haas F1 Team,British ,0.0,#F9F2F2,2021
+Alpine F1 Team,Hungarian ,37.0,#005BA9,2021
+Aston Martin,Hungarian ,0.0,#00352F,2021
+Mercedes,Hungarian ,18.0,#00A19C,2021
+Ferrari,Hungarian ,15.0,#A6051A,2021
+AlphaTauri,Hungarian ,19.0,#00293F,2021
+Williams,Hungarian ,10.0,#005AFF,2021
+Red Bull,Hungarian ,2.0,#121F45,2021
+Alfa Romeo,Hungarian ,1.0,#981E32,2021
+McLaren,Hungarian ,0.0,#FF8000,2021
+Haas F1 Team,Hungarian ,0.0,#F9F2F2,2021
+Red Bull,Belgian ,12.5,#121F45,2021
+Williams,Belgian ,10.0,#005AFF,2021
+Mercedes,Belgian ,7.5,#00A19C,2021
+McLaren,Belgian ,6.0,#FF8000,2021
+Aston Martin,Belgian ,5.0,#00352F,2021
+AlphaTauri,Belgian ,4.0,#00293F,2021
+Alpine F1 Team,Belgian ,3.0,#005BA9,2021
+Ferrari,Belgian ,2.5,#A6051A,2021
+Alfa Romeo,Belgian ,0.0,#981E32,2021
+Haas F1 Team,Belgian ,0.0,#F9F2F2,2021
+Red Bull,Dutch ,29.0,#121F45,2021
+Mercedes,Dutch ,34.0,#00A19C,2021
+AlphaTauri,Dutch ,12.0,#00293F,2021
+Ferrari,Dutch ,16.0,#A6051A,2021
+Alpine F1 Team,Dutch ,10.0,#005BA9,2021
+McLaren,Dutch ,1.0,#FF8000,2021
+Aston Martin,Dutch ,0.0,#00352F,2021
+Alfa Romeo,Dutch ,0.0,#981E32,2021
+Williams,Dutch ,0.0,#005AFF,2021
+Haas F1 Team,Dutch ,0.0,#F9F2F2,2021
+McLaren,Italian ,45.0,#FF8000,2021
+Mercedes,Italian ,18.0,#00A19C,2021
+Ferrari,Italian ,20.0,#A6051A,2021
+Red Bull,Italian ,12.0,#121F45,2021
+Aston Martin,Italian ,6.0,#00352F,2021
+Alpine F1 Team,Italian ,5.0,#005BA9,2021
+Williams,Italian ,2.0,#005AFF,2021
+Alfa Romeo,Italian ,0.0,#981E32,2021
+Haas F1 Team,Italian ,0.0,#F9F2F2,2021
+AlphaTauri,Italian ,0.0,#00293F,2021
+Mercedes,Russian ,35.0,#00A19C,2021
+Red Bull,Russian ,20.0,#121F45,2021
+Ferrari,Russian ,15.0,#A6051A,2021
+McLaren,Russian ,19.0,#FF8000,2021
+Alpine F1 Team,Russian ,8.0,#005BA9,2021
+Alfa Romeo,Russian ,4.0,#981E32,2021
+Williams,Russian ,1.0,#005AFF,2021
+Aston Martin,Russian ,0.0,#00352F,2021
+AlphaTauri,Russian ,0.0,#00293F,2021
+Haas F1 Team,Russian ,0.0,#F9F2F2,2021
+Mercedes,Turkish ,36.0,#00A19C,2021
+Red Bull,Turkish ,33.0,#121F45,2021
+Ferrari,Turkish ,16.0,#A6051A,2021
+AlphaTauri,Turkish ,8.0,#00293F,2021
+McLaren,Turkish ,6.0,#FF8000,2021
+Aston Martin,Turkish ,2.0,#00352F,2021
+Alpine F1 Team,Turkish ,1.0,#005BA9,2021
+Alfa Romeo,Turkish ,0.0,#981E32,2021
+Williams,Turkish ,0.0,#005AFF,2021
+Haas F1 Team,Turkish ,0.0,#F9F2F2,2021
+Red Bull,United States ,40.0,#121F45,2021
+Mercedes,United States ,27.0,#00A19C,2021
+Ferrari,United States ,18.0,#A6051A,2021
+McLaren,United States ,14.0,#FF8000,2021
+AlphaTauri,United States ,2.0,#00293F,2021
+Aston Martin,United States ,1.0,#00352F,2021
+Alfa Romeo,United States ,0.0,#981E32,2021
+Williams,United States ,0.0,#005AFF,2021
+Haas F1 Team,United States ,0.0,#F9F2F2,2021
+Alpine F1 Team,United States ,0.0,#005BA9,2021
+Red Bull,Mexico City ,40.0,#121F45,2021
+Mercedes,Mexico City ,18.0,#00A19C,2021
+AlphaTauri,Mexico City ,12.0,#00293F,2021
+Ferrari,Mexico City ,18.0,#A6051A,2021
+Aston Martin,Mexico City ,6.0,#00352F,2021
+Alfa Romeo,Mexico City ,4.0,#981E32,2021
+Alpine F1 Team,Mexico City ,2.0,#005BA9,2021
+McLaren,Mexico City ,1.0,#FF8000,2021
+Williams,Mexico City ,0.0,#005AFF,2021
+Haas F1 Team,Mexico City ,0.0,#F9F2F2,2021
+Mercedes,São Paulo ,43.0,#00A19C,2021
+Red Bull,São Paulo ,33.0,#121F45,2021
+Ferrari,São Paulo ,19.0,#A6051A,2021
+AlphaTauri,São Paulo ,6.0,#00293F,2021
+Alpine F1 Team,São Paulo ,6.0,#005BA9,2021
+McLaren,São Paulo ,1.0,#FF8000,2021
+Aston Martin,São Paulo ,0.0,#00352F,2021
+Alfa Romeo,São Paulo ,0.0,#981E32,2021
+Williams,São Paulo ,0.0,#005AFF,2021
+Haas F1 Team,São Paulo ,0.0,#F9F2F2,2021
+Mercedes,Qatar ,25.0,#00A19C,2021
+Red Bull,Qatar ,31.0,#121F45,2021
+Alpine F1 Team,Qatar ,25.0,#005BA9,2021
+Aston Martin,Qatar ,9.0,#00352F,2021
+Ferrari,Qatar ,10.0,#A6051A,2021
+McLaren,Qatar ,2.0,#FF8000,2021
+AlphaTauri,Qatar ,0.0,#00293F,2021
+Alfa Romeo,Qatar ,0.0,#981E32,2021
+Haas F1 Team,Qatar ,0.0,#F9F2F2,2021
+Williams,Qatar ,0.0,#005AFF,2021
+Mercedes,Saudi Arabian ,41.0,#00A19C,2021
+Red Bull,Saudi Arabian ,18.0,#121F45,2021
+Alpine F1 Team,Saudi Arabian ,12.0,#005BA9,2021
+McLaren,Saudi Arabian ,11.0,#FF8000,2021
+AlphaTauri,Saudi Arabian ,8.0,#00293F,2021
+Ferrari,Saudi Arabian ,10.0,#A6051A,2021
+Alfa Romeo,Saudi Arabian ,2.0,#981E32,2021
+Aston Martin,Saudi Arabian ,0.0,#00352F,2021
+Williams,Saudi Arabian ,0.0,#005AFF,2021
+Haas F1 Team,Saudi Arabian ,0.0,#F9F2F2,2021
+Red Bull,Abu Dhabi ,26.0,#121F45,2021
+Mercedes,Abu Dhabi ,26.0,#00A19C,2021
+Ferrari,Abu Dhabi ,16.0,#A6051A,2021
+AlphaTauri,Abu Dhabi ,22.0,#00293F,2021
+McLaren,Abu Dhabi ,6.0,#FF8000,2021
+Alpine F1 Team,Abu Dhabi ,6.0,#005BA9,2021
+Aston Martin,Abu Dhabi ,0.0,#00352F,2021
+Haas F1 Team,Abu Dhabi ,0.0,#F9F2F2,2021
+Williams,Abu Dhabi ,0.0,#005AFF,2021
+Alfa Romeo,Abu Dhabi ,0.0,#981E32,2021

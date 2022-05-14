@@ -12,9 +12,9 @@
       - bokeh
       - numpy
       - pandas
-      - ipywidgets
-      </py-env>
+    </py-env>
 
+    {{ resources|safe }}
 
     <style type="text/css">
       h2 {
@@ -34,9 +34,11 @@
         <h2 sytle= 'font-style: italic; color:white; font-weight: bold; font-size: 20px; display:inline-block;' >
           F1 Project </h2>
         
-         
+       
+          {{ script | safe }}
+          {{ div|safe }}  
 
-          <py-script src='/plots1.py'> </py-script>
+          <py-script source='/plots2.py'>  </py-script>
         
 
 

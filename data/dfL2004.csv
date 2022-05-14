@@ -1,0 +1,181 @@
+Team,GP,points,c,year
+Ferrari,Australian ,18.0,#A6051A,2004
+Renault,Australian ,8.0,#FFF500,2004
+Williams,Australian ,9.0,#005AFF,2004
+BAR,Australian ,3.0,#d5d5d3,2004
+McLaren,Australian ,1.0,#FF8000,2004
+Sauber,Australian ,0.0,#9B0000,2004
+Jaguar,Australian ,0.0,#08623e,2004
+Toyota,Australian ,0.0,#8e0018,2004
+Jordan,Australian ,0.0,#ead136,2004
+Minardi,Australian ,0.0,white,2004
+Ferrari,Malaysian ,15.0,#A6051A,2004
+Williams,Malaysian ,8.0,#005AFF,2004
+BAR,Malaysian ,6.0,#d5d5d3,2004
+Renault,Malaysian ,6.0,#FFF500,2004
+McLaren,Malaysian ,3.0,#FF8000,2004
+Sauber,Malaysian ,1.0,#9B0000,2004
+Toyota,Malaysian ,0.0,#8e0018,2004
+Jaguar,Malaysian ,0.0,#08623e,2004
+Jordan,Malaysian ,0.0,#ead136,2004
+Minardi,Malaysian ,0.0,white,2004
+Ferrari,Bahrain ,18.0,#A6051A,2004
+BAR,Bahrain ,10.0,#d5d5d3,2004
+Renault,Bahrain ,8.0,#FFF500,2004
+Williams,Bahrain ,2.0,#005AFF,2004
+Jaguar,Bahrain ,1.0,#08623e,2004
+Toyota,Bahrain ,0.0,#8e0018,2004
+Sauber,Bahrain ,0.0,#9B0000,2004
+Jordan,Bahrain ,0.0,#ead136,2004
+Minardi,Bahrain ,0.0,white,2004
+McLaren,Bahrain ,0.0,#FF8000,2004
+Ferrari,San Marino ,13.0,#A6051A,2004
+BAR,San Marino ,8.0,#d5d5d3,2004
+Williams,San Marino ,8.0,#005AFF,2004
+Renault,San Marino ,9.0,#FFF500,2004
+McLaren,San Marino ,1.0,#FF8000,2004
+Sauber,San Marino ,0.0,#9B0000,2004
+Toyota,San Marino ,0.0,#8e0018,2004
+Jaguar,San Marino ,0.0,#08623e,2004
+Minardi,San Marino ,0.0,white,2004
+Jordan,San Marino ,0.0,#ead136,2004
+Ferrari,Spanish ,18.0,#A6051A,2004
+Renault,Spanish ,11.0,#FFF500,2004
+BAR,Spanish ,5.0,#d5d5d3,2004
+Williams,Spanish ,3.0,#005AFF,2004
+Sauber,Spanish ,2.0,#9B0000,2004
+McLaren,Spanish ,0.0,#FF8000,2004
+Jaguar,Spanish ,0.0,#08623e,2004
+Toyota,Spanish ,0.0,#8e0018,2004
+Jordan,Spanish ,0.0,#ead136,2004
+Minardi,Spanish ,0.0,white,2004
+Renault,Monaco ,10.0,#FFF500,2004
+BAR,Monaco ,8.0,#d5d5d3,2004
+Ferrari,Monaco ,6.0,#A6051A,2004
+Williams,Monaco ,5.0,#005AFF,2004
+Sauber,Monaco ,4.0,#9B0000,2004
+Toyota,Monaco ,4.0,#8e0018,2004
+Jordan,Monaco ,2.0,#ead136,2004
+Minardi,Monaco ,0.0,white,2004
+McLaren,Monaco ,0.0,#FF8000,2004
+Jaguar,Monaco ,0.0,#08623e,2004
+Ferrari,European ,18.0,#A6051A,2004
+BAR,European ,6.0,#d5d5d3,2004
+Renault,European ,9.0,#FFF500,2004
+Sauber,European ,3.0,#9B0000,2004
+Jaguar,European ,2.0,#08623e,2004
+Williams,European ,1.0,#005AFF,2004
+Jordan,European ,0.0,#ead136,2004
+Toyota,European ,0.0,#8e0018,2004
+Minardi,European ,0.0,white,2004
+McLaren,European ,0.0,#FF8000,2004
+Ferrari,Canadian ,18.0,#A6051A,2004
+BAR,Canadian ,6.0,#d5d5d3,2004
+Sauber,Canadian ,5.0,#9B0000,2004
+McLaren,Canadian ,7.0,#FF8000,2004
+Jordan,Canadian ,3.0,#ead136,2004
+Jaguar,Canadian ,0.0,#08623e,2004
+Minardi,Canadian ,0.0,white,2004
+Renault,Canadian ,0.0,#FFF500,2004
+Williams,Canadian ,0.0,#005AFF,2004
+Toyota,Canadian ,0.0,#8e0018,2004
+Ferrari,United States ,18.0,#A6051A,2004
+BAR,United States ,6.0,#d5d5d3,2004
+Renault,United States ,5.0,#FFF500,2004
+Toyota,United States ,4.0,#8e0018,2004
+McLaren,United States ,5.0,#FF8000,2004
+Minardi,United States ,1.0,white,2004
+Sauber,United States ,0.0,#9B0000,2004
+Jaguar,United States ,0.0,#08623e,2004
+Williams,United States ,0.0,#005AFF,2004
+Jordan,United States ,0.0,#ead136,2004
+Ferrari,French ,16.0,#A6051A,2004
+Renault,French ,13.0,#FFF500,2004
+BAR,French ,4.0,#d5d5d3,2004
+McLaren,French ,5.0,#FF8000,2004
+Williams,French ,1.0,#005AFF,2004
+Jaguar,French ,0.0,#08623e,2004
+Sauber,French ,0.0,#9B0000,2004
+Toyota,French ,0.0,#8e0018,2004
+Jordan,French ,0.0,#ead136,2004
+Minardi,French ,0.0,white,2004
+Ferrari,British ,16.0,#A6051A,2004
+McLaren,British ,10.0,#FF8000,2004
+BAR,British ,5.0,#d5d5d3,2004
+Williams,British ,4.0,#005AFF,2004
+Sauber,British ,3.0,#9B0000,2004
+Jaguar,British ,1.0,#08623e,2004
+Renault,British ,0.0,#FFF500,2004
+Toyota,British ,0.0,#8e0018,2004
+Jordan,British ,0.0,#ead136,2004
+Minardi,British ,0.0,white,2004
+Ferrari,German ,10.0,#A6051A,2004
+BAR,German ,9.0,#d5d5d3,2004
+Renault,German ,6.0,#FFF500,2004
+McLaren,German ,5.0,#FF8000,2004
+Williams,German ,6.0,#005AFF,2004
+Jaguar,German ,3.0,#08623e,2004
+Sauber,German ,0.0,#9B0000,2004
+Toyota,German ,0.0,#8e0018,2004
+Jordan,German ,0.0,#ead136,2004
+Minardi,German ,0.0,white,2004
+Ferrari,Hungarian ,18.0,#A6051A,2004
+Renault,Hungarian ,6.0,#FFF500,2004
+Williams,Hungarian ,7.0,#005AFF,2004
+BAR,Hungarian ,7.0,#d5d5d3,2004
+Sauber,Hungarian ,1.0,#9B0000,2004
+McLaren,Hungarian ,0.0,#FF8000,2004
+Jaguar,Hungarian ,0.0,#08623e,2004
+Toyota,Hungarian ,0.0,#8e0018,2004
+Jordan,Hungarian ,0.0,#ead136,2004
+Minardi,Hungarian ,0.0,white,2004
+McLaren,Belgian ,12.0,#FF8000,2004
+Ferrari,Belgian ,14.0,#A6051A,2004
+Sauber,Belgian ,9.0,#9B0000,2004
+Jaguar,Belgian ,3.0,#08623e,2004
+Toyota,Belgian ,1.0,#8e0018,2004
+Renault,Belgian ,0.0,#FFF500,2004
+Jordan,Belgian ,0.0,#ead136,2004
+Williams,Belgian ,0.0,#005AFF,2004
+BAR,Belgian ,0.0,#d5d5d3,2004
+Minardi,Belgian ,0.0,white,2004
+Ferrari,Italian ,18.0,#A6051A,2004
+BAR,Italian ,11.0,#d5d5d3,2004
+Williams,Italian ,6.0,#005AFF,2004
+McLaren,Italian ,3.0,#FF8000,2004
+Sauber,Italian ,1.0,#9B0000,2004
+Jaguar,Italian ,0.0,#08623e,2004
+Renault,Italian ,0.0,#FFF500,2004
+Toyota,Italian ,0.0,#8e0018,2004
+Jordan,Italian ,0.0,#ead136,2004
+Minardi,Italian ,0.0,white,2004
+Ferrari,Chinese ,10.0,#A6051A,2004
+BAR,Chinese ,11.0,#d5d5d3,2004
+McLaren,Chinese ,6.0,#FF8000,2004
+Renault,Chinese ,5.0,#FFF500,2004
+Williams,Chinese ,4.0,#005AFF,2004
+Sauber,Chinese ,3.0,#9B0000,2004
+Jaguar,Chinese ,0.0,#08623e,2004
+Jordan,Chinese ,0.0,#ead136,2004
+Toyota,Chinese ,0.0,#8e0018,2004
+Minardi,Chinese ,0.0,white,2004
+Ferrari,Japanese ,10.0,#A6051A,2004
+Williams,Japanese ,10.0,#005AFF,2004
+BAR,Japanese ,11.0,#d5d5d3,2004
+Renault,Japanese ,4.0,#FFF500,2004
+McLaren,Japanese ,3.0,#FF8000,2004
+Sauber,Japanese ,1.0,#9B0000,2004
+Toyota,Japanese ,0.0,#8e0018,2004
+Jaguar,Japanese ,0.0,#08623e,2004
+Jordan,Japanese ,0.0,#ead136,2004
+Minardi,Japanese ,0.0,white,2004
+Williams,Brazilian ,14.0,#005AFF,2004
+McLaren,Brazilian ,8.0,#FF8000,2004
+Ferrari,Brazilian ,8.0,#A6051A,2004
+Renault,Brazilian ,5.0,#FFF500,2004
+BAR,Brazilian ,3.0,#d5d5d3,2004
+Sauber,Brazilian ,1.0,#9B0000,2004
+Toyota,Brazilian ,0.0,#8e0018,2004
+Jaguar,Brazilian ,0.0,#08623e,2004
+Jordan,Brazilian ,0.0,#ead136,2004
+Minardi,Brazilian ,0.0,white,2004

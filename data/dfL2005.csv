@@ -1,0 +1,189 @@
+Team,GP,points,c,year
+Renault,Australian ,16.0,#FFF500,2005
+Ferrari,Australian ,8.0,#A6051A,2005
+Red Bull,Australian ,7.0,#121F45,2005
+Williams,Australian ,4.0,#005AFF,2005
+McLaren,Australian ,4.0,#FF8000,2005
+Toyota,Australian ,0.0,#8e0018,2005
+Sauber,Australian ,0.0,#9B0000,2005
+BAR,Australian ,0.0,#d5d5d3,2005
+Jordan,Australian ,0.0,#ead136,2005
+Minardi,Australian ,0.0,white,2005
+Renault,Malaysian ,10.0,#FFF500,2005
+Toyota,Malaysian ,12.0,#8e0018,2005
+Williams,Malaysian ,6.0,#005AFF,2005
+McLaren,Malaysian ,5.0,#FF8000,2005
+Red Bull,Malaysian ,4.0,#121F45,2005
+Ferrari,Malaysian ,2.0,#A6051A,2005
+Sauber,Malaysian ,0.0,#9B0000,2005
+Jordan,Malaysian ,0.0,#ead136,2005
+Minardi,Malaysian ,0.0,white,2005
+BAR,Malaysian ,0.0,#d5d5d3,2005
+Renault,Bahrain ,10.0,#FFF500,2005
+Toyota,Bahrain ,13.0,#8e0018,2005
+McLaren,Bahrain ,10.0,#FF8000,2005
+Williams,Bahrain ,3.0,#005AFF,2005
+Sauber,Bahrain ,2.0,#9B0000,2005
+Red Bull,Bahrain ,1.0,#121F45,2005
+Ferrari,Bahrain ,0.0,#A6051A,2005
+Jordan,Bahrain ,0.0,#ead136,2005
+Minardi,Bahrain ,0.0,white,2005
+BAR,Bahrain ,0.0,#d5d5d3,2005
+Renault,San Marino ,10.0,#FFF500,2005
+Ferrari,San Marino ,8.0,#A6051A,2005
+McLaren,San Marino ,6.0,#FF8000,2005
+Sauber,San Marino ,5.0,#9B0000,2005
+Toyota,San Marino ,4.0,#8e0018,2005
+Williams,San Marino ,5.0,#005AFF,2005
+Red Bull,San Marino ,1.0,#121F45,2005
+Jordan,San Marino ,0.0,#ead136,2005
+Minardi,San Marino ,0.0,white,2005
+BAR,San Marino ,0.0,#d5d5d3,2005
+McLaren,Spanish ,12.0,#FF8000,2005
+Renault,Spanish ,12.0,#FFF500,2005
+Toyota,Spanish ,11.0,#8e0018,2005
+Williams,Spanish ,3.0,#005AFF,2005
+Red Bull,Spanish ,1.0,#121F45,2005
+Ferrari,Spanish ,0.0,#A6051A,2005
+Sauber,Spanish ,0.0,#9B0000,2005
+Jordan,Spanish ,0.0,#ead136,2005
+Minardi,Spanish ,0.0,white,2005
+McLaren,Monaco ,14.0,#FF8000,2005
+Williams,Monaco ,14.0,#005AFF,2005
+Renault,Monaco ,5.0,#FFF500,2005
+Toyota,Monaco ,3.0,#8e0018,2005
+Ferrari,Monaco ,3.0,#A6051A,2005
+Sauber,Monaco ,0.0,#9B0000,2005
+Jordan,Monaco ,0.0,#ead136,2005
+Minardi,Monaco ,0.0,white,2005
+Red Bull,Monaco ,0.0,#121F45,2005
+Renault,European ,13.0,#FFF500,2005
+Williams,European ,8.0,#005AFF,2005
+Ferrari,European ,10.0,#A6051A,2005
+Red Bull,European ,5.0,#121F45,2005
+McLaren,European ,2.0,#FF8000,2005
+Toyota,European ,1.0,#8e0018,2005
+BAR,European ,0.0,#d5d5d3,2005
+Sauber,European ,0.0,#9B0000,2005
+Jordan,European ,0.0,#ead136,2005
+Minardi,European ,0.0,white,2005
+McLaren,Canadian ,10.0,#FF8000,2005
+Ferrari,Canadian ,14.0,#A6051A,2005
+Sauber,Canadian ,5.0,#9B0000,2005
+Williams,Canadian ,4.0,#005AFF,2005
+Toyota,Canadian ,3.0,#8e0018,2005
+Red Bull,Canadian ,3.0,#121F45,2005
+Jordan,Canadian ,0.0,#ead136,2005
+Minardi,Canadian ,0.0,white,2005
+BAR,Canadian ,0.0,#d5d5d3,2005
+Renault,Canadian ,0.0,#FFF500,2005
+Ferrari,United States ,18.0,#A6051A,2005
+Jordan,United States ,11.0,#ead136,2005
+Minardi,United States ,7.0,white,2005
+Toyota,United States ,0.0,#8e0018,2005
+McLaren,United States ,0.0,#FF8000,2005
+BAR,United States ,0.0,#d5d5d3,2005
+Renault,United States ,0.0,#FFF500,2005
+Williams,United States ,0.0,#005AFF,2005
+Sauber,United States ,0.0,#9B0000,2005
+Red Bull,United States ,0.0,#121F45,2005
+Renault,French ,13.0,#FFF500,2005
+McLaren,French ,8.0,#FF8000,2005
+Ferrari,French ,6.0,#A6051A,2005
+BAR,French ,5.0,#d5d5d3,2005
+Toyota,French ,6.0,#8e0018,2005
+Sauber,French ,1.0,#9B0000,2005
+Red Bull,French ,0.0,#121F45,2005
+Williams,French ,0.0,#005AFF,2005
+Jordan,French ,0.0,#ead136,2005
+Minardi,French ,0.0,white,2005
+McLaren,British ,16.0,#FF8000,2005
+Renault,British ,13.0,#FFF500,2005
+BAR,British ,4.0,#d5d5d3,2005
+Ferrari,British ,5.0,#A6051A,2005
+Toyota,British ,1.0,#8e0018,2005
+Sauber,British ,0.0,#9B0000,2005
+Williams,British ,0.0,#005AFF,2005
+Red Bull,British ,0.0,#121F45,2005
+Jordan,British ,0.0,#ead136,2005
+Minardi,British ,0.0,white,2005
+Renault,German ,15.0,#FFF500,2005
+McLaren,German ,8.0,#FF8000,2005
+BAR,German ,6.0,#d5d5d3,2005
+Ferrari,German ,4.0,#A6051A,2005
+Toyota,German ,3.0,#8e0018,2005
+Red Bull,German ,2.0,#121F45,2005
+Sauber,German ,1.0,#9B0000,2005
+Williams,German ,0.0,#005AFF,2005
+Minardi,German ,0.0,white,2005
+Jordan,German ,0.0,#ead136,2005
+McLaren,Hungarian ,10.0,#FF8000,2005
+Ferrari,Hungarian ,8.0,#A6051A,2005
+Toyota,Hungarian ,11.0,#8e0018,2005
+BAR,Hungarian ,5.0,#d5d5d3,2005
+Williams,Hungarian ,5.0,#005AFF,2005
+Renault,Hungarian ,0.0,#FFF500,2005
+Jordan,Hungarian ,0.0,#ead136,2005
+Sauber,Hungarian ,0.0,#9B0000,2005
+Minardi,Hungarian ,0.0,white,2005
+Red Bull,Hungarian ,0.0,#121F45,2005
+McLaren,Turkish ,16.0,#FF8000,2005
+Renault,Turkish ,13.0,#FFF500,2005
+BAR,Turkish ,4.0,#d5d5d3,2005
+Toyota,Turkish ,3.0,#8e0018,2005
+Red Bull,Turkish ,3.0,#121F45,2005
+Ferrari,Turkish ,0.0,#A6051A,2005
+Sauber,Turkish ,0.0,#9B0000,2005
+Minardi,Turkish ,0.0,white,2005
+Jordan,Turkish ,0.0,#ead136,2005
+Williams,Turkish ,0.0,#005AFF,2005
+McLaren,Italian ,15.0,#FF8000,2005
+Renault,Italian ,14.0,#FFF500,2005
+Toyota,Italian ,7.0,#8e0018,2005
+Williams,Italian ,2.0,#005AFF,2005
+BAR,Italian ,1.0,#d5d5d3,2005
+Sauber,Italian ,0.0,#9B0000,2005
+Ferrari,Italian ,0.0,#A6051A,2005
+Red Bull,Italian ,0.0,#121F45,2005
+Jordan,Italian ,0.0,#ead136,2005
+Minardi,Italian ,0.0,white,2005
+McLaren,Belgian ,10.0,#FF8000,2005
+Renault,Belgian ,8.0,#FFF500,2005
+BAR,Belgian ,6.0,#d5d5d3,2005
+Williams,Belgian ,5.0,#005AFF,2005
+Ferrari,Belgian ,4.0,#A6051A,2005
+Sauber,Belgian ,3.0,#9B0000,2005
+Toyota,Belgian ,2.0,#8e0018,2005
+Jordan,Belgian ,1.0,#ead136,2005
+Red Bull,Belgian ,0.0,#121F45,2005
+Minardi,Belgian ,0.0,white,2005
+McLaren,Brazilian ,18.0,#FF8000,2005
+Renault,Brazilian ,10.0,#FFF500,2005
+Ferrari,Brazilian ,8.0,#A6051A,2005
+BAR,Brazilian ,2.0,#d5d5d3,2005
+Toyota,Brazilian ,1.0,#8e0018,2005
+Red Bull,Brazilian ,0.0,#121F45,2005
+Sauber,Brazilian ,0.0,#9B0000,2005
+Minardi,Brazilian ,0.0,white,2005
+Jordan,Brazilian ,0.0,#ead136,2005
+Williams,Brazilian ,0.0,#005AFF,2005
+McLaren,Japanese ,10.0,#FF8000,2005
+Renault,Japanese ,14.0,#FFF500,2005
+Williams,Japanese ,5.0,#005AFF,2005
+BAR,Japanese ,4.0,#d5d5d3,2005
+Red Bull,Japanese ,3.0,#121F45,2005
+Ferrari,Japanese ,2.0,#A6051A,2005
+Toyota,Japanese ,1.0,#8e0018,2005
+Sauber,Japanese ,0.0,#9B0000,2005
+Jordan,Japanese ,0.0,#ead136,2005
+Minardi,Japanese ,0.0,white,2005
+Renault,Chinese ,15.0,#FFF500,2005
+McLaren,Chinese ,8.0,#FF8000,2005
+Toyota,Chinese ,6.0,#8e0018,2005
+Red Bull,Chinese ,4.0,#121F45,2005
+Sauber,Chinese ,3.0,#9B0000,2005
+Williams,Chinese ,2.0,#005AFF,2005
+BAR,Chinese ,1.0,#d5d5d3,2005
+Jordan,Chinese ,0.0,#ead136,2005
+Ferrari,Chinese ,0.0,#A6051A,2005
+Minardi,Chinese ,0.0,white,2005

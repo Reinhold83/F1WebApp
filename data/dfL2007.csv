@@ -1,0 +1,188 @@
+Team,GP,points,c,year
+Ferrari,Australian ,13.0,#A6051A,2007
+McLaren,Australian ,14.0,#FF8000,2007
+BMW Sauber,Australian ,5.0,#ffffff,2007
+Renault,Australian ,4.0,#FFF500,2007
+Williams,Australian ,2.0,#005AFF,2007
+Toyota,Australian ,1.0,#8e0018,2007
+Honda,Australian ,0.0,#cccfc8,2007
+Super Aguri,Australian ,0.0,#b61211,2007
+Red Bull,Australian ,0.0,#121F45,2007
+Toro Rosso,Australian ,0.0,#469BFF,2007
+Spyker,Australian ,0.0,white,2007
+McLaren,Malaysian ,18.0,#FF8000,2007
+Ferrari,Malaysian ,10.0,#A6051A,2007
+BMW Sauber,Malaysian ,5.0,#ffffff,2007
+Renault,Malaysian ,4.0,#FFF500,2007
+Toyota,Malaysian ,2.0,#8e0018,2007
+Williams,Malaysian ,0.0,#005AFF,2007
+Red Bull,Malaysian ,0.0,#121F45,2007
+Honda,Malaysian ,0.0,#cccfc8,2007
+Super Aguri,Malaysian ,0.0,#b61211,2007
+Toro Rosso,Malaysian ,0.0,#469BFF,2007
+Spyker,Malaysian ,0.0,white,2007
+Ferrari,Bahrain ,16.0,#A6051A,2007
+McLaren,Bahrain ,12.0,#FF8000,2007
+BMW Sauber,Bahrain ,8.0,#ffffff,2007
+Toyota,Bahrain ,2.0,#8e0018,2007
+Renault,Bahrain ,1.0,#FFF500,2007
+Williams,Bahrain ,0.0,#005AFF,2007
+Honda,Bahrain ,0.0,#cccfc8,2007
+Spyker,Bahrain ,0.0,white,2007
+Super Aguri,Bahrain ,0.0,#b61211,2007
+Red Bull,Bahrain ,0.0,#121F45,2007
+Toro Rosso,Bahrain ,0.0,#469BFF,2007
+Ferrari,Spanish ,10.0,#A6051A,2007
+McLaren,Spanish ,14.0,#FF8000,2007
+BMW Sauber,Spanish ,5.0,#ffffff,2007
+Red Bull,Spanish ,4.0,#121F45,2007
+Williams,Spanish ,3.0,#005AFF,2007
+Renault,Spanish ,2.0,#FFF500,2007
+Super Aguri,Spanish ,1.0,#b61211,2007
+Honda,Spanish ,0.0,#cccfc8,2007
+Spyker,Spanish ,0.0,white,2007
+Toyota,Spanish ,0.0,#8e0018,2007
+Toro Rosso,Spanish ,0.0,#469BFF,2007
+McLaren,Monaco ,18.0,#FF8000,2007
+Ferrari,Monaco ,7.0,#A6051A,2007
+Renault,Monaco ,5.0,#FFF500,2007
+BMW Sauber,Monaco ,7.0,#ffffff,2007
+Williams,Monaco ,2.0,#005AFF,2007
+Toro Rosso,Monaco ,0.0,#469BFF,2007
+Honda,Monaco ,0.0,#cccfc8,2007
+Red Bull,Monaco ,0.0,#121F45,2007
+Toyota,Monaco ,0.0,#8e0018,2007
+Super Aguri,Monaco ,0.0,#b61211,2007
+Spyker,Monaco ,0.0,white,2007
+McLaren,Canadian ,12.0,#FF8000,2007
+BMW Sauber,Canadian ,8.0,#ffffff,2007
+Williams,Canadian ,6.0,#005AFF,2007
+Renault,Canadian ,5.0,#FFF500,2007
+Ferrari,Canadian ,4.0,#A6051A,2007
+Super Aguri,Canadian ,3.0,#b61211,2007
+Toyota,Canadian ,1.0,#8e0018,2007
+Red Bull,Canadian ,0.0,#121F45,2007
+Honda,Canadian ,0.0,#cccfc8,2007
+Toro Rosso,Canadian ,0.0,#469BFF,2007
+Spyker,Canadian ,0.0,white,2007
+McLaren,United States ,18.0,#FF8000,2007
+Ferrari,United States ,11.0,#A6051A,2007
+Renault,United States ,4.0,#FFF500,2007
+Toyota,United States ,3.0,#8e0018,2007
+Red Bull,United States ,2.0,#121F45,2007
+BMW Sauber,United States ,1.0,#ffffff,2007
+Williams,United States ,0.0,#005AFF,2007
+Super Aguri,United States ,0.0,#b61211,2007
+Honda,United States ,0.0,#cccfc8,2007
+Toro Rosso,United States ,0.0,#469BFF,2007
+Spyker,United States ,0.0,white,2007
+Ferrari,French ,18.0,#A6051A,2007
+McLaren,French ,8.0,#FF8000,2007
+BMW Sauber,French ,9.0,#ffffff,2007
+Renault,French ,3.0,#FFF500,2007
+Honda,French ,1.0,#cccfc8,2007
+Williams,French ,0.0,#005AFF,2007
+Toyota,French ,0.0,#8e0018,2007
+Red Bull,French ,0.0,#121F45,2007
+Super Aguri,French ,0.0,#b61211,2007
+Spyker,French ,0.0,white,2007
+Toro Rosso,French ,0.0,#469BFF,2007
+Ferrari,British ,14.0,#A6051A,2007
+McLaren,British ,14.0,#FF8000,2007
+BMW Sauber,British ,8.0,#ffffff,2007
+Renault,British ,3.0,#FFF500,2007
+Honda,British ,0.0,#cccfc8,2007
+Red Bull,British ,0.0,#121F45,2007
+Williams,British ,0.0,#005AFF,2007
+Super Aguri,British ,0.0,#b61211,2007
+Spyker,British ,0.0,white,2007
+Toro Rosso,British ,0.0,#469BFF,2007
+Toyota,British ,0.0,#8e0018,2007
+McLaren,European ,10.0,#FF8000,2007
+Ferrari,European ,8.0,#A6051A,2007
+Red Bull,European ,10.0,#121F45,2007
+Williams,European ,5.0,#005AFF,2007
+BMW Sauber,European ,5.0,#ffffff,2007
+Renault,European ,1.0,#FFF500,2007
+Honda,European ,0.0,#cccfc8,2007
+Super Aguri,European ,0.0,#b61211,2007
+Toyota,European ,0.0,#8e0018,2007
+Spyker,European ,0.0,white,2007
+Toro Rosso,European ,0.0,#469BFF,2007
+McLaren,Hungarian ,15.0,#FF8000,2007
+Ferrari,Hungarian ,8.0,#A6051A,2007
+BMW Sauber,Hungarian ,10.0,#ffffff,2007
+Toyota,Hungarian ,3.0,#8e0018,2007
+Williams,Hungarian ,2.0,#005AFF,2007
+Renault,Hungarian ,1.0,#FFF500,2007
+Red Bull,Hungarian ,0.0,#121F45,2007
+Super Aguri,Hungarian ,0.0,#b61211,2007
+Toro Rosso,Hungarian ,0.0,#469BFF,2007
+Spyker,Hungarian ,0.0,white,2007
+Honda,Hungarian ,0.0,#cccfc8,2007
+Ferrari,Turkish ,18.0,#A6051A,2007
+McLaren,Turkish ,10.0,#FF8000,2007
+BMW Sauber,Turkish ,6.0,#ffffff,2007
+Renault,Turkish ,3.0,#FFF500,2007
+Williams,Turkish ,2.0,#005AFF,2007
+Red Bull,Turkish ,0.0,#121F45,2007
+Toyota,Turkish ,0.0,#8e0018,2007
+Honda,Turkish ,0.0,#cccfc8,2007
+Super Aguri,Turkish ,0.0,#b61211,2007
+Toro Rosso,Turkish ,0.0,#469BFF,2007
+Spyker,Turkish ,0.0,white,2007
+McLaren,Italian ,18.0,#FF8000,2007
+Ferrari,Italian ,6.0,#A6051A,2007
+BMW Sauber,Italian ,9.0,#ffffff,2007
+Williams,Italian ,3.0,#005AFF,2007
+Renault,Italian ,2.0,#FFF500,2007
+Honda,Italian ,1.0,#cccfc8,2007
+Red Bull,Italian ,0.0,#121F45,2007
+Toyota,Italian ,0.0,#8e0018,2007
+Super Aguri,Italian ,0.0,#b61211,2007
+Toro Rosso,Italian ,0.0,#469BFF,2007
+Spyker,Italian ,0.0,white,2007
+Ferrari,Belgian ,18.0,#A6051A,2007
+McLaren,Belgian ,11.0,#FF8000,2007
+BMW Sauber,Belgian ,4.0,#ffffff,2007
+Williams,Belgian ,3.0,#005AFF,2007
+Red Bull,Belgian ,2.0,#121F45,2007
+Renault,Belgian ,1.0,#FFF500,2007
+Toyota,Belgian ,0.0,#8e0018,2007
+Toro Rosso,Belgian ,0.0,#469BFF,2007
+Honda,Belgian ,0.0,#cccfc8,2007
+Spyker,Belgian ,0.0,white,2007
+Super Aguri,Belgian ,0.0,#b61211,2007
+McLaren,Japanese ,10.0,#FF8000,2007
+Renault,Japanese ,12.0,#FFF500,2007
+Ferrari,Japanese ,9.0,#A6051A,2007
+Red Bull,Japanese ,5.0,#121F45,2007
+BMW Sauber,Japanese ,2.0,#ffffff,2007
+Spyker,Japanese ,1.0,white,2007
+Toro Rosso,Japanese ,0.0,#469BFF,2007
+Honda,Japanese ,0.0,#cccfc8,2007
+Toyota,Japanese ,0.0,#8e0018,2007
+Super Aguri,Japanese ,0.0,#b61211,2007
+Williams,Japanese ,0.0,#005AFF,2007
+Ferrari,Chinese ,16.0,#A6051A,2007
+McLaren,Chinese ,8.0,#FF8000,2007
+Toro Rosso,Chinese ,8.0,#469BFF,2007
+Honda,Chinese ,4.0,#cccfc8,2007
+BMW Sauber,Chinese ,2.0,#ffffff,2007
+Red Bull,Chinese ,1.0,#121F45,2007
+Renault,Chinese ,0.0,#FFF500,2007
+Williams,Chinese ,0.0,#005AFF,2007
+Toyota,Chinese ,0.0,#8e0018,2007
+Super Aguri,Chinese ,0.0,#b61211,2007
+Spyker,Chinese ,0.0,white,2007
+Ferrari,Brazilian ,18.0,#A6051A,2007
+McLaren,Brazilian ,8.0,#FF8000,2007
+Williams,Brazilian ,5.0,#005AFF,2007
+BMW Sauber,Brazilian ,7.0,#ffffff,2007
+Toyota,Brazilian ,1.0,#8e0018,2007
+Red Bull,Brazilian ,0.0,#121F45,2007
+Super Aguri,Brazilian ,0.0,#b61211,2007
+Toro Rosso,Brazilian ,0.0,#469BFF,2007
+Spyker,Brazilian ,0.0,white,2007
+Honda,Brazilian ,0.0,#cccfc8,2007
+Renault,Brazilian ,0.0,#FFF500,2007

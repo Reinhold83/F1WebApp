@@ -1,0 +1,232 @@
+Team,GP,points,c,year
+Mercedes,Australian ,43.0,#00A19C,2016
+Ferrari,Australian ,15.0,#A6051A,2016
+Red Bull,Australian ,12.0,#121F45,2016
+Williams,Australian ,14.0,#005AFF,2016
+Haas F1 Team,Australian ,8.0,#F9F2F2,2016
+Force India,Australian ,6.0,#F596C8,2016
+Toro Rosso,Australian ,3.0,#469BFF,2016
+Renault,Australian ,0.0,#FFF500,2016
+McLaren,Australian ,0.0,#FF8000,2016
+Sauber,Australian ,0.0,#9B0000,2016
+Manor Marussia,Australian ,0.0,white,2016
+Mercedes,Bahrain ,40.0,#00A19C,2016
+Ferrari,Bahrain ,18.0,#A6051A,2016
+Red Bull,Bahrain ,18.0,#121F45,2016
+Haas F1 Team,Bahrain ,10.0,#F9F2F2,2016
+Toro Rosso,Bahrain ,8.0,#469BFF,2016
+Williams,Bahrain ,6.0,#005AFF,2016
+McLaren,Bahrain ,1.0,#FF8000,2016
+Renault,Bahrain ,0.0,#FFF500,2016
+Sauber,Bahrain ,0.0,#9B0000,2016
+Manor Marussia,Bahrain ,0.0,white,2016
+Force India,Bahrain ,0.0,#F596C8,2016
+Mercedes,Chinese ,31.0,#00A19C,2016
+Ferrari,Chinese ,28.0,#A6051A,2016
+Red Bull,Chinese ,27.0,#121F45,2016
+Williams,Chinese ,9.0,#005AFF,2016
+Toro Rosso,Chinese ,6.0,#469BFF,2016
+Force India,Chinese ,0.0,#F596C8,2016
+McLaren,Chinese ,0.0,#FF8000,2016
+Haas F1 Team,Chinese ,0.0,#F9F2F2,2016
+Sauber,Chinese ,0.0,#9B0000,2016
+Renault,Chinese ,0.0,#FFF500,2016
+Manor Marussia,Chinese ,0.0,white,2016
+Mercedes,Russian ,43.0,#00A19C,2016
+Ferrari,Russian ,15.0,#A6051A,2016
+Williams,Russian ,22.0,#005AFF,2016
+McLaren,Russian ,9.0,#FF8000,2016
+Renault,Russian ,6.0,#FFF500,2016
+Haas F1 Team,Russian ,4.0,#F9F2F2,2016
+Force India,Russian ,2.0,#F596C8,2016
+Red Bull,Russian ,0.0,#121F45,2016
+Toro Rosso,Russian ,0.0,#469BFF,2016
+Sauber,Russian ,0.0,#9B0000,2016
+Manor Marussia,Russian ,0.0,white,2016
+Red Bull,Spanish ,37.0,#121F45,2016
+Ferrari,Spanish ,33.0,#A6051A,2016
+Williams,Spanish ,14.0,#005AFF,2016
+Toro Rosso,Spanish ,9.0,#469BFF,2016
+Force India,Spanish ,6.0,#F596C8,2016
+McLaren,Spanish ,2.0,#FF8000,2016
+Haas F1 Team,Spanish ,0.0,#F9F2F2,2016
+Sauber,Spanish ,0.0,#9B0000,2016
+Renault,Spanish ,0.0,#FFF500,2016
+Manor Marussia,Spanish ,0.0,white,2016
+Mercedes,Spanish ,0.0,#00A19C,2016
+Mercedes,Monaco ,31.0,#00A19C,2016
+Red Bull,Monaco ,18.0,#121F45,2016
+Force India,Monaco ,23.0,#F596C8,2016
+Ferrari,Monaco ,12.0,#A6051A,2016
+McLaren,Monaco ,12.0,#FF8000,2016
+Toro Rosso,Monaco ,4.0,#469BFF,2016
+Williams,Monaco ,1.0,#005AFF,2016
+Haas F1 Team,Monaco ,0.0,#F9F2F2,2016
+Manor Marussia,Monaco ,0.0,white,2016
+Sauber,Monaco ,0.0,#9B0000,2016
+Renault,Monaco ,0.0,#FFF500,2016
+Mercedes,Canadian ,35.0,#00A19C,2016
+Ferrari,Canadian ,26.0,#A6051A,2016
+Williams,Canadian ,15.0,#005AFF,2016
+Red Bull,Canadian ,18.0,#121F45,2016
+Force India,Canadian ,5.0,#F596C8,2016
+Toro Rosso,Canadian ,2.0,#469BFF,2016
+McLaren,Canadian ,0.0,#FF8000,2016
+Haas F1 Team,Canadian ,0.0,#F9F2F2,2016
+Sauber,Canadian ,0.0,#9B0000,2016
+Renault,Canadian ,0.0,#FFF500,2016
+Manor Marussia,Canadian ,0.0,white,2016
+Mercedes,European ,35.0,#00A19C,2016
+Ferrari,European ,30.0,#A6051A,2016
+Force India,European ,17.0,#F596C8,2016
+Williams,European ,9.0,#005AFF,2016
+Red Bull,European ,10.0,#121F45,2016
+McLaren,European ,0.0,#FF8000,2016
+Sauber,European ,0.0,#9B0000,2016
+Haas F1 Team,European ,0.0,#F9F2F2,2016
+Renault,European ,0.0,#FFF500,2016
+Manor Marussia,European ,0.0,white,2016
+Toro Rosso,European ,0.0,#469BFF,2016
+Mercedes,Austrian ,37.0,#00A19C,2016
+Red Bull,Austrian ,28.0,#121F45,2016
+Ferrari,Austrian ,15.0,#A6051A,2016
+McLaren,Austrian ,8.0,#FF8000,2016
+Haas F1 Team,Austrian ,6.0,#F9F2F2,2016
+Toro Rosso,Austrian ,4.0,#469BFF,2016
+Williams,Austrian ,2.0,#005AFF,2016
+Manor Marussia,Austrian ,1.0,white,2016
+Renault,Austrian ,0.0,#FFF500,2016
+Sauber,Austrian ,0.0,#9B0000,2016
+Force India,Austrian ,0.0,#F596C8,2016
+Mercedes,British ,40.0,#00A19C,2016
+Red Bull,British ,30.0,#121F45,2016
+Ferrari,British ,12.0,#A6051A,2016
+Force India,British ,14.0,#F596C8,2016
+Toro Rosso,British ,5.0,#469BFF,2016
+Williams,British ,0.0,#005AFF,2016
+McLaren,British ,0.0,#FF8000,2016
+Sauber,British ,0.0,#9B0000,2016
+Haas F1 Team,British ,0.0,#F9F2F2,2016
+Renault,British ,0.0,#FFF500,2016
+Manor Marussia,British ,0.0,white,2016
+Mercedes,Hungarian ,43.0,#00A19C,2016
+Red Bull,Hungarian ,25.0,#121F45,2016
+Ferrari,Hungarian ,20.0,#A6051A,2016
+McLaren,Hungarian ,6.0,#FF8000,2016
+Toro Rosso,Hungarian ,4.0,#469BFF,2016
+Williams,Hungarian ,2.0,#005AFF,2016
+Force India,Hungarian ,1.0,#F596C8,2016
+Renault,Hungarian ,0.0,#FFF500,2016
+Haas F1 Team,Hungarian ,0.0,#F9F2F2,2016
+Sauber,Hungarian ,0.0,#9B0000,2016
+Manor Marussia,Hungarian ,0.0,white,2016
+Mercedes,German ,37.0,#00A19C,2016
+Red Bull,German ,33.0,#121F45,2016
+Ferrari,German ,18.0,#A6051A,2016
+Force India,German ,7.0,#F596C8,2016
+McLaren,German ,4.0,#FF8000,2016
+Williams,German ,2.0,#005AFF,2016
+Haas F1 Team,German ,0.0,#F9F2F2,2016
+Toro Rosso,German ,0.0,#469BFF,2016
+Renault,German ,0.0,#FFF500,2016
+Manor Marussia,German ,0.0,white,2016
+Sauber,German ,0.0,#9B0000,2016
+Mercedes,Belgian ,40.0,#00A19C,2016
+Red Bull,Belgian ,18.0,#121F45,2016
+Force India,Belgian ,22.0,#F596C8,2016
+Ferrari,Belgian ,10.0,#A6051A,2016
+McLaren,Belgian ,6.0,#FF8000,2016
+Williams,Belgian ,5.0,#005AFF,2016
+Haas F1 Team,Belgian ,0.0,#F9F2F2,2016
+Toro Rosso,Belgian ,0.0,#469BFF,2016
+Renault,Belgian ,0.0,#FFF500,2016
+Manor Marussia,Belgian ,0.0,white,2016
+Sauber,Belgian ,0.0,#9B0000,2016
+Mercedes,Italian ,43.0,#00A19C,2016
+Ferrari,Italian ,27.0,#A6051A,2016
+Red Bull,Italian ,16.0,#121F45,2016
+Williams,Italian ,10.0,#005AFF,2016
+Force India,Italian ,5.0,#F596C8,2016
+Haas F1 Team,Italian ,0.0,#F9F2F2,2016
+McLaren,Italian ,0.0,#FF8000,2016
+Toro Rosso,Italian ,0.0,#469BFF,2016
+Sauber,Italian ,0.0,#9B0000,2016
+Renault,Italian ,0.0,#FFF500,2016
+Manor Marussia,Italian ,0.0,white,2016
+Mercedes,Singapore ,40.0,#00A19C,2016
+Red Bull,Singapore ,26.0,#121F45,2016
+Ferrari,Singapore ,22.0,#A6051A,2016
+McLaren,Singapore ,6.0,#FF8000,2016
+Force India,Singapore ,4.0,#F596C8,2016
+Toro Rosso,Singapore ,2.0,#469BFF,2016
+Renault,Singapore ,1.0,#FFF500,2016
+Haas F1 Team,Singapore ,0.0,#F9F2F2,2016
+Williams,Singapore ,0.0,#005AFF,2016
+Sauber,Singapore ,0.0,#9B0000,2016
+Manor Marussia,Singapore ,0.0,white,2016
+Red Bull,Malaysian ,43.0,#121F45,2016
+Mercedes,Malaysian ,15.0,#00A19C,2016
+Ferrari,Malaysian ,12.0,#A6051A,2016
+Williams,Malaysian ,10.0,#005AFF,2016
+Force India,Malaysian ,12.0,#F596C8,2016
+McLaren,Malaysian ,8.0,#FF8000,2016
+Renault,Malaysian ,1.0,#FFF500,2016
+Toro Rosso,Malaysian ,0.0,#469BFF,2016
+Sauber,Malaysian ,0.0,#9B0000,2016
+Manor Marussia,Malaysian ,0.0,white,2016
+Haas F1 Team,Malaysian ,0.0,#F9F2F2,2016
+Mercedes,Japanese ,40.0,#00A19C,2016
+Red Bull,Japanese ,26.0,#121F45,2016
+Ferrari,Japanese ,22.0,#A6051A,2016
+Force India,Japanese ,10.0,#F596C8,2016
+Williams,Japanese ,3.0,#005AFF,2016
+Haas F1 Team,Japanese ,0.0,#F9F2F2,2016
+Renault,Japanese ,0.0,#FFF500,2016
+Toro Rosso,Japanese ,0.0,#469BFF,2016
+Sauber,Japanese ,0.0,#9B0000,2016
+McLaren,Japanese ,0.0,#FF8000,2016
+Manor Marussia,Japanese ,0.0,white,2016
+Mercedes,United States ,43.0,#00A19C,2016
+Red Bull,United States ,15.0,#121F45,2016
+Ferrari,United States ,12.0,#A6051A,2016
+McLaren,United States ,12.0,#FF8000,2016
+Toro Rosso,United States ,8.0,#469BFF,2016
+Williams,United States ,6.0,#005AFF,2016
+Force India,United States ,4.0,#F596C8,2016
+Haas F1 Team,United States ,1.0,#F9F2F2,2016
+Renault,United States ,0.0,#FFF500,2016
+Sauber,United States ,0.0,#9B0000,2016
+Manor Marussia,United States ,0.0,white,2016
+Mercedes,Mexican ,43.0,#00A19C,2016
+Ferrari,Mexican ,18.0,#A6051A,2016
+Red Bull,Mexican ,27.0,#121F45,2016
+Force India,Mexican ,7.0,#F596C8,2016
+Williams,Mexican ,6.0,#005AFF,2016
+Sauber,Mexican ,0.0,#9B0000,2016
+McLaren,Mexican ,0.0,#FF8000,2016
+Renault,Mexican ,0.0,#FFF500,2016
+Toro Rosso,Mexican ,0.0,#469BFF,2016
+Haas F1 Team,Mexican ,0.0,#F9F2F2,2016
+Manor Marussia,Mexican ,0.0,white,2016
+Mercedes,Brazilian ,43.0,#00A19C,2016
+Red Bull,Brazilian ,19.0,#121F45,2016
+Force India,Brazilian ,18.0,#F596C8,2016
+Ferrari,Brazilian ,10.0,#A6051A,2016
+Toro Rosso,Brazilian ,8.0,#469BFF,2016
+Sauber,Brazilian ,2.0,#9B0000,2016
+McLaren,Brazilian ,1.0,#FF8000,2016
+Williams,Brazilian ,0.0,#005AFF,2016
+Manor Marussia,Brazilian ,0.0,white,2016
+Renault,Brazilian ,0.0,#FFF500,2016
+Haas F1 Team,Brazilian ,0.0,#F9F2F2,2016
+Mercedes,Abu Dhabi ,43.0,#00A19C,2016
+Ferrari,Abu Dhabi ,23.0,#A6051A,2016
+Red Bull,Abu Dhabi ,22.0,#121F45,2016
+Force India,Abu Dhabi ,10.0,#F596C8,2016
+Williams,Abu Dhabi ,2.0,#005AFF,2016
+McLaren,Abu Dhabi ,1.0,#FF8000,2016
+Haas F1 Team,Abu Dhabi ,0.0,#F9F2F2,2016
+Manor Marussia,Abu Dhabi ,0.0,white,2016
+Sauber,Abu Dhabi ,0.0,#9B0000,2016
+Renault,Abu Dhabi ,0.0,#FFF500,2016
+Toro Rosso,Abu Dhabi ,0.0,#469BFF,2016

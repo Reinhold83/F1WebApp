@@ -1,0 +1,240 @@
+Team,GP,points,c,year
+McLaren,Australian ,40.0,#FF8000,2012
+Red Bull,Australian ,30.0,#121F45,2012
+Ferrari,Australian ,10.0,#A6051A,2012
+Sauber,Australian ,12.0,#9B0000,2012
+Lotus F1,Australian ,6.0,#FFB800,2012
+Toro Rosso,Australian ,2.0,#469BFF,2012
+Force India,Australian ,1.0,#F596C8,2012
+Mercedes,Australian ,0.0,#00A19C,2012
+Williams,Australian ,0.0,#005AFF,2012
+Marussia,Australian ,0.0,#6E0000,2012
+Caterham,Australian ,0.0,white,2012
+Ferrari,Malaysian ,25.0,#A6051A,2012
+Sauber,Malaysian ,18.0,#9B0000,2012
+McLaren,Malaysian ,15.0,#FF8000,2012
+Red Bull,Malaysian ,12.0,#121F45,2012
+Lotus F1,Malaysian ,10.0,#FFB800,2012
+Williams,Malaysian ,8.0,#005AFF,2012
+Force India,Malaysian ,8.0,#F596C8,2012
+Toro Rosso,Malaysian ,4.0,#469BFF,2012
+Mercedes,Malaysian ,1.0,#00A19C,2012
+Caterham,Malaysian ,0.0,white,2012
+Marussia,Malaysian ,0.0,#6E0000,2012
+HRT,Malaysian ,0.0,white,2012
+Mercedes,Chinese ,25.0,#00A19C,2012
+McLaren,Chinese ,33.0,#FF8000,2012
+Red Bull,Chinese ,22.0,#121F45,2012
+Lotus F1,Chinese ,8.0,#FFB800,2012
+Williams,Chinese ,10.0,#005AFF,2012
+Ferrari,Chinese ,2.0,#A6051A,2012
+Sauber,Chinese ,1.0,#9B0000,2012
+Force India,Chinese ,0.0,#F596C8,2012
+Toro Rosso,Chinese ,0.0,#469BFF,2012
+Caterham,Chinese ,0.0,white,2012
+Marussia,Chinese ,0.0,#6E0000,2012
+HRT,Chinese ,0.0,white,2012
+Red Bull,Bahrain ,37.0,#121F45,2012
+Lotus F1,Bahrain ,33.0,#FFB800,2012
+Mercedes,Bahrain ,11.0,#00A19C,2012
+Force India,Bahrain ,8.0,#F596C8,2012
+Ferrari,Bahrain ,8.0,#A6051A,2012
+McLaren,Bahrain ,4.0,#FF8000,2012
+Sauber,Bahrain ,0.0,#9B0000,2012
+Toro Rosso,Bahrain ,0.0,#469BFF,2012
+Caterham,Bahrain ,0.0,white,2012
+Marussia,Bahrain ,0.0,#6E0000,2012
+HRT,Bahrain ,0.0,white,2012
+Williams,Bahrain ,0.0,#005AFF,2012
+Williams,Spanish ,25.0,#005AFF,2012
+Ferrari,Spanish ,18.0,#A6051A,2012
+Lotus F1,Spanish ,27.0,#FFB800,2012
+Sauber,Spanish ,10.0,#9B0000,2012
+Red Bull,Spanish ,8.0,#121F45,2012
+Mercedes,Spanish ,6.0,#00A19C,2012
+McLaren,Spanish ,6.0,#FF8000,2012
+Force India,Spanish ,1.0,#F596C8,2012
+Toro Rosso,Spanish ,0.0,#469BFF,2012
+Caterham,Spanish ,0.0,white,2012
+Marussia,Spanish ,0.0,#6E0000,2012
+HRT,Spanish ,0.0,white,2012
+Red Bull,Monaco ,37.0,#121F45,2012
+Mercedes,Monaco ,18.0,#00A19C,2012
+Ferrari,Monaco ,23.0,#A6051A,2012
+McLaren,Monaco ,10.0,#FF8000,2012
+Force India,Monaco ,10.0,#F596C8,2012
+Lotus F1,Monaco ,2.0,#FFB800,2012
+Williams,Monaco ,1.0,#005AFF,2012
+Sauber,Monaco ,0.0,#9B0000,2012
+Toro Rosso,Monaco ,0.0,#469BFF,2012
+Caterham,Monaco ,0.0,white,2012
+Marussia,Monaco ,0.0,#6E0000,2012
+HRT,Monaco ,0.0,white,2012
+McLaren,Canadian ,25.0,#FF8000,2012
+Lotus F1,Canadian ,22.0,#FFB800,2012
+Sauber,Canadian ,17.0,#9B0000,2012
+Red Bull,Canadian ,18.0,#121F45,2012
+Ferrari,Canadian ,11.0,#A6051A,2012
+Mercedes,Canadian ,8.0,#00A19C,2012
+Force India,Canadian ,0.0,#F596C8,2012
+Williams,Canadian ,0.0,#005AFF,2012
+Toro Rosso,Canadian ,0.0,#469BFF,2012
+Caterham,Canadian ,0.0,white,2012
+Marussia,Canadian ,0.0,#6E0000,2012
+HRT,Canadian ,0.0,white,2012
+Ferrari,European ,25.0,#A6051A,2012
+Lotus F1,European ,18.0,#FFB800,2012
+Mercedes,European ,23.0,#00A19C,2012
+Red Bull,European ,12.0,#121F45,2012
+Force India,European ,16.0,#F596C8,2012
+McLaren,European ,4.0,#FF8000,2012
+Sauber,European ,2.0,#9B0000,2012
+Williams,European ,1.0,#005AFF,2012
+Toro Rosso,European ,0.0,#469BFF,2012
+Caterham,European ,0.0,white,2012
+Marussia,European ,0.0,#6E0000,2012
+HRT,European ,0.0,white,2012
+Red Bull,British ,40.0,#121F45,2012
+Ferrari,British ,30.0,#A6051A,2012
+Lotus F1,British ,18.0,#FFB800,2012
+Mercedes,British ,6.0,#00A19C,2012
+McLaren,British ,5.0,#FF8000,2012
+Williams,British ,2.0,#005AFF,2012
+Sauber,British ,0.0,#9B0000,2012
+Force India,British ,0.0,#F596C8,2012
+Toro Rosso,British ,0.0,#469BFF,2012
+Caterham,British ,0.0,white,2012
+Marussia,British ,0.0,#6E0000,2012
+HRT,British ,0.0,white,2012
+Ferrari,German ,25.0,#A6051A,2012
+Red Bull,German ,14.0,#121F45,2012
+McLaren,German ,18.0,#FF8000,2012
+Lotus F1,German ,15.0,#FFB800,2012
+Sauber,German ,20.0,#9B0000,2012
+Mercedes,German ,7.0,#00A19C,2012
+Force India,German ,2.0,#F596C8,2012
+Toro Rosso,German ,0.0,#469BFF,2012
+Williams,German ,0.0,#005AFF,2012
+Caterham,German ,0.0,white,2012
+Marussia,German ,0.0,#6E0000,2012
+HRT,German ,0.0,white,2012
+McLaren,Hungarian ,33.0,#FF8000,2012
+Lotus F1,Hungarian ,33.0,#FFB800,2012
+Red Bull,Hungarian ,16.0,#121F45,2012
+Ferrari,Hungarian ,12.0,#A6051A,2012
+Williams,Hungarian ,6.0,#005AFF,2012
+Mercedes,Hungarian ,1.0,#00A19C,2012
+Force India,Hungarian ,0.0,#F596C8,2012
+Sauber,Hungarian ,0.0,#9B0000,2012
+Toro Rosso,Hungarian ,0.0,#469BFF,2012
+Caterham,Hungarian ,0.0,white,2012
+Marussia,Hungarian ,0.0,#6E0000,2012
+HRT,Hungarian ,0.0,white,2012
+McLaren,Belgian ,25.0,#FF8000,2012
+Red Bull,Belgian ,26.0,#121F45,2012
+Lotus F1,Belgian ,15.0,#FFB800,2012
+Force India,Belgian ,13.0,#F596C8,2012
+Ferrari,Belgian ,10.0,#A6051A,2012
+Mercedes,Belgian ,6.0,#00A19C,2012
+Toro Rosso,Belgian ,6.0,#469BFF,2012
+Williams,Belgian ,0.0,#005AFF,2012
+Sauber,Belgian ,0.0,#9B0000,2012
+Caterham,Belgian ,0.0,white,2012
+Marussia,Belgian ,0.0,#6E0000,2012
+HRT,Belgian ,0.0,white,2012
+McLaren,Italian ,25.0,#FF8000,2012
+Sauber,Italian ,20.0,#9B0000,2012
+Ferrari,Italian ,27.0,#A6051A,2012
+Lotus F1,Italian ,10.0,#FFB800,2012
+Mercedes,Italian ,14.0,#00A19C,2012
+Force India,Italian ,4.0,#F596C8,2012
+Williams,Italian ,1.0,#005AFF,2012
+Toro Rosso,Italian ,0.0,#469BFF,2012
+Caterham,Italian ,0.0,white,2012
+Marussia,Italian ,0.0,#6E0000,2012
+HRT,Italian ,0.0,white,2012
+Red Bull,Italian ,0.0,#121F45,2012
+Red Bull,Singapore ,25.0,#121F45,2012
+McLaren,Singapore ,18.0,#FF8000,2012
+Ferrari,Singapore ,19.0,#A6051A,2012
+Force India,Singapore ,12.0,#F596C8,2012
+Mercedes,Singapore ,10.0,#00A19C,2012
+Lotus F1,Singapore ,14.0,#FFB800,2012
+Toro Rosso,Singapore ,2.0,#469BFF,2012
+Sauber,Singapore ,1.0,#9B0000,2012
+Marussia,Singapore ,0.0,#6E0000,2012
+Caterham,Singapore ,0.0,white,2012
+Red Bull,Japanese ,27.0,#121F45,2012
+Williams,Singapore ,0.0,#005AFF,2012
+HRT,Singapore ,0.0,white,2012
+Ferrari,Japanese ,18.0,#A6051A,2012
+Sauber,Japanese ,15.0,#9B0000,2012
+McLaren,Japanese ,22.0,#FF8000,2012
+Lotus F1,Japanese ,8.0,#FFB800,2012
+Force India,Japanese ,6.0,#F596C8,2012
+Williams,Japanese ,4.0,#005AFF,2012
+Toro Rosso,Japanese ,1.0,#469BFF,2012
+Mercedes,Japanese ,0.0,#00A19C,2012
+Caterham,Japanese ,0.0,white,2012
+Marussia,Japanese ,0.0,#6E0000,2012
+HRT,Japanese ,0.0,white,2012
+Red Bull,Korean ,43.0,#121F45,2012
+Ferrari,Korean ,27.0,#A6051A,2012
+Lotus F1,Korean ,16.0,#FFB800,2012
+Force India,Korean ,8.0,#F596C8,2012
+Toro Rosso,Korean ,6.0,#469BFF,2012
+McLaren,Korean ,1.0,#FF8000,2012
+Sauber,Korean ,0.0,#9B0000,2012
+Mercedes,Korean ,0.0,#00A19C,2012
+Williams,Korean ,0.0,#005AFF,2012
+Caterham,Korean ,0.0,white,2012
+Marussia,Korean ,0.0,#6E0000,2012
+HRT,Korean ,0.0,white,2012
+Red Bull,Indian ,40.0,#121F45,2012
+Ferrari,Indian ,26.0,#A6051A,2012
+McLaren,Indian ,22.0,#FF8000,2012
+Lotus F1,Indian ,8.0,#FFB800,2012
+Force India,Indian ,4.0,#F596C8,2012
+Williams,Indian ,1.0,#005AFF,2012
+Mercedes,Indian ,0.0,#00A19C,2012
+Toro Rosso,Indian ,0.0,#469BFF,2012
+Sauber,Indian ,0.0,#9B0000,2012
+Caterham,Indian ,0.0,white,2012
+Marussia,Indian ,0.0,#6E0000,2012
+HRT,Indian ,0.0,white,2012
+Lotus F1,Abu Dhabi ,25.0,#FFB800,2012
+Ferrari,Abu Dhabi ,24.0,#A6051A,2012
+Red Bull,Abu Dhabi ,15.0,#121F45,2012
+McLaren,Abu Dhabi ,12.0,#FF8000,2012
+Williams,Abu Dhabi ,14.0,#005AFF,2012
+Sauber,Abu Dhabi ,8.0,#9B0000,2012
+Force India,Abu Dhabi ,2.0,#F596C8,2012
+Toro Rosso,Abu Dhabi ,1.0,#469BFF,2012
+Mercedes,Abu Dhabi ,0.0,#00A19C,2012
+Caterham,Abu Dhabi ,0.0,white,2012
+Marussia,Abu Dhabi ,0.0,#6E0000,2012
+HRT,Abu Dhabi ,0.0,white,2012
+McLaren,United States ,35.0,#FF8000,2012
+Red Bull,United States ,18.0,#121F45,2012
+Ferrari,United States ,27.0,#A6051A,2012
+Lotus F1,United States ,14.0,#FFB800,2012
+Force India,United States ,4.0,#F596C8,2012
+Williams,United States ,3.0,#005AFF,2012
+Sauber,United States ,0.0,#9B0000,2012
+Toro Rosso,United States ,0.0,#469BFF,2012
+Mercedes,United States ,0.0,#00A19C,2012
+Caterham,United States ,0.0,white,2012
+Marussia,United States ,0.0,#6E0000,2012
+HRT,United States ,0.0,white,2012
+McLaren,Brazilian ,25.0,#FF8000,2012
+Ferrari,Brazilian ,33.0,#A6051A,2012
+Red Bull,Brazilian ,20.0,#121F45,2012
+Force India,Brazilian ,10.0,#F596C8,2012
+Mercedes,Brazilian ,6.0,#00A19C,2012
+Toro Rosso,Brazilian ,4.0,#469BFF,2012
+Sauber,Brazilian ,2.0,#9B0000,2012
+Lotus F1,Brazilian ,1.0,#FFB800,2012
+Caterham,Brazilian ,0.0,white,2012
+Marussia,Brazilian ,0.0,#6E0000,2012
+HRT,Brazilian ,0.0,white,2012
+Williams,Brazilian ,0.0,#005AFF,2012

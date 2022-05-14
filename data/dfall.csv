@@ -1,0 +1,194 @@
+year,Team,points,c,pos,wins,poles,FastLap,LapsLed
+2004,Ferrari,262.0,#A6051A,1st,15,12,14,785
+2004,BAR,119.0,#d5d5d3,2nd,0,1,0,54
+2004,Renault,105.0,#FFF500,3rd,0,3,0,60
+2004,Williams,88.0,#005AFF,4th,1,1,2,82
+2004,McLaren,69.0,#FF8000,5th,1,1,2,50
+2004,Sauber,34.0,#9B0000,6th,0,0,0,2
+2004,Jaguar,10.0,#08623e,7th,0,0,0,0
+2004,Toyota,9.0,#8e0018,8th,1,0,0,89
+2004,Jordan,5.0,#ead136,9th,0,0,0,0
+2004,Minardi,1.0,black,10th,0,0,0,0
+2005,Renault,191.0,#FFF500,1st,8,7,3,452
+2005,McLaren,182.0,#FF8000,2nd,10,7,12,592
+2005,Ferrari,100.0,#A6051A,3rd,1,1,3,108
+2005,Toyota,88.0,#8e0018,4th,0,2,1,16
+2005,Williams,66.0,#005AFF,5th,0,1,0,1
+2005,BAR,38.0,#d5d5d3,6th,0,1,0,9
+2005,Red Bull,34.0,#121F45,7th,0,0,0,2
+2005,Sauber,20.0,#9B0000,8th,0,0,0,0
+2005,Jordan,12.0,#ead136,9th,0,0,0,0
+2005,Minardi,7.0,black,10th,0,0,0,0
+2006,Renault,206.0,#FFF500,1st,8,7,5,520
+2006,Ferrari,201.0,#A6051A,2nd,9,7,9,520
+2006,McLaren,110.0,#FF8000,3rd,0,3,3,60
+2006,Honda,86.0,#cccfc8,4th,1,1,0,25
+2006,BMW Sauber,36.0,#ffffff,5th,0,0,0,5
+2006,Toyota,35.0,#8e0018,6th,0,0,0,4
+2006,Red Bull,16.0,#121F45,7th,0,0,0,0
+2006,Williams,11.0,#005AFF,8th,0,0,1,3
+2006,Toro Rosso,1.0,#469BFF,9th,0,0,0,0
+2006,MF1,0.0,white,10th,0,0,0,0
+2006,Spyker MF1,0.0,white,11th,0,0,0,0
+2006,Super Aguri,0.0,#b61211,12th,0,0,0,0
+2007,McLaren,218.0,#FF8000,1st,8,8,5,524
+2007,Ferrari,204.0,#A6051A,2nd,9,9,12,512
+2007,BMW Sauber,101.0,#ffffff,3rd,0,0,0,4
+2007,Renault,51.0,#FFF500,4th,0,0,0,10
+2007,Williams,33.0,#005AFF,5th,0,0,0,0
+2007,Red Bull,24.0,#121F45,6th,0,0,0,6
+2007,Toyota,13.0,#8e0018,7th,0,0,0,0
+2007,Toro Rosso,8.0,#469BFF,8th,0,0,0,3
+2007,Honda,6.0,#cccfc8,9th,0,0,0,0
+2007,Super Aguri,4.0,#b61211,10th,0,0,0,0
+2007,Spyker,1.0,white,11th,0,0,0,6
+2008,Ferrari,172.0,#A6051A,1st,8,8,13,542
+2008,McLaren,151.0,#FF8000,2nd,6,8,3,324
+2008,BMW Sauber,135.0,#ffffff,3rd,1,1,2,89
+2008,Renault,80.0,#FFF500,4th,2,0,0,75
+2008,Toyota,56.0,#8e0018,5th,0,0,0,16
+2008,Toro Rosso,39.0,#469BFF,6th,1,1,0,52
+2008,Red Bull,29.0,#121F45,7th,0,0,0,1
+2008,Williams,26.0,#005AFF,8th,0,0,0,11
+2008,Honda,14.0,#cccfc8,9th,0,0,0,7
+2008,Force India,0.0,#F596C8,10th,0,0,0,0
+2008,Super Aguri,0.0,#b61211,11th,0,0,0,0
+2009,Brawn,172.0,#cccfc8,1st,8,5,4,405
+2009,Red Bull,153.5,#121F45,2nd,6,5,6,302
+2009,McLaren,71.0,#FF8000,3rd,2,4,0,184
+2009,Ferrari,70.0,#A6051A,4th,1,0,1,53
+2009,Toyota,59.5,#8e0018,5th,0,1,2,13
+2009,BMW Sauber,36.0,#ffffff,6th,0,0,0,0
+2009,Williams,34.5,#005AFF,7th,0,0,1,16
+2009,Renault,26.0,#FFF500,8th,0,1,2,15
+2009,Force India,13.0,#F596C8,9th,0,1,1,0
+2009,Toro Rosso,8.0,#469BFF,10th,0,0,0,0
+2010,Red Bull,498.0,#121F45,1st,9,15,6,699
+2010,McLaren,454.0,#FF8000,2nd,5,1,6,245
+2010,Ferrari,396.0,#A6051A,3rd,5,2,5,168
+2010,Mercedes,214.0,#00A19C,4th,0,0,0,16
+2010,Renault,163.0,#FFF500,5th,0,0,2,0
+2010,Williams,69.0,#005AFF,6th,0,1,0,0
+2010,Force India,68.0,#F596C8,7th,0,0,0,0
+2010,Sauber,44.0,#9B0000,8th,0,0,0,0
+2010,Toro Rosso,13.0,#469BFF,9th,0,0,0,1
+2010,HRT,0.0,white,10th,0,0,0,0
+2010,Lotus,0.0,white,11th,0,0,0,0
+2010,Virgin,0.0,white,12th,0,0,0,0
+2011,Red Bull,650.0,#121F45,1st,12,18,10,798
+2011,McLaren,497.0,#FF8000,2nd,6,1,6,238
+2011,Ferrari,375.0,#A6051A,3rd,1,0,3,77
+2011,Mercedes,165.0,#00A19C,4th,0,0,0,20
+2011,Renault,73.0,#FFF500,5th,0,0,0,0
+2011,Force India,69.0,#F596C8,6th,0,0,0,0
+2011,Sauber,44.0,#9B0000,7th,0,0,0,0
+2011,Toro Rosso,41.0,#469BFF,8th,0,0,0,0
+2011,Williams,5.0,#005AFF,9th,0,0,0,0
+2011,HRT,0.0,white,10th,0,0,0,0
+2011,Lotus,0.0,white,11th,0,0,0,0
+2011,Virgin,0.0,white,12th,0,0,0,0
+2012,Red Bull,460.0,#121F45,1st,7,7,7,434
+2012,Ferrari,400.0,#A6051A,2nd,3,2,0,217
+2012,McLaren,378.0,#FF8000,3rd,7,9,3,365
+2012,Lotus F1,303.0,#FFB800,4th,1,0,3,48
+2012,Mercedes,142.0,#00A19C,5th,1,2,3,48
+2012,Sauber,126.0,#9B0000,6th,0,0,2,12
+2012,Force India,109.0,#F596C8,7th,0,0,1,31
+2012,Williams,76.0,#005AFF,8th,1,0,1,37
+2012,Toro Rosso,26.0,#469BFF,9th,0,0,0,0
+2012,Caterham,0.0,white,10th,0,0,0,0
+2012,HRT,0.0,white,11th,0,0,0,0
+2012,Marussia,0.0,#6E0000,12th,0,0,0,0
+2013,Red Bull,596.0,#121F45,1st,13,11,12,753
+2013,Mercedes,360.0,#00A19C,2nd,3,8,1,170
+2013,Ferrari,354.0,#A6051A,3rd,2,0,2,99
+2013,Lotus F1,315.0,#FFB800,4th,1,0,2,77
+2013,McLaren,122.0,#FF8000,5th,0,0,1,8
+2013,Force India,77.0,#F596C8,6th,0,0,0,14
+2013,Sauber,57.0,#9B0000,7th,0,0,1,10
+2013,Toro Rosso,33.0,#469BFF,8th,0,0,0,0
+2013,Williams,5.0,#005AFF,9th,0,0,0,0
+2013,Caterham,0.0,white,10th,0,0,0,0
+2013,Marussia,0.0,#6E0000,11th,0,0,0,0
+2014,Mercedes,701.0,#00A19C,1st,16,18,12,980
+2014,Red Bull,405.0,#121F45,2nd,3,0,3,73
+2014,Williams,320.0,#005AFF,3rd,0,1,2,34
+2014,Ferrari,216.0,#A6051A,4th,0,0,1,32
+2014,McLaren,181.0,#FF8000,5th,0,0,0,1
+2014,Force India,155.0,#F596C8,6th,0,0,1,16
+2014,Toro Rosso,30.0,#469BFF,7th,0,0,0,0
+2014,Lotus F1,10.0,#FFB800,8th,0,0,0,0
+2014,Marussia,2.0,#6E0000,9th,0,0,0,0
+2014,Caterham,0.0,white,10th,0,0,0,0
+2014,Sauber,0.0,#9B0000,11th,0,0,0,0
+2015,Mercedes,703.0,#00A19C,1st,16,18,13,936
+2015,Ferrari,428.0,#A6051A,2nd,3,1,3,186
+2015,Williams,257.0,#005AFF,3rd,0,0,0,20
+2015,Red Bull,187.0,#121F45,4th,0,0,3,7
+2015,Force India,136.0,#F596C8,5th,0,0,0,0
+2015,Lotus F1,78.0,#FFB800,6th,0,0,0,0
+2015,Toro Rosso,67.0,#469BFF,7th,0,0,0,0
+2015,Sauber,36.0,#9B0000,8th,0,0,0,0
+2015,McLaren,27.0,#FF8000,9th,0,0,0,0
+2015,Manor Marussia,0.0,white,10th,0,0,0,0
+2015,Marussia,0.0,#6E0000,11th,0,0,0,0
+2016,Mercedes,765.0,#00A19C,1st,19,20,9,1055
+2016,Red Bull,468.0,#121F45,2nd,2,1,5,116
+2016,Ferrari,398.0,#A6051A,3rd,0,0,4,97
+2016,Force India,173.0,#F596C8,4th,0,0,1,0
+2016,Williams,138.0,#005AFF,5th,0,0,0,0
+2016,McLaren,76.0,#FF8000,6th,0,0,1,0
+2016,Toro Rosso,63.0,#469BFF,7th,0,0,1,0
+2016,Haas F1 Team,29.0,#F9F2F2,8th,0,0,0,0
+2016,Renault,8.0,#FFF500,9th,0,0,0,0
+2016,Sauber,2.0,#9B0000,10th,0,0,0,0
+2016,Manor Marussia,1.0,white,11th,0,0,0,0
+2017,Mercedes,668.0,#00A19C,1st,12,15,9,714
+2017,Ferrari,522.0,#A6051A,2nd,5,5,7,326
+2017,Red Bull,368.0,#121F45,3rd,3,0,2,156
+2017,Force India,187.0,#F596C8,4th,0,0,1,0
+2017,Williams,83.0,#005AFF,5th,0,0,0,0
+2017,Renault,57.0,#FFF500,6th,0,0,0,0
+2017,Toro Rosso,53.0,#469BFF,7th,0,0,0,0
+2017,Haas F1 Team,47.0,#F9F2F2,8th,0,0,0,0
+2017,McLaren,30.0,#FF8000,9th,0,0,1,0
+2017,Sauber,5.0,#9B0000,10th,0,0,0,0
+2018,Mercedes,655.0,#00A19C,1st,11,13,10,542
+2018,Ferrari,571.0,#A6051A,2nd,6,6,4,437
+2018,Red Bull,419.0,#121F45,3rd,4,2,6,285
+2018,Renault,122.0,#FFF500,4th,0,0,0,0
+2018,Force India,111.0,#F596C8,5th,0,0,0,0
+2018,Haas F1 Team,93.0,#F9F2F2,6th,0,0,1,0
+2018,McLaren,62.0,#FF8000,7th,0,0,0,0
+2018,Sauber,48.0,#9B0000,8th,0,0,0,0
+2018,Toro Rosso,33.0,#469BFF,9th,0,0,0,0
+2018,Williams,7.0,#005AFF,10th,0,0,0,0
+2019,Mercedes,739.0,#00A19C,1st,15,10,9,696
+2019,Ferrari,504.0,#A6051A,2nd,3,8,6,406
+2019,Red Bull,417.0,#121F45,3rd,3,3,5,156
+2019,McLaren,145.0,#FF8000,4th,0,0,0,0
+2019,Renault,91.0,#FFF500,5th,0,0,0,0
+2019,Toro Rosso,85.0,#469BFF,6th,0,0,0,0
+2019,Racing Point,73.0,#F596C8,7th,0,0,0,0
+2019,Alfa Romeo,57.0,#981E32,8th,0,0,0,4
+2019,Haas F1 Team,28.0,#F9F2F2,9th,0,0,1,0
+2019,Williams,1.0,#005AFF,10th,0,0,0,0
+2020,Mercedes,573.0,#00A19C,1st,13,15,9,860
+2020,Red Bull,319.0,#121F45,2nd,2,1,3,88
+2020,Racing Point,210.0,#F596C8,3rd,1,1,0,58
+2020,McLaren,202.0,#FF8000,4th,0,0,3,5
+2020,Renault,181.0,#FFF500,5th,0,0,2,0
+2020,Ferrari,131.0,#A6051A,6th,0,0,0,0
+2020,AlphaTauri,107.0,#00293F,7th,1,0,0,26
+2020,Alfa Romeo,8.0,#981E32,8th,0,0,0,0
+2020,Haas F1 Team,3.0,#F9F2F2,9th,0,0,0,0
+2021,Mercedes,613.5,#00A19C,1st,9,11,10,376
+2021,Red Bull,585.5,#121F45,2nd,11,8,8,698
+2021,Ferrari,323.5,#A6051A,3rd,0,2,0,72
+2021,McLaren,275.0,#FF8000,4th,1,1,2,79
+2021,Alpine F1 Team,155.0,#005BA9,5th,1,0,0,68
+2021,AlphaTauri,142.0,#00293F,6th,0,0,1,0
+2021,Aston Martin,77.0,#00352F,7th,0,0,0,4
+2021,Williams,23.0,#005AFF,8th,0,0,0,0
+2021,Alfa Romeo,13.0,#981E32,9th,0,0,0,0
+2021,Haas F1 Team,0.0,#F9F2F2,10th,0,0,0,0

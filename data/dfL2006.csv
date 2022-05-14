@@ -1,0 +1,199 @@
+Team,GP,points,c,year
+Renault,Bahrain ,10.0,#FFF500,2006
+Ferrari,Bahrain ,8.0,#A6051A,2006
+McLaren,Bahrain ,10.0,#FF8000,2006
+Honda,Bahrain ,5.0,#cccfc8,2006
+Williams,Bahrain ,5.0,#005AFF,2006
+Red Bull,Bahrain ,1.0,#121F45,2006
+Toro Rosso,Bahrain ,0.0,#469BFF,2006
+BMW Sauber,Bahrain ,0.0,#ffffff,2006
+Toyota,Bahrain ,0.0,#8e0018,2006
+MF1,Bahrain ,0.0,white,2006
+Super Aguri,Bahrain ,0.0,#b61211,2006
+Renault,Malaysian ,18.0,#FFF500,2006
+Honda,Malaysian ,6.0,#cccfc8,2006
+McLaren,Malaysian ,5.0,#FF8000,2006
+Ferrari,Malaysian ,7.0,#A6051A,2006
+BMW Sauber,Malaysian ,2.0,#ffffff,2006
+Toyota,Malaysian ,1.0,#8e0018,2006
+Toro Rosso,Malaysian ,0.0,#469BFF,2006
+MF1,Malaysian ,0.0,white,2006
+Super Aguri,Malaysian ,0.0,#b61211,2006
+Red Bull,Malaysian ,0.0,#121F45,2006
+Williams,Malaysian ,0.0,#005AFF,2006
+Renault,Australian ,14.0,#FFF500,2006
+McLaren,Australian ,8.0,#FF8000,2006
+Toyota,Australian ,6.0,#8e0018,2006
+BMW Sauber,Australian ,8.0,#ffffff,2006
+Honda,Australian ,2.0,#cccfc8,2006
+Red Bull,Australian ,1.0,#121F45,2006
+Toro Rosso,Australian ,0.0,#469BFF,2006
+MF1,Australian ,0.0,white,2006
+Super Aguri,Australian ,0.0,#b61211,2006
+Ferrari,Australian ,0.0,#A6051A,2006
+Williams,Australian ,0.0,#005AFF,2006
+Ferrari,San Marino ,15.0,#A6051A,2006
+Renault,San Marino ,9.0,#FFF500,2006
+McLaren,San Marino ,10.0,#FF8000,2006
+Williams,San Marino ,3.0,#005AFF,2006
+Honda,San Marino ,2.0,#cccfc8,2006
+Toyota,San Marino ,0.0,#8e0018,2006
+BMW Sauber,San Marino ,0.0,#ffffff,2006
+Toro Rosso,San Marino ,0.0,#469BFF,2006
+MF1,San Marino ,0.0,white,2006
+Red Bull,San Marino ,0.0,#121F45,2006
+Super Aguri,San Marino ,0.0,#b61211,2006
+Ferrari,European ,16.0,#A6051A,2006
+Renault,European ,11.0,#FFF500,2006
+McLaren,European ,5.0,#FF8000,2006
+Honda,European ,4.0,#cccfc8,2006
+Williams,European ,2.0,#005AFF,2006
+BMW Sauber,European ,1.0,#ffffff,2006
+Toyota,European ,0.0,#8e0018,2006
+Toro Rosso,European ,0.0,#469BFF,2006
+MF1,European ,0.0,white,2006
+Super Aguri,European ,0.0,#b61211,2006
+Red Bull,European ,0.0,#121F45,2006
+Renault,Spanish ,16.0,#FFF500,2006
+Ferrari,Spanish ,13.0,#A6051A,2006
+McLaren,Spanish ,4.0,#FF8000,2006
+Honda,Spanish ,5.0,#cccfc8,2006
+BMW Sauber,Spanish ,1.0,#ffffff,2006
+Williams,Spanish ,0.0,#005AFF,2006
+Toyota,Spanish ,0.0,#8e0018,2006
+Red Bull,Spanish ,0.0,#121F45,2006
+Toro Rosso,Spanish ,0.0,#469BFF,2006
+MF1,Spanish ,0.0,white,2006
+Super Aguri,Spanish ,0.0,#b61211,2006
+Renault,Monaco ,13.0,#FFF500,2006
+McLaren,Monaco ,8.0,#FF8000,2006
+Red Bull,Monaco ,6.0,#121F45,2006
+Honda,Monaco ,5.0,#cccfc8,2006
+Ferrari,Monaco ,4.0,#A6051A,2006
+BMW Sauber,Monaco ,2.0,#ffffff,2006
+Toyota,Monaco ,1.0,#8e0018,2006
+Toro Rosso,Monaco ,0.0,#469BFF,2006
+MF1,Monaco ,0.0,white,2006
+Super Aguri,Monaco ,0.0,#b61211,2006
+Williams,Monaco ,0.0,#005AFF,2006
+Renault,British ,15.0,#FFF500,2006
+Ferrari,British ,12.0,#A6051A,2006
+McLaren,British ,9.0,#FF8000,2006
+BMW Sauber,British ,3.0,#ffffff,2006
+Williams,British ,0.0,#005AFF,2006
+Honda,British ,0.0,#cccfc8,2006
+Toyota,British ,0.0,#8e0018,2006
+Red Bull,British ,0.0,#121F45,2006
+Toro Rosso,British ,0.0,#469BFF,2006
+MF1,British ,0.0,white,2006
+Super Aguri,British ,0.0,#b61211,2006
+Renault,Canadian ,15.0,#FFF500,2006
+Ferrari,Canadian ,12.0,#A6051A,2006
+McLaren,Canadian ,6.0,#FF8000,2006
+Toyota,Canadian ,3.0,#8e0018,2006
+BMW Sauber,Canadian ,2.0,#ffffff,2006
+Red Bull,Canadian ,1.0,#121F45,2006
+Honda,Canadian ,0.0,#cccfc8,2006
+Toro Rosso,Canadian ,0.0,#469BFF,2006
+Williams,Canadian ,0.0,#005AFF,2006
+MF1,Canadian ,0.0,white,2006
+Super Aguri,Canadian ,0.0,#b61211,2006
+Ferrari,United States ,18.0,#A6051A,2006
+Renault,United States ,10.0,#FFF500,2006
+Toyota,United States ,5.0,#8e0018,2006
+Honda,United States ,3.0,#cccfc8,2006
+Red Bull,United States ,2.0,#121F45,2006
+Toro Rosso,United States ,1.0,#469BFF,2006
+Williams,United States ,0.0,#005AFF,2006
+MF1,United States ,0.0,white,2006
+BMW Sauber,United States ,0.0,#ffffff,2006
+Super Aguri,United States ,0.0,#b61211,2006
+McLaren,United States ,0.0,#FF8000,2006
+Ferrari,French ,16.0,#A6051A,2006
+Renault,French ,11.0,#FFF500,2006
+Toyota,French ,5.0,#8e0018,2006
+McLaren,French ,6.0,#FF8000,2006
+BMW Sauber,French ,1.0,#ffffff,2006
+Red Bull,French ,0.0,#121F45,2006
+Toro Rosso,French ,0.0,#469BFF,2006
+Williams,French ,0.0,#005AFF,2006
+MF1,French ,0.0,white,2006
+Super Aguri,French ,0.0,#b61211,2006
+Honda,French ,0.0,#cccfc8,2006
+Ferrari,German ,18.0,#A6051A,2006
+McLaren,German ,6.0,#FF8000,2006
+Honda,German ,5.0,#cccfc8,2006
+Renault,German ,7.0,#FFF500,2006
+Toyota,German ,2.0,#8e0018,2006
+Red Bull,German ,1.0,#121F45,2006
+Toro Rosso,German ,0.0,#469BFF,2006
+Williams,German ,0.0,#005AFF,2006
+Super Aguri,German ,0.0,#b61211,2006
+BMW Sauber,German ,0.0,#ffffff,2006
+MF1,German ,0.0,white,2006
+Honda,Hungarian ,15.0,#cccfc8,2006
+McLaren,Hungarian ,8.0,#FF8000,2006
+BMW Sauber,Hungarian ,6.0,#ffffff,2006
+Red Bull,Hungarian ,4.0,#121F45,2006
+Toyota,Hungarian ,3.0,#8e0018,2006
+Ferrari,Hungarian ,3.0,#A6051A,2006
+MF1,Hungarian ,0.0,white,2006
+Toro Rosso,Hungarian ,0.0,#469BFF,2006
+Super Aguri,Hungarian ,0.0,#b61211,2006
+Renault,Hungarian ,0.0,#FFF500,2006
+Williams,Hungarian ,0.0,#005AFF,2006
+Ferrari,Turkish ,16.0,#A6051A,2006
+Renault,Turkish ,11.0,#FFF500,2006
+Honda,Turkish ,6.0,#cccfc8,2006
+McLaren,Turkish ,4.0,#FF8000,2006
+Toyota,Turkish ,2.0,#8e0018,2006
+Williams,Turkish ,0.0,#005AFF,2006
+Red Bull,Turkish ,0.0,#121F45,2006
+BMW Sauber,Turkish ,0.0,#ffffff,2006
+Toro Rosso,Turkish ,0.0,#469BFF,2006
+MF1,Turkish ,0.0,white,2006
+Super Aguri,Turkish ,0.0,#b61211,2006
+Ferrari,Italian ,10.0,#A6051A,2006
+McLaren,Italian ,8.0,#FF8000,2006
+BMW Sauber,Italian ,7.0,#ffffff,2006
+Renault,Italian ,5.0,#FFF500,2006
+Honda,Italian ,7.0,#cccfc8,2006
+Toyota,Italian ,2.0,#8e0018,2006
+Williams,Italian ,0.0,#005AFF,2006
+Red Bull,Italian ,0.0,#121F45,2006
+Toro Rosso,Italian ,0.0,#469BFF,2006
+Super Aguri,Italian ,0.0,#b61211,2006
+Spyker MF1,Italian ,0.0,white,2006
+Ferrari,Chinese ,10.0,#A6051A,2006
+Renault,Chinese ,14.0,#FFF500,2006
+Honda,Chinese ,8.0,#cccfc8,2006
+McLaren,Chinese ,4.0,#FF8000,2006
+BMW Sauber,Chinese ,2.0,#ffffff,2006
+Williams,Chinese ,1.0,#005AFF,2006
+Red Bull,Chinese ,0.0,#121F45,2006
+Toro Rosso,Chinese ,0.0,#469BFF,2006
+Spyker MF1,Chinese ,0.0,white,2006
+Super Aguri,Chinese ,0.0,#b61211,2006
+Toyota,Chinese ,0.0,#8e0018,2006
+Renault,Japanese ,16.0,#FFF500,2006
+Ferrari,Japanese ,8.0,#A6051A,2006
+Honda,Japanese ,5.0,#cccfc8,2006
+McLaren,Japanese ,4.0,#FF8000,2006
+Toyota,Japanese ,5.0,#8e0018,2006
+BMW Sauber,Japanese ,1.0,#ffffff,2006
+Williams,Japanese ,0.0,#005AFF,2006
+Red Bull,Japanese ,0.0,#121F45,2006
+Toro Rosso,Japanese ,0.0,#469BFF,2006
+Super Aguri,Japanese ,0.0,#b61211,2006
+Spyker MF1,Japanese ,0.0,white,2006
+Ferrari,Brazilian ,15.0,#A6051A,2006
+Renault,Brazilian ,11.0,#FFF500,2006
+Honda,Brazilian ,8.0,#cccfc8,2006
+McLaren,Brazilian ,5.0,#FF8000,2006
+BMW Sauber,Brazilian ,0.0,#ffffff,2006
+Super Aguri,Brazilian ,0.0,#b61211,2006
+Toro Rosso,Brazilian ,0.0,#469BFF,2006
+Red Bull,Brazilian ,0.0,#121F45,2006
+Spyker MF1,Brazilian ,0.0,white,2006
+Toyota,Brazilian ,0.0,#8e0018,2006
+Williams,Brazilian ,0.0,#005AFF,2006

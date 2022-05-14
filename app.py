@@ -1,5 +1,4 @@
-from plots1 import tabs
-
+from plots1 import cols2
 import json
 
 import os
@@ -21,6 +20,10 @@ from bokeh.models.widgets import Tabs, Panel, Paragraph, Div
 from bokeh.themes import built_in_themes
 from bokeh.io import curdoc
 from bokeh.models.tools import CrosshairTool, HoverTool
+from ipywidgets import interact, interactive
+import ipywidgets as widgets
+from IPython.display import display
+
 
 
 
@@ -32,8 +35,9 @@ app = Flask(__name__)
 @app.route('/')
 def index1():
     
-
-    script, div = components(tabs())
+    
+    script, div = components(cols2())
+    
     return render_template('index.html', script=script, div=div, resources=CDN.render())
       
 

@@ -1,0 +1,210 @@
+Team,GP,points,c,year
+Lotus F1,Australian ,26.0,#FFB800,2013
+Ferrari,Australian ,30.0,#A6051A,2013
+Red Bull,Australian ,23.0,#121F45,2013
+Mercedes,Australian ,10.0,#00A19C,2013
+Force India,Australian ,10.0,#F596C8,2013
+McLaren,Australian ,2.0,#FF8000,2013
+Toro Rosso,Australian ,0.0,#469BFF,2013
+Sauber,Australian ,0.0,#9B0000,2013
+Williams,Australian ,0.0,#005AFF,2013
+Marussia,Australian ,0.0,#6E0000,2013
+Caterham,Australian ,0.0,white,2013
+Red Bull,Malaysian ,43.0,#121F45,2013
+Mercedes,Malaysian ,27.0,#00A19C,2013
+Ferrari,Malaysian ,10.0,#A6051A,2013
+Lotus F1,Malaysian ,14.0,#FFB800,2013
+Sauber,Malaysian ,4.0,#9B0000,2013
+McLaren,Malaysian ,2.0,#FF8000,2013
+Toro Rosso,Malaysian ,1.0,#469BFF,2013
+Williams,Malaysian ,0.0,#005AFF,2013
+Marussia,Malaysian ,0.0,#6E0000,2013
+Caterham,Malaysian ,0.0,white,2013
+Force India,Malaysian ,0.0,#F596C8,2013
+Ferrari,Chinese ,33.0,#A6051A,2013
+Lotus F1,Chinese ,20.0,#FFB800,2013
+Mercedes,Chinese ,15.0,#00A19C,2013
+Red Bull,Chinese ,12.0,#121F45,2013
+McLaren,Chinese ,10.0,#FF8000,2013
+Toro Rosso,Chinese ,6.0,#469BFF,2013
+Force India,Chinese ,4.0,#F596C8,2013
+Sauber,Chinese ,1.0,#9B0000,2013
+Williams,Chinese ,0.0,#005AFF,2013
+Marussia,Chinese ,0.0,#6E0000,2013
+Caterham,Chinese ,0.0,white,2013
+Red Bull,Bahrain ,31.0,#121F45,2013
+Lotus F1,Bahrain ,33.0,#FFB800,2013
+Force India,Bahrain ,12.0,#F596C8,2013
+Mercedes,Bahrain ,12.0,#00A19C,2013
+McLaren,Bahrain ,9.0,#FF8000,2013
+Ferrari,Bahrain ,4.0,#A6051A,2013
+Williams,Bahrain ,0.0,#005AFF,2013
+Sauber,Bahrain ,0.0,#9B0000,2013
+Toro Rosso,Bahrain ,0.0,#469BFF,2013
+Caterham,Bahrain ,0.0,white,2013
+Marussia,Bahrain ,0.0,#6E0000,2013
+Ferrari,Spanish ,40.0,#A6051A,2013
+Lotus F1,Spanish ,18.0,#FFB800,2013
+Red Bull,Spanish ,22.0,#121F45,2013
+Mercedes,Spanish ,8.0,#00A19C,2013
+Force India,Spanish ,6.0,#F596C8,2013
+McLaren,Spanish ,6.0,#FF8000,2013
+Toro Rosso,Spanish ,1.0,#469BFF,2013
+Sauber,Spanish ,0.0,#9B0000,2013
+Williams,Spanish ,0.0,#005AFF,2013
+Caterham,Spanish ,0.0,white,2013
+Marussia,Spanish ,0.0,#6E0000,2013
+Mercedes,Monaco ,37.0,#00A19C,2013
+Red Bull,Monaco ,33.0,#121F45,2013
+Force India,Monaco ,12.0,#F596C8,2013
+McLaren,Monaco ,8.0,#FF8000,2013
+Ferrari,Monaco ,6.0,#A6051A,2013
+Toro Rosso,Monaco ,4.0,#469BFF,2013
+Lotus F1,Monaco ,1.0,#FFB800,2013
+Sauber,Monaco ,0.0,#9B0000,2013
+Williams,Monaco ,0.0,#005AFF,2013
+Marussia,Monaco ,0.0,#6E0000,2013
+Caterham,Monaco ,0.0,white,2013
+Red Bull,Canadian ,37.0,#121F45,2013
+Ferrari,Canadian ,22.0,#A6051A,2013
+Mercedes,Canadian ,25.0,#00A19C,2013
+Toro Rosso,Canadian ,8.0,#469BFF,2013
+Force India,Canadian ,7.0,#F596C8,2013
+Lotus F1,Canadian ,2.0,#FFB800,2013
+McLaren,Canadian ,0.0,#FF8000,2013
+Williams,Canadian ,0.0,#005AFF,2013
+Marussia,Canadian ,0.0,#6E0000,2013
+Caterham,Canadian ,0.0,white,2013
+Sauber,Canadian ,0.0,#9B0000,2013
+Mercedes,British ,37.0,#00A19C,2013
+Red Bull,British ,18.0,#121F45,2013
+Ferrari,British ,23.0,#A6051A,2013
+Lotus F1,British ,10.0,#FFB800,2013
+Force India,British ,8.0,#F596C8,2013
+Toro Rosso,British ,4.0,#469BFF,2013
+Sauber,British ,1.0,#9B0000,2013
+Williams,British ,0.0,#005AFF,2013
+McLaren,British ,0.0,#FF8000,2013
+Caterham,British ,0.0,white,2013
+Marussia,British ,0.0,#6E0000,2013
+Red Bull,German ,31.0,#121F45,2013
+Lotus F1,German ,33.0,#FFB800,2013
+Ferrari,German ,12.0,#A6051A,2013
+Mercedes,German ,12.0,#00A19C,2013
+McLaren,German ,12.0,#FF8000,2013
+Sauber,German ,1.0,#9B0000,2013
+Force India,German ,0.0,#F596C8,2013
+Toro Rosso,German ,0.0,#469BFF,2013
+Williams,German ,0.0,#005AFF,2013
+Caterham,German ,0.0,white,2013
+Marussia,German ,0.0,#6E0000,2013
+Mercedes,Hungarian ,25.0,#00A19C,2013
+Lotus F1,Hungarian ,26.0,#FFB800,2013
+Red Bull,Hungarian ,27.0,#121F45,2013
+Ferrari,Hungarian ,14.0,#A6051A,2013
+McLaren,Hungarian ,8.0,#FF8000,2013
+Williams,Hungarian ,1.0,#005AFF,2013
+Sauber,Hungarian ,0.0,#9B0000,2013
+Toro Rosso,Hungarian ,0.0,#469BFF,2013
+Caterham,Hungarian ,0.0,white,2013
+Marussia,Hungarian ,0.0,#6E0000,2013
+Force India,Hungarian ,0.0,#F596C8,2013
+Red Bull,Belgian ,35.0,#121F45,2013
+Ferrari,Belgian ,24.0,#A6051A,2013
+Mercedes,Belgian ,27.0,#00A19C,2013
+McLaren,Belgian ,8.0,#FF8000,2013
+Lotus F1,Belgian ,4.0,#FFB800,2013
+Force India,Belgian ,2.0,#F596C8,2013
+Toro Rosso,Belgian ,1.0,#469BFF,2013
+Sauber,Belgian ,0.0,#9B0000,2013
+Williams,Belgian ,0.0,#005AFF,2013
+Caterham,Belgian ,0.0,white,2013
+Marussia,Belgian ,0.0,#6E0000,2013
+Red Bull,Italian ,40.0,#121F45,2013
+Ferrari,Italian ,30.0,#A6051A,2013
+Sauber,Italian ,10.0,#9B0000,2013
+Mercedes,Italian ,10.0,#00A19C,2013
+Toro Rosso,Italian ,6.0,#469BFF,2013
+Lotus F1,Italian ,4.0,#FFB800,2013
+McLaren,Italian ,1.0,#FF8000,2013
+Williams,Italian ,0.0,#005AFF,2013
+Force India,Italian ,0.0,#F596C8,2013
+Caterham,Italian ,0.0,white,2013
+Marussia,Italian ,0.0,#6E0000,2013
+Red Bull,Singapore ,25.0,#121F45,2013
+Ferrari,Singapore ,26.0,#A6051A,2013
+Lotus F1,Singapore ,15.0,#FFB800,2013
+Mercedes,Singapore ,22.0,#00A19C,2013
+McLaren,Singapore ,10.0,#FF8000,2013
+Sauber,Singapore ,2.0,#9B0000,2013
+Force India,Singapore ,1.0,#F596C8,2013
+Williams,Singapore ,0.0,#005AFF,2013
+Toro Rosso,Singapore ,0.0,#469BFF,2013
+Caterham,Singapore ,0.0,white,2013
+Marussia,Singapore ,0.0,#6E0000,2013
+Red Bull,Korean ,25.0,#121F45,2013
+Lotus F1,Korean ,33.0,#FFB800,2013
+Sauber,Korean ,12.0,#9B0000,2013
+Mercedes,Korean ,16.0,#00A19C,2013
+Ferrari,Korean ,10.0,#A6051A,2013
+McLaren,Korean ,5.0,#FF8000,2013
+Williams,Korean ,0.0,#005AFF,2013
+Caterham,Korean ,0.0,white,2013
+Marussia,Korean ,0.0,#6E0000,2013
+Toro Rosso,Korean ,0.0,#469BFF,2013
+Force India,Korean ,0.0,#F596C8,2013
+Red Bull,Japanese ,43.0,#121F45,2013
+Lotus F1,Japanese ,25.0,#FFB800,2013
+Ferrari,Japanese ,13.0,#A6051A,2013
+Sauber,Japanese ,14.0,#9B0000,2013
+Mercedes,Japanese ,4.0,#00A19C,2013
+McLaren,Japanese ,2.0,#FF8000,2013
+Force India,Japanese ,0.0,#F596C8,2013
+Toro Rosso,Japanese ,0.0,#469BFF,2013
+Williams,Japanese ,0.0,#005AFF,2013
+Caterham,Japanese ,0.0,white,2013
+Marussia,Japanese ,0.0,#6E0000,2013
+Red Bull,Indian ,25.0,#121F45,2013
+Mercedes,Indian ,26.0,#00A19C,2013
+Lotus F1,Indian ,21.0,#FFB800,2013
+Ferrari,Indian ,12.0,#A6051A,2013
+McLaren,Indian ,10.0,#FF8000,2013
+Force India,Indian ,6.0,#F596C8,2013
+Toro Rosso,Indian ,1.0,#469BFF,2013
+Williams,Indian ,0.0,#005AFF,2013
+Sauber,Indian ,0.0,#9B0000,2013
+Marussia,Indian ,0.0,#6E0000,2013
+Caterham,Indian ,0.0,white,2013
+Red Bull,Abu Dhabi ,43.0,#121F45,2013
+Mercedes,Abu Dhabi ,21.0,#00A19C,2013
+Lotus F1,Abu Dhabi ,12.0,#FFB800,2013
+Ferrari,Abu Dhabi ,14.0,#A6051A,2013
+Force India,Abu Dhabi ,9.0,#F596C8,2013
+McLaren,Abu Dhabi ,2.0,#FF8000,2013
+Williams,Abu Dhabi ,0.0,#005AFF,2013
+Sauber,Abu Dhabi ,0.0,#9B0000,2013
+Toro Rosso,Abu Dhabi ,0.0,#469BFF,2013
+Caterham,Abu Dhabi ,0.0,white,2013
+Marussia,Abu Dhabi ,0.0,#6E0000,2013
+Red Bull,United States ,40.0,#121F45,2013
+Lotus F1,United States ,18.0,#FFB800,2013
+Mercedes,United States ,14.0,#00A19C,2013
+Ferrari,United States ,10.0,#A6051A,2013
+Sauber,United States ,8.0,#9B0000,2013
+McLaren,United States ,7.0,#FF8000,2013
+Williams,United States ,4.0,#005AFF,2013
+Toro Rosso,United States ,0.0,#469BFF,2013
+Force India,United States ,0.0,#F596C8,2013
+Marussia,United States ,0.0,#6E0000,2013
+Caterham,United States ,0.0,white,2013
+Red Bull,Brazilian ,43.0,#121F45,2013
+Ferrari,Brazilian ,21.0,#A6051A,2013
+McLaren,Brazilian ,20.0,#FF8000,2013
+Mercedes,Brazilian ,12.0,#00A19C,2013
+Sauber,Brazilian ,4.0,#9B0000,2013
+Toro Rosso,Brazilian ,1.0,#469BFF,2013
+Force India,Brazilian ,0.0,#F596C8,2013
+Lotus F1,Brazilian ,0.0,#FFB800,2013
+Williams,Brazilian ,0.0,#005AFF,2013
+Marussia,Brazilian ,0.0,#6E0000,2013
+Caterham,Brazilian ,0.0,white,2013
