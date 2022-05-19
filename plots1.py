@@ -362,7 +362,7 @@ def LPlot(df, year):
         df1.rename(columns = cl, inplace = True)
         df1 = df1.cumsum()
         
-    p1 = figure(x_range=np.array(df1.index), title='Constructor Championship by Grand Prix '+ str(year), plot_height=400, plot_width=750, y_axis_label = 'points',
+    p1 = figure(x_range=np.array(df1.index), title='Constructor Championship by Grand Prix '+ str(year), plot_height=400, plot_width=800, y_axis_label = 'points',
                  tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='right')
     p1.grid.grid_line_alpha = .25
     p1.grid.grid_line_dash = 'dotted'
@@ -427,16 +427,114 @@ def LPlot(df, year):
         #p1.add_tools(HoverTool( tooltips=[('GP', '@x{custom}'), ('Team', '@y{custom}')], formatters=dict(x=x_custom, y=y_custom)))
 
     return p1
+
+def TeamxTeam(dfL, year):
+    d = []
+    gps = dfL.sort_values('points', ascending=True)['GP'].unique()
+    cl = pd.Series(dfL.index.unique().values, range(0, len(dfL.index.unique()))).to_dict()
+    dicolors = dfL.c.to_dict()
+
+    for p in dfL.groupby('Team', sort=False)['points']:
+        np.array(d.append(p[1].values)).flatten()
+        df1 = pd.DataFrame(d, columns=gps)
+        df1 = df1.T
+        df1.fillna(0, inplace=True)
+        df1.rename(columns = cl, inplace = True)
+        df1 = df1.cumsum()
+
+    df1['Ferrari_'] = df1['Ferrari']
+    df1['McLaren_'] = df1['McLaren']
+    df1.index = df1.index.str[:-1]
+    df1.index.name = 'GPS'
+
+    src1 = ColumnDataSource(df1)
+
+    ptl = figure(x_range=FactorRange(*np.array(df1.index)), plot_height=350, plot_width=800, title='Ferrari x McLaren ' + str(year),
+                tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='right', y_axis_label='points')
+    t1g = ptl.vbar(x=dodge('GPS', -.3, range=ptl.x_range), top='Ferrari_', width=.25, color=dicolors['Ferrari'], line_color='white', 
+             line_width=.3, source=src1, hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#b84e04')
+
+    t2g = ptl.vbar(x=dodge('GPS', 0, range=ptl.x_range), top='McLaren_', width=.25, fill_color=dicolors['McLaren'],
+             line_width=.3, line_color='white', source=src1, hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#7851a9')
+
+    ptl.title.text_font_size = '9px'
+    ptl.grid.grid_line_alpha = .25
+    ptl.grid.grid_line_dash = 'dotted'
+    ptl.grid.grid_line_dash_offset = 5
+    ptl.grid.grid_line_width = 2
+    ptl.grid.grid_line_color = 'white'
+    ptl.axis.major_label_text_font_style = 'bold'
+    ptl.xaxis.major_label_text_font_size = '5.5px'
+    ptl.yaxis.major_label_text_font_size = '11px'
+    ptl.title.text_font_size = '15px'
+    ptl.title.text_color = 'white'
+    ptl.outline_line_color=None
+    ptl.yaxis.axis_label_text_color= 'white'
+    ptl.axis.major_label_text_color= 'white'
+    ptl.toolbar.autohide = True
+    ptl.outline_line_color=None
+
+    ptl.background_fill_color = '#010727'
+    ptl.background_fill_alpha =.8
+    ptl.border_fill_color =  '#010727'
+    ptl.border_fill_alpha = .8
+    ptl.axis.axis_line_color ='white'
+    ptl.axis.minor_tick_line_color ='white'
+    ptl.axis.major_tick_line_color ='white'
+    ptl.y_range.start = 0
+
+    opts = df1.columns[:-2].to_list()
+    #opts.insert(0, 'Ferrari_')
+
+
+    hl1 = HoverTool(renderers=[t1g], tooltips=({'Grand Prix': '@GPS', 'Points': '@Ferrari_{0.0}'}), point_policy='follow_mouse')
+    ptl.add_tools(hl1)
+
+    hl2 = HoverTool(renderers=[t2g], tooltips=({'Grand Prix': '@GPS', 'Points': '@McLaren_{0.0}'}), point_policy='follow_mouse')
+    ptl.add_tools(hl2)
+
+
+    select1 = Select(title='Select Team A', align='start', value='Ferrari_', width=115, height=15, options=opts)
+
+    select2 = Select(title='Select Team B', align='start', value='McLaren_', width=115, height=15, options=opts)
+
+    select1.js_on_change('value', CustomJS(args=dict(source=src1, select=select1, dic=dicolors, p=t1g, title=ptl.title,
+                                                   select1=select2, year=year), code="""
+        const new_data = Object.assign({}, source.data)
+        new_data.Ferrari_ = source.data[select.value]
+        source.data = new_data
+        p.glyph.fill_color = dic[select.value]
+
+        title.text = select.value + ' x '+ select1.value + ' ' + year
+
+
+    """))
+
+    select2.js_on_change('value', CustomJS(args=dict(source=src1, select=select2, select1=select1, dic=dicolors,
+                                                     p=t2g, title=ptl.title, year=year), code="""
+        const new_data = Object.assign({}, source.data)
+        new_data.McLaren_ = source.data[select.value]
+        source.data = new_data
+        p.glyph.fill_color = dic[select.value]
+
+        title.text = select1.value + ' x '+ select.value + ' ' + year
+
+    """))
+
+    ctl =  column([row([select1,select2]), ptl], spacing=30)
+    
+    return ctl
     
 def Constplot(year):
    
-    df = pd.read_csv(f'data/df{year}.csv', delimiter=',', index_col=0)
+    df = pd.read_csv(f'df{year}.csv', delimiter=',', index_col=0)
     srcC = ColumnDataSource(df)
     xC = np.array(df.index.unique())
 
-    pCons = figure(x_range=xC, title='Constructor Championship ' + str(year), plot_height=400, plot_width=750, y_axis_label = 'points',
+    pCons = figure(x_range=xC, title='Constructor Championship ' + str(year), plot_height=400, plot_width=800, y_axis_label = 'points',
                      tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='right')
-    pCons.vbar(top='points', width=.6, x='Team',  source=srcC, line_color='white', line_width = .2, fill_color='c')
+    pCons.vbar(top='points', width=.6, x='Team',  source=srcC, line_color='white', line_width = .2, fill_color='c',
+              hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#FEE715')
 
     pCons.grid.grid_line_alpha = .25
     pCons.grid.grid_line_dash = 'dotted'
@@ -482,11 +580,12 @@ def Constplot(year):
     
     dfw = fw(df, 'wins', year)
     sw = ColumnDataSource(dfw)
+    
 
-    pw = figure(plot_height=160, plot_width=195,toolbar_location='below', tools = 'pan, wheel_zoom, box_zoom, reset',
-                 x_range=(-1.2, 1.2), y_range=(.6,.1), x_axis_type=None, y_axis_type=None)
+    pw = figure(plot_height=150, plot_width=200,toolbar_location='below', tools = 'pan, wheel_zoom, box_zoom, reset',
+                 x_range=(-1.05, 1.05), y_range=(.6,.3), x_axis_type=None, y_axis_type=None)
     pw_ = pw.wedge(x=0, y=.5, radius=1, start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
-             line_color='white', fill_color='c', line_width=.2,  source=sw)#, legend_field='Team'
+             line_color='white', fill_color='c', line_width=.2,  source=sw, hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#FEE715')
     pw.add_tools(HoverTool(renderers=[pw_], tooltips=[('Team','@Team'), ('Wins','@wins'), ('','@pct{0.0} %'), ('year',str(year))],point_policy='follow_mouse'))
     #white
     pw.wedge(x=0, y=.505, radius=.6, start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
@@ -506,10 +605,10 @@ def Constplot(year):
     
     dfp = fw(df, 'poles', year)
     sp = ColumnDataSource(dfp)
-    pp = figure(plot_height=160, plot_width=195,toolbar_location='below', tools = 'pan, wheel_zoom, box_zoom, reset',
-                 x_range=(-1.2, 1.2), y_range=(.6,.1), x_axis_type=None, y_axis_type=None)
+    pp = figure(plot_height=150, plot_width=200,toolbar_location='below', tools = 'pan, wheel_zoom, box_zoom, reset',
+                 x_range=(-1.05, 1.05), y_range=(.6,.3), x_axis_type=None, y_axis_type=None)
     pp_ = pp.wedge(x=0, y=.5, radius=1, start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
-             line_color='white', fill_color='c', line_width=.2, source=sp)#, legend_field='Team'
+             line_color='white', fill_color='c', line_width=.2, source=sp, hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#FEE715')
     pp.add_tools(HoverTool(renderers=[pp_], tooltips=[('Team','@Team'), ('Poles','@poles'), ('','@pct{0.0} %'), ('year',str(year))],point_policy='follow_mouse'))
     
     #white
@@ -529,17 +628,17 @@ def Constplot(year):
     
     dff = fw(df, 'FastLap', year)
     sf = ColumnDataSource(dff)    
-    pf = figure(plot_height=160, plot_width=195,toolbar_location='below', tools = 'pan, wheel_zoom, box_zoom, reset',
-                 x_range=(-1.2, 1.2), y_range=(.6,.1), x_axis_type=None, y_axis_type=None)   
+    pf = figure(plot_height=150, plot_width=200,toolbar_location='below', tools = 'pan, wheel_zoom, box_zoom, reset',
+                 x_range=(-1.05, 1.05), y_range=(.6,.3), x_axis_type=None, y_axis_type=None)   
     pf_ = pf.wedge(x=0, y=.5, radius=1, start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
-             line_color='white', fill_color='c', line_width=.2,  source=sf)#, legend_field='Team'
+             line_color='white', fill_color='c', line_width=.2,  source=sf, hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#FEE715')
     pf.add_tools(HoverTool(renderers=[pf_], tooltips=[('Team','@Team'), ('Fast laps','@FastLap'), ('','@pct{0.0} %'), ('year',str(year))],point_policy='follow_mouse'))   
     #white
     pf.wedge(x=0, y=.505, radius=.6, start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
              line_color='#010727', fill_color='#010727', fill_alpha=1.0, source=sf)
     
-    lf = Label(x=0, y=.49, x_offset=0, y_offset=0, text='Fast laps',
-           text_color='white', text_font_size='13px', text_font_style='bold', text_align='center')
+    lf = Label(x=0, y=.49, x_offset=0, y_offset=0, text='Fastest laps',
+           text_color='white', text_font_size='12px', text_font_style='bold', text_align='center')
     pf.add_layout(lf)
     pf.outline_line_color=None
     pf.toolbar.autohide = True
@@ -553,10 +652,10 @@ def Constplot(year):
     
     dfl = fw(df, 'LapsLed', year)
     sl = ColumnDataSource(dfl)
-    pl = figure(plot_height=160, plot_width=195,toolbar_location='below', tools = 'pan, wheel_zoom, box_zoom, reset',
-                 x_range=(-1.2, 1.2), y_range=(.6,.1), x_axis_type=None, y_axis_type=None)
+    pl = figure(plot_height=150, plot_width=200,toolbar_location='below', tools = 'pan, wheel_zoom, box_zoom, reset',
+                 x_range=(-1.05, 1.05), y_range=(.6,.3), x_axis_type=None, y_axis_type=None)
     pl_ = pl.wedge(x=0, y=.5, radius=1, start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
-             line_color='white', fill_color='c', line_width=.2,  source=sl)#, legend_field='Team'
+             line_color='white', fill_color='c', line_width=.2,  source=sl, hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#FEE715')
     pl.add_tools(HoverTool(renderers=[pl_], tooltips=[('Team','@Team'), ('Laps led','@LapsLed'), ('','@pct{0.0} %'), ('year',str(year))],point_policy='follow_mouse'))
     #white
     pl.wedge(x=0, y=.505, radius=.6, start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
@@ -573,17 +672,19 @@ def Constplot(year):
     pl.border_fill_alpha = .8    
     
     #r = row([pw, pp, pf, pl], spacing=-11, align='end')
-    r = gridplot([[pw, pp, pf, pl]], merge_tools=True, toolbar_location='right', width=190, height=160)
+    r = gridplot([[pw, pp, pf, pl]], merge_tools=True, toolbar_location='right', width=200, height=150)
 
 
-    dfL = pd.read_csv(f'data/dfL{year}.csv', delimiter=',', index_col=0)
+    dfL = pd.read_csv(f'dfL{year}.csv', delimiter=',', index_col=0)
     pL = LPlot(dfL, year)
+    
+    txt = TeamxTeam(dfL, year)
     
     t1 = Panel(child=pCons, title='Overall')
     t2 = Panel(child =pL, title='By Grand Prix')
     tabs = Tabs(tabs= [t1, t2])
     
-    col = column([tabs, r], align='start')
+    col = column([tabs, txt, r], align='start')
     
     t = Panel(child=col)
     
@@ -621,7 +722,7 @@ def tabs():
 
 
 
-dfall = pd.read_csv('data/dfall.csv', delimiter=',', index_col=0)
+dfall = pd.read_csv('dfall.csv', delimiter=',', index_col=0)
 dfall#[dfall.Team == 'Mercedes']
 
 ferrari = dfall[dfall.Team == 'Ferrari']
@@ -644,13 +745,14 @@ def yearlyPlots(df):
     xC = np.array(df.index.unique())
     srcH = ColumnDataSource(df)
     
-    pH= figure(x_range=xC, title=str(df.Team[-1]) + ' Constructor points by year', plot_height=295, plot_width=655, y_axis_label = 'points',
+    pH= figure(x_range=xC, title=str(df.Team[-1]) + ' Constructor points by year', plot_height=300, plot_width=600, y_axis_label = 'points',
                      tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='right')#, x_axis_type='datetime')
 
     pHb = BoxAnnotation(right=0, left=5.8, fill_alpha=0.15, fill_color='orange', line_color=None, left_units='data', right_units='data')
     pH.add_layout(pHb)
 
-    pH.vbar(top='points', width=.6, x='year',  source=srcH, line_color='white', line_width = .2, fill_color='c')
+    pH.vbar(top='points', width=.6, x='year',  source=srcH, line_color='white', line_width = .2, fill_color='c',
+           hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#FEE715')
 
     pH.grid.grid_line_alpha = .25
     pH.grid.grid_line_dash = 'dotted'
@@ -666,7 +768,7 @@ def yearlyPlots(df):
     pH.yaxis.axis_label_text_color= 'white'
     pH.axis.major_label_text_color= 'white'
     pH.toolbar.autohide = True
-    pH.y_range.start = 0
+    pH.y_range.start = -1
 
     pH.background_fill_color = '#010727'
     pH.background_fill_alpha =.8
@@ -688,18 +790,21 @@ def yearlyPlots(df):
     else:
         pl.append('top_left')
     
-    pO = figure(x_range=xC, title='Wins/Poles/Fastest Laps by year', plot_height=295, plot_width=655, y_axis_label = 'quantity',
+    pO = figure(x_range=xC, title='Wins/Poles/Fastest Laps by year', plot_height=300, plot_width=600, y_axis_label = 'quantity',
                      tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='below', x_axis_location = None, title_location='below')
     
     pO.line(x='year', y='wins', line_width=2.5, line_color='#3EB489', source=srcH, legend_label='Wins')
-    pO.circle(x='year', y='wins', line_color='black', line_width=.3, color='#3EB489', size=7.5, source=srcH, legend_label='Wins')
+    pO.circle(x='year', y='wins', line_color='black', line_width=.3, color='#3EB489', size=7.5, source=srcH,
+              legend_label='Wins', hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#FEE715')
 
     pO.line(x='year', y='poles', line_width=2.5, line_color='#7851a9', source=srcH, legend_label='Poles')
-    pO.circle(x='year', y='poles', line_color='black', line_width=.3, color='#7851a9', size=7.5, source=srcH, legend_label='Poles')
+    pO.circle(x='year', y='poles', line_color='black', line_width=.3, color='#7851a9', size=7.5, source=srcH, 
+              legend_label='Poles', hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#FEE715')
 
     
     pO.line(x='year', y='FastLap', line_width=2.5, line_color='#FEE715', source=srcH, legend_label='Fastest Laps')
-    pO.circle(x='year', y='FastLap', line_color='black', line_width=.3, color='#FEE715', size=7.5, source=srcH, legend_label='Fastest Laps')
+    pO.circle(x='year', y='FastLap', line_color='black', line_width=.3, color='#FEE715', size=7.5, source=srcH,
+              legend_label='Fastest Laps', hatch_alpha=1.0, hover_fill_alpha=0.7, hover_fill_color='#FEE715')
 
     pO.grid.grid_line_alpha = .25
     pO.grid.grid_line_dash = 'dotted'
@@ -751,14 +856,14 @@ def yearlyPlots(df):
     src = ColumnDataSource(data=dict(x1=x1, x2=x2, x3=x3, c=c1, t=t1, y=y))
     
     
-    pA = figure(y_range=xC[::-1], title='Championship Position', plot_height=590, plot_width=250,
+    pA = figure(y_range=xC[::-1], title='Championship Position', plot_height=600, plot_width=200,
                      tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='left')
-    g = HArea(x1='x1', x2='x2', y='y', fill_color=df['c'][-1])
+    g = HArea(x1='x1', x2='x2', y='y', fill_color=df['c'][-1], hatch_color='orange' )
     pA.circle(x='x2', y='y', line_color='white', line_width=.4, color='c', size=5, source=src)
 
     pA.add_glyph(src, g)
     
-    pA.title.text_font_size = '9px'
+    pA.title.text_font_size = '10px'
     pA.grid.grid_line_alpha = .25
     pA.grid.grid_line_dash = 'dotted'
     pA.grid.grid_line_dash_offset = 5
@@ -767,7 +872,6 @@ def yearlyPlots(df):
     pA.axis.major_label_text_font_style = 'bold'
     pA.xaxis.major_label_text_font_size = '9.5px'
     pA.yaxis.major_label_text_font_size = '11px'
-    pA.title.text_font_size = '13px'
     pA.title.text_color = 'white'
     pA.outline_line_color=None
     pA.yaxis.axis_label_text_color= 'white'
@@ -798,12 +902,110 @@ def yearlyPlots(df):
 
 def c2():
     
- 
-    
     Ferrari, Red_Bull, Mercedes  = yearlyPlots(ferrari), yearlyPlots(redbull), yearlyPlots(mercedes)
     McLaren, Alfa_Romeo, Alpine, Williams = yearlyPlots(mclaren), yearlyPlots(alfaromeo), yearlyPlots(alpine), yearlyPlots(williams)
     Aston_Martin, HAAS, AlphaTauri, Toyota = yearlyPlots(astonmartin), yearlyPlots(haas), yearlyPlots(alphatauri), yearlyPlots(toyota) 
     
+    dfs= [ferrari, redbull, mercedes, mclaren, alfaromeo, alpine, williams, astonmartin, haas, alphatauri, toyota, ferrari, mclaren]
+    teamsN = ['Ferrari', 'Red_Bull', 'Mercedes', 'McLaren', 'Alfa_Romeo', 'Alpine', 'Williams', 'Aston_Martin', 'HAAS', 'AlphaTauri', 'Toyota','Ferrari_', 'McLaren_']
+
+    CDSs = {t: ColumnDataSource(c) for t, c in zip(teamsN, dfs)}
+
+    pO = figure(x_range=np.array(ferrari.index), title='Teams 2004-2021', plot_height=400, plot_width=800, y_axis_label = 'Points',
+                     tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='below', title_location='above')
+
+    pOb = BoxAnnotation(right=0, left=5.8, fill_alpha=0.15, fill_color='orange', line_color=None, left_units='data', right_units='data')
+    pO.add_layout(pOb)
+
+    diRenders1 = {'Ferrari' : pO.line(x='year', y='points', line_width=4, line_color='#A6051A', source=CDSs['Ferrari'], legend_label='Ferrari'),
+    'McLaren' : pO.line(x='year', y='points', line_width=4, line_color='#FF8000', source=CDSs['McLaren'], legend_label='McLaren'),
+    'Red Bull' : pO.line(x='year', y='points', line_width=4, line_color='#121F45', source=CDSs['Red_Bull'], legend_label='Red Bull'),
+    'Mercedes' : pO.line(x='year', y='points', line_width=4, line_color='#00A19C', source=CDSs['Mercedes'], legend_label='Mercedes'),
+    'Alfa Romeo' : pO.line(x='year', y='points', line_width=4, line_color='#981E32', source=CDSs['Alfa_Romeo'], legend_label='Alfa Romeo'),
+    'Alpine' : pO.line(x='year', y='points', line_width=4, line_color='#005BA9', source=CDSs['Alpine'], legend_label='Alpine'),
+    'AlphaTauri' : pO.line(x='year', y='points', line_width=4, line_color='#00293F', source=CDSs['AlphaTauri'], legend_label='AlphaTauri'),
+    'Williams' : pO.line(x='year', y='points', line_width=4, line_color='#005AFF', source=CDSs['Williams'], legend_label='Williams'),
+    'Aston Martin' : pO.line(x='year', y='points', line_width=4, line_color='#00352F', source=CDSs['Aston_Martin'], legend_label='Aston Martin'),
+    'HAAS' : pO.line(x='year', y='points', line_width=4, line_color='#F9F2F2', source=CDSs['HAAS'], legend_label='HAAS'),
+    'Toyota' : pO.line(x='year', y='points', line_width=4, line_color='#8e0018', source=CDSs['Toyota'], legend_label='Toyota')}
+
+    pO.add_layout(pO.legend[0], 'below')
+    pO.grid.grid_line_alpha = .25
+    pO.grid.grid_line_dash = 'dotted'
+    pO.grid.grid_line_dash_offset = 5
+    pO.grid.grid_line_width = 2
+    pO.grid.grid_line_color = 'white'
+    pO.axis.major_label_text_font_style = 'bold'
+    pO.xaxis.major_label_text_font_size = '9.5px'
+    pO.yaxis.major_label_text_font_size = '11px'
+    pO.title.text_font_size = '13px'
+    pO.title.text_color = 'white'
+    pO.outline_line_color=None
+    pO.yaxis.axis_label_text_color= 'white'
+    pO.axis.major_label_text_color= 'white'
+    #pO.toolbar.autohide = True
+    pO.y_range.start = 0
+    pO.outline_line_color=None
+    pO.legend.location= 'top_left' #'top_right'#(370,180)
+    pO.legend.background_fill_alpha= 0
+    pO.legend.border_line_color = None
+    pO.legend.label_text_color='white'
+    pO.legend.label_text_font_size='9px'
+    pO.legend.click_policy="hide"
+    #pO.legend.title='↓ Disable/Enable'
+    pO.legend.title_text_color='white'
+    pO.legend.title_text_font_size='6px'
+    pO.legend.orientation='horizontal'
+    pO.legend.inactive_fill_alpha = .4
+    pO.legend.inactive_fill_color = 'orange'
+    pO.background_fill_color = '#010727'
+    pO.background_fill_alpha =.8
+    pO.border_fill_color =  '#010727'
+    pO.border_fill_alpha = .8
+    pO.axis.axis_line_color ='white'
+    pO.axis.minor_tick_line_color ='white'
+    pO.axis.major_tick_line_color ='white'
+    pO.x_range.range_padding = -.03
+    pO.y_range=DataRange1d(only_visible=True)
+    hv1 = HoverTool()
+    hv1.tooltips=[('Team name', '@Team'), ('Year','@year'), ('Champ. pos.', '@pos'), ('Points', '@points'),
+                  ('Wins', '@wins'), ('Poles', '@poles'), ('Fastest Laps', '@FastLap'), ('Laps led', '@LapsLed') ]
+    pO.add_tools(hv1)
+
+
+
+    select = Select(title='Select team A:', align='start', value='Ferrari', options=list(diRenders1.keys()), width=130, margin = (5, 5, 0, 0))
+    select1 = Select(title='Select team B:', align='start', value='Mercedes', options=list(diRenders1.keys()), width=130, margin = (5, 5, 0, 0))
+
+    cb = CustomJS(args=dict(sel=select, sel1=select1, rend_dict=diRenders1, title= pO.title),code='''
+                  //get the value of the select
+                  var sv = sel.value
+                  var sv1 = sel1.value
+                  for (var [k,v] of Object.entries(rend_dict)){
+                          if (k==sv || k==sv1){
+                                  v.visible=true}
+                          else {
+                              v.visible=false}}
+                   title.text = sel.value + ' x '+ sel1.value + ' 2004-2021'
+                  ''')
+    select.js_on_change('value',cb)
+
+    cb1 = CustomJS(args=dict(sel=select1, sel1=select, rend_dict=diRenders1, title= pO.title),code='''
+                  //get the value of the select
+                  var sv = sel.value
+                  var sv1 = sel1.value
+                  for (var [k,v] of Object.entries(rend_dict)){
+                          if (k==sv || k==sv1){
+                                  v.visible=true
+                                  }
+                          else {
+                              v.visible=false}}
+                  title.text = sel1.value + ' x '+ sel.value + ' 2004-2021'
+                  ''')
+    select1.js_on_change('value',cb1)
+
+
+    ct = column([row([select, select1]), pO])
     
     tall = [Ferrari, Red_Bull, Mercedes, McLaren, Alfa_Romeo, Alpine, Williams, Aston_Martin, HAAS, AlphaTauri,Toyota]
 
@@ -811,12 +1013,12 @@ def c2():
 
     diPanel = {ops[i]: tall[i] for i in range(len(tall))}
 
-    select = Select(title='Select team:', align='start', value='Ferrari', options=ops, width=150, margin = (5, 5, 0, 0))
+    sel_ = Select(title='Select team:', align='start', value='Ferrari', options=ops, width=150, margin = (5, 5, 0, 0))
     tabs = Tabs(tabs= tall)
     #col = column([select, tabs, pit], spacing=-10)
-    col = column([select, tabs])
+    col = column([sel_, tabs, ct])
 
-    select.js_on_change('value', CustomJS(args=dict(sel=select,tab=tabs,diPanel=diPanel)
+    sel_.js_on_change('value', CustomJS(args=dict(sel=sel_,tab=tabs,diPanel=diPanel)
               ,code='''
               var sv = sel.value
               tab.tabs = [diPanel[sv]]
@@ -824,8 +1026,8 @@ def c2():
     return col
 
 def cols2():
-    pit = figure(plot_width=740, plot_height=140, frame_height=145, frame_width=1700, tools='', x_axis_location = None, y_axis_location = None)
-    pit.image_url(url=['static/images/pointsystemTable.png'], x=0, y=0, w=710, w_units='screen', h=140, h_units='screen', anchor='center' )
+    pit = figure(plot_width=780, plot_height=140, frame_height=145, frame_width=790, tools='', x_axis_location = None, y_axis_location = None)
+    pit.image_url(url=['pointsystemTable.png'], x=0, y=0, w=740, w_units='screen', h=140, h_units='screen', anchor='center' )
     pit.background_fill_color = '#000626f6'
     pit.background_fill_alpha =.8
     pit.border_fill_color =  '#000626f6'
@@ -835,7 +1037,8 @@ def cols2():
     pit.toolbar_location = None
     
     c1, c2a = tabs(), c2()
-    c = column([row([c1, c2a], align='center'), pit], sizing_mode='scale_width')
+    c = column([c1, c2a], align='center', spacing=-20)
+    c3 =  column([c, pit], align='center')
     
-    return c
+    return c3
 
