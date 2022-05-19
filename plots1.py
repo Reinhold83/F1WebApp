@@ -1027,7 +1027,7 @@ def c2():
 
 def cols2():
     pit = figure(plot_width=780, plot_height=140, frame_height=145, frame_width=790, tools='', x_axis_location = None, y_axis_location = None)
-    pit.image_url(url=['pointsystemTable.png'], x=0, y=0, w=740, w_units='screen', h=140, h_units='screen', anchor='center' )
+    pit.image_url(url=['static/images/pointsystemTable.png'], x=0, y=0, w=740, w_units='screen', h=140, h_units='screen', anchor='center' )
     pit.background_fill_color = '#000626f6'
     pit.background_fill_alpha =.8
     pit.border_fill_color =  '#000626f6'
