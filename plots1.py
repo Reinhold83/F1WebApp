@@ -527,7 +527,7 @@ def TeamxTeam(dfL, year):
     
 def Constplot(year):
    
-    df = pd.read_csv(f'df{year}.csv', delimiter=',', index_col=0)
+    df = pd.read_csv(f'data/df{year}.csv', delimiter=',', index_col=0)
     srcC = ColumnDataSource(df)
     xC = np.array(df.index.unique())
 
@@ -675,7 +675,7 @@ def Constplot(year):
     r = gridplot([[pw, pp, pf, pl]], merge_tools=True, toolbar_location='right', width=200, height=150)
 
 
-    dfL = pd.read_csv(f'dfL{year}.csv', delimiter=',', index_col=0)
+    dfL = pd.read_csv(f'data/dfL{year}.csv', delimiter=',', index_col=0)
     pL = LPlot(dfL, year)
     
     txt = TeamxTeam(dfL, year)
@@ -722,7 +722,7 @@ def tabs():
 
 
 
-dfall = pd.read_csv('dfall.csv', delimiter=',', index_col=0)
+dfall = pd.read_csv('data/dfall.csv', delimiter=',', index_col=0)
 dfall#[dfall.Team == 'Mercedes']
 
 ferrari = dfall[dfall.Team == 'Ferrari']
