@@ -911,7 +911,7 @@ def c2():
 
     CDSs = {t: ColumnDataSource(c) for t, c in zip(teamsN, dfs)}
 
-    pO = figure(x_range=np.array(ferrari.index), title='Teams 2004-2021', plot_height=400, plot_width=800, y_axis_label = 'Points',
+    pO = figure(x_range=np.array(ferrari.index), title='Teams 2004-2021', plot_height=400, plot_width=770, y_axis_label = 'Points',
                      tools='pan, wheel_zoom, box_zoom, reset', toolbar_location='below', title_location='above')
 
     pOb = BoxAnnotation(right=0, left=5.8, fill_alpha=0.15, fill_color='orange', line_color=None, left_units='data', right_units='data')
@@ -968,14 +968,14 @@ def c2():
     pO.x_range.range_padding = -.03
     pO.y_range=DataRange1d(only_visible=True)
     hv1 = HoverTool()
-    hv1.tooltips=[('Team name', '@Team'), ('Year','@year'), ('Champ. pos.', '@pos'), ('Points', '@points'),
+    hv1.tooltips=[('Team name', '@Team'), ('Year','@year'), ('Champ. pos.', '@pos'), ('Points', '@points{0.0}'),
                   ('Wins', '@wins'), ('Poles', '@poles'), ('Fastest Laps', '@FastLap'), ('Laps led', '@LapsLed') ]
     pO.add_tools(hv1)
 
 
 
-    select = Select(title='Select team A:', align='start', value='Ferrari', options=list(diRenders1.keys()), width=130, margin = (5, 5, 0, 0))
-    select1 = Select(title='Select team B:', align='start', value='Mercedes', options=list(diRenders1.keys()), width=130, margin = (5, 5, 0, 0))
+    select = Select(title='Select team A:', align='start', value='Ferrari', options=list(diRenders1.keys()), width=130, margin = (15, 5, 0, 0))
+    select1 = Select(title='Select team B:', align='start', value='Mercedes', options=list(diRenders1.keys()), width=130, margin = (15, 5, 0, 0))
 
     cb = CustomJS(args=dict(sel=select, sel1=select1, rend_dict=diRenders1, title= pO.title),code='''
                   //get the value of the select
